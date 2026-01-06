@@ -10589,7 +10589,383 @@ const ZA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
 };
 
-const SV: {[name: string]: SpeciesData} = extend(true, {}, SS, SV_PATCH, PLA_PATCH, ZA_PATCH);
+const ZA_PATCH_2: {[name: string]: DeepPartial<SpeciesData>} = {
+  Absol: {otherFormes: ['Absol-Mega', 'Absol-Mega-Z']},
+  Baxcalibur: {otherFormes: ['Baxcalibur-Mega']},
+  Chimecho: {otherFormes: ['Chimecho-Mega']},
+  Crabominable: {otherFormes: ['Crabominable-Mega']},
+  Darkrai: {otherFormes: ['Darkrai-Mega']},
+  Garchomp: {otherFormes: ['Garchomp-Mega', 'Garchomp-Mega-Z']},
+  Glimmora: {otherFormes: ['Glimmora-Mega']},
+  Golisopod: {otherFormes: ['Golisopod-Mega']},
+  Golurk: {otherFormes: ['Golurk-Mega']},
+  Heatran: {otherFormes: ['Heatran-Mega']},
+  Lucario: {otherFormes: ['Lucario-Mega', 'Lucario-Mega-Z']},
+  Magearna: {otherFormes: ['Magearna-Mega']},
+  Meowstic: {otherFormes: ['Meowstic-F', 'Meowstic-Mega']},
+  Raichu: {otherFormes: ['Raichu-Alola', 'Raichu-Mega-X', 'Raichu-Mega-Y']},
+  Scovillain: {otherFormes: ['Scovillain-Mega']},
+  Staraptor: {otherFormes: ['Staraptor-Mega']},
+  Tatsugiri: {otherFormes: ['Tatsugiri-Mega']},
+  Zeraora: {otherFormes: ['Zeraora-Mega']},
+  'Absol-Mega-Z': {
+    types: [
+      'Dark',
+      'Ghost',
+    ],
+    bs: {
+      hp: 65,
+      at: 154,
+      df: 60,
+      sa: 75,
+      sd: 60,
+      sp: 151,
+    },
+    weightkg: 49,
+    abilities: {
+      '0': 'Technician',
+    },
+    baseSpecies: 'Absol',
+  },
+  'Baxcalibur-Mega': {
+    types: [
+      'Ice',
+      'Dragon',
+    ],
+    bs: {
+      hp: 115,
+      at: 175,
+      df: 117,
+      sa: 105,
+      sd: 101,
+      sp: 87,
+    },
+    weightkg: 315,
+    abilities: {
+      '0': 'Thermal Exchange',
+    },
+    baseSpecies: 'Baxcalibur',
+  },
+  'Chimecho-Mega': {
+    types: [
+      'Psychic',
+      'Steel',
+    ],
+    bs: {
+      hp: 75,
+      at: 50,
+      df: 110,
+      sa: 135,
+      sd: 120,
+      sp: 65,
+    },
+    weightkg: 8,
+    abilities: {
+      '0': 'Levitate',
+    },
+    baseSpecies: 'Chimecho',
+  },
+  'Crabominable-Mega': {
+    types: [
+      'Fighting',
+      'Ice',
+    ],
+    bs: {
+      hp: 97,
+      at: 157,
+      df: 122,
+      sa: 62,
+      sd: 107,
+      sp: 33,
+    },
+    weightkg: 252.8,
+    abilities: {
+      '0': 'Iron Fist',
+    },
+    baseSpecies: 'Crabominable',
+  },
+  'Darkrai-Mega': {
+    types: [
+      'Dark',
+    ],
+    bs: {
+      hp: 70,
+      at: 120,
+      df: 130,
+      sa: 165,
+      sd: 130,
+      sp: 85,
+    },
+    weightkg: 240,
+    abilities: {
+      '0': 'Bad Dreams',
+    },
+    baseSpecies: 'Darkrai',
+  },
+  'Garchomp-Mega-Z': {
+    types: [
+      'Dragon',
+    ],
+    bs: {
+      hp: 108,
+      at: 130,
+      df: 85,
+      sa: 141,
+      sd: 85,
+      sp: 151,
+    },
+    weightkg: 99,
+    abilities: {
+      '0': 'Rough Skin',
+    },
+    baseSpecies: 'Garchomp',
+  },
+  'Glimmora-Mega': {
+    types: [
+      'Rock',
+      'Poison',
+    ],
+    bs: {
+      hp: 83,
+      at: 90,
+      df: 105,
+      sa: 150,
+      sd: 96,
+      sp: 101,
+    },
+    weightkg: 77,
+    abilities: {
+      '0': 'Merciless',
+    },
+    baseSpecies: 'Glimmora',
+  },
+  'Golisopod-Mega': {
+    types: [
+      'Bug',
+      'Steel',
+    ],
+    bs: {
+      hp: 75,
+      at: 150,
+      df: 175,
+      sa: 70,
+      sd: 120,
+      sp: 40,
+    },
+    weightkg: 148,
+    abilities: {
+      '0': 'Regenerator',
+    },
+    baseSpecies: 'Golisopod',
+  },
+  'Golurk-Mega': {
+    types: [
+      'Ground',
+      'Ghost',
+    ],
+    bs: {
+      hp: 89,
+      at: 159,
+      df: 105,
+      sa: 70,
+      sd: 105,
+      sp: 55,
+    },
+    weightkg: 330,
+    abilities: {
+      '0': 'Vessel of Ruin',
+    },
+    baseSpecies: 'Golurk',
+  },
+  'Heatran-Mega': {
+    types: [
+      'Fire',
+      'Steel',
+    ],
+    bs: {
+      hp: 91,
+      at: 120,
+      df: 106,
+      sa: 175,
+      sd: 141,
+      sp: 67,
+    },
+    weightkg: 570,
+    abilities: {
+      '0': 'Earth Eater',
+    },
+    baseSpecies: 'Heatran',
+  },
+  'Lucario-Mega-Z': {
+    types: [
+      'Fighting',
+      'Steel',
+    ],
+    bs: {
+      hp: 70,
+      at: 100,
+      df: 70,
+      sa: 164,
+      sd: 70,
+      sp: 151,
+    },
+    weightkg: 49.4,
+    abilities: {
+      '0': 'Mind\'s Eye',
+    },
+    baseSpecies: 'Lucario',
+  },
+  'Magearna-Mega': {
+    types: [
+      'Fairy',
+      'Steel',
+    ],
+    bs: {
+      hp: 80,
+      at: 125,
+      df: 115,
+      sa: 170,
+      sd: 115,
+      sp: 95,
+    },
+    weightkg: 248.1,
+    abilities: {
+      '0': 'Soul Heart',
+    },
+    baseSpecies: 'Magearna',
+  },
+  'Meowstic-Mega': {
+    types: [
+      'Psychic',
+    ],
+    bs: {
+      hp: 74,
+      at: 48,
+      df: 76,
+      sa: 143,
+      sd: 101,
+      sp: 124,
+    },
+    weightkg: 10.1,
+    abilities: {
+      '0': 'Psychic Surge',
+    },
+    baseSpecies: 'Meowstic',
+  },
+  'Raichu-Mega-X': {
+    types: [
+      'Electric',
+    ],
+    bs: {
+      hp: 60,
+      at: 135,
+      df: 95,
+      sa: 90,
+      sd: 95,
+      sp: 110,
+    },
+    weightkg: 38,
+    abilities: {
+      '0': 'Levitate',
+    },
+    baseSpecies: 'Raichu',
+  },
+  'Raichu-Mega-Y': {
+    types: [
+      'Electric',
+    ],
+    bs: {
+      hp: 60,
+      at: 100,
+      df: 55,
+      sa: 160,
+      sd: 80,
+      sp: 130,
+    },
+    weightkg: 26,
+    abilities: {
+      '0': 'Transistor',
+    },
+    baseSpecies: 'Raichu',
+  },
+  'Scovillain-Mega': {
+    types: [
+      'Fire',
+      'Grass',
+    ],
+    bs: {
+      hp: 65,
+      at: 138,
+      df: 85,
+      sa: 138,
+      sd: 85,
+      sp: 75,
+    },
+    weightkg: 22,
+    abilities: {
+      '0': 'Contrary',
+    },
+    baseSpecies: 'Scovillain',
+  },
+  'Staraptor-Mega': {
+    types: [
+      'Fighting',
+      'Flying',
+    ],
+    bs: {
+      hp: 85,
+      at: 140,
+      df: 100,
+      sa: 60,
+      sd: 90,
+      sp: 110,
+    },
+    weightkg: 50,
+    abilities: {
+      '0': 'Wind Rider',
+    },
+    baseSpecies: 'Staraptor',
+  },
+  'Tatsugiri-Mega': {
+    types: [
+      'Water',
+      'Dragon',
+    ],
+    bs: {
+      hp: 68,
+      at: 65,
+      df: 90,
+      sa: 135,
+      sd: 125,
+      sp: 92,
+    },
+    weightkg: 24,
+    abilities: {
+      '0': 'Regenerator',
+    },
+    baseSpecies: 'Tatsugiri',
+  },
+  'Zeraora-Mega': {
+    types: [
+      'Electric',
+    ],
+    bs: {
+      hp: 88,
+      at: 157,
+      df: 75,
+      sa: 147,
+      sd: 80,
+      sp: 153,
+    },
+    weightkg: 44.5,
+    abilities: {
+      '0': 'Volt Absorb',
+    },
+    baseSpecies: 'Zeraora',
+  },
+};
+
+const SV: {[name: string]: SpeciesData} = extend(true, {}, SS, SV_PATCH, PLA_PATCH, ZA_PATCH, ZA_PATCH_2);
 
 export const SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
 
