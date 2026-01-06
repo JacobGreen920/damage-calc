@@ -957,7 +957,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     makesContact: true,
     category: 'Special',
   },
-  'Air Slash': {bp: 75, type: 'Flying', category: 'Special'},
+  'Air Slash': {bp: 80, type: 'Flying', category: 'Special'},
   'Aura Sphere': {bp: 90, type: 'Fighting', category: 'Special'},
   'Bug Buzz': {bp: 90, type: 'Bug', isSound: true, category: 'Special'},
   'Draco Meteor': {bp: 140, type: 'Dragon', self: {boosts: {spa: -2}}, category: 'Special'},
