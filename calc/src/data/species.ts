@@ -6198,7 +6198,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Electrode: {bs: {sp: 150}},
   Exeggutor: {bs: {sd: 75}, otherFormes: ['Exeggutor-Alola']},
   'Farfetch\u2019d': {bs: {at: 90}},
-  Gengar: {abilities: {0: 'Cursed Body'}},
+  Gengar: {abilities: {0: 'Levitate'}},
   Geodude: {otherFormes: ['Geodude-Alola']},
   Golem: {otherFormes: ['Golem-Alola']},
   Graveler: {otherFormes: ['Graveler-Alola']},
