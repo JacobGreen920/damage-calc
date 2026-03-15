@@ -255,7 +255,7 @@ $(".percent-hp").keyup(function () {
 $(".ability").bind("keyup change", function () {
 	var ability = $(this).closest(".poke-info").find(".ability").val();
 
-	for (var i = 1; i <= 4; i++) {
+	for (var i = 1; i <= 6; i++) {
 		var moveSelector = ".move" + i;
 		var moveHits = 3;
 
@@ -574,7 +574,7 @@ $(".item").change(function () {
 		$metronomeControl.hide();
 	}
 
-	for (var i = 1; i <= 4; i++) {
+	for (var i = 1; i <= 6; i++) {
 		var moveSelector = ".move" + i;
 		var moveHits = 3;
 
@@ -715,7 +715,7 @@ $(".set-selector").change(function () {
 				}
 			}
 			var moves = selectMovesFromRandomOptions(setMoves);
-			for (i = 0; i < 4; i++) {
+			for (i = 0; i < 6; i++) {
 				moveObj = pokeObj.find(".move" + (i + 1) + " select.move-selector");
 				moveObj.attr('data-prev', moveObj.val());
 				setSelectValueIfValid(moveObj, moves[i], "(No Move)");
@@ -743,7 +743,7 @@ $(".set-selector").change(function () {
 			} else {
 				itemObj.val("");
 			}
-			for (i = 0; i < 4; i++) {
+			for (i = 0; i < 6; i++) {
 				moveObj = pokeObj.find(".move" + (i + 1) + " select.move-selector");
 				moveObj.attr('data-prev', moveObj.val());
 				moveObj.val("(No Move)");
@@ -811,13 +811,13 @@ function selectMovesFromRandomOptions(moves) {
 	for (var i = 0; i < moves.length; i++) {
 		if (isKnownDamagingMove(moves[i])) {
 			selected.push(moves[i]);
-			if (selected.length >= 4) break;
+			if (selected.length >= 6) break;
 		} else {
 			nonDamaging.push(moves[i]);
 		}
 	}
 
-	while (selected.length < 4 && nonDamaging.length) {
+	while (selected.length < 6 && nonDamaging.length) {
 		selected.push(nonDamaging.pop());
 	}
 
@@ -843,7 +843,9 @@ function stellarButtonsVisibility(pokeObj, vis) {
 		pokeObj.find(".move1"),
 		pokeObj.find(".move2"),
 		pokeObj.find(".move3"),
-		pokeObj.find(".move4")
+		pokeObj.find(".move4"),
+		pokeObj.find(".move5"),
+		pokeObj.find(".move6")
 	];
 	if (vis && !startsWith(pokemonName, 'Terapagos')) {
 		for (var i = 0; i < moveObjs.length; i++) {
@@ -1046,7 +1048,7 @@ function createPokemon(pokeInfo) {
 		}
 
 		var pokemonMoves = [];
-		for (var i = 0; i < 4; i++) {
+		for (var i = 0; i < 6; i++) {
 			var moveName = moveNames[i];
 			pokemonMoves.push(new calc.Move(gen, moves[moveName] ? moveName : "(No Move)", {ability: ability, item: item}));
 		}
@@ -1130,6 +1132,8 @@ function createPokemon(pokeInfo) {
 				getMoveDetails(pokeInfo.find(".move2"), opts),
 				getMoveDetails(pokeInfo.find(".move3"), opts),
 				getMoveDetails(pokeInfo.find(".move4"), opts),
+				getMoveDetails(pokeInfo.find(".move5"), opts),
+				getMoveDetails(pokeInfo.find(".move6"), opts),
 			],
 			overrides: {
 				baseStats: baseStats,

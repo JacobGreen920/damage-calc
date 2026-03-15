@@ -101,8 +101,18 @@
             </div>
             <div>
                 <input class="result-move visually-hidden" type="radio" name="resultMove" id="resultMoveL4" aria-describedby="resultDamageL4" />
-                <label class="btn btn-xxxwide btn-bottom" for="resultMoveL4">Loading...</label>
+                <label class="btn btn-xxxwide btn-mid" for="resultMoveL4">Loading...</label>
                 <span id="resultDamageL4">??? - ???%</span>
+            </div>            
+            <div>
+                <input class="result-move visually-hidden" type="radio" name="resultMove" id="resultMoveL5" aria-describedby="resultDamageL5" />
+                <label class="btn btn-xxxwide btn-mid" for="resultMoveL5">Loading...</label>
+                <span id="resultDamageL5">??? - ???%</span>
+            </div>
+            <div>
+                <input class="result-move visually-hidden" type="radio" name="resultMove" id="resultMoveL6" aria-describedby="resultDamageL6" />
+                <label class="btn btn-xxxwide btn-bottom" for="resultMoveL6">Loading...</label>
+                <span id="resultDamageL6">??? - ???%</span>
             </div>
         </div>
         <div aria-labelledby="resultHeaderR" class="move-result-subgroup" role="radiogroup">
@@ -125,8 +135,18 @@
             </div>
             <div>
                 <input class="result-move visually-hidden" type="radio" name="resultMove" id="resultMoveR4" aria-describedby="resultDamageR4" />
-                <label class="btn btn-xxxwide btn-bottom" for="resultMoveR4">Loading...</label>
+                <label class="btn btn-xxxwide btn-mid" for="resultMoveR4">Loading...</label>
                 <span id="resultDamageR4">??? - ???%</span>
+            </div>
+            <div>
+                <input class="result-move visually-hidden" type="radio" name="resultMove" id="resultMoveR5" aria-describedby="resultDamageR5" />
+                <label class="btn btn-xxxwide btn-mid" for="resultMoveR5">Loading...</label>
+                <span id="resultDamageR5">??? - ???%</span>
+            </div>
+            <div>
+                <input class="result-move visually-hidden" type="radio" name="resultMove" id="resultMoveR6" aria-describedby="resultDamageR6" />
+                <label class="btn btn-xxxwide btn-bottom" for="resultMoveR6">Loading...</label>
+                <span id="resultDamageR6">??? - ???%</span>
             </div>
         </div>
     </div>
@@ -665,6 +685,78 @@
                 <label class="btn z-btn gen-specific g7 g8 g9" for="zL4" title="Make this attack a Z-move?">Z</label>
                 <input aria-describedby="stellarBoostInstruction" class="move-stellar calc-trigger visually-hidden" type="checkbox" id="stellarL4" />
                 <label class="stellar-btn btn" style="display: none;" for="stellarL4" title="Make this attack Stellar boosted?">Stellar</label>
+                <select class="move-hits calc-trigger hide">
+                    <option value="2">2 hits</option>
+                    <option value="3">3 hits</option>
+                    <option value="4">4 hits</option>
+                    <option value="5">5 hits</option>
+                </select>
+                <select class="move-times calc-trigger hide" title="How many times was this move used in a row?">>
+                    <option value="1">Once</option>
+                    <option value="2">Twice</option>
+                    <option value="3">3 times</option>
+                    <option value="4">4 times</option>
+                    <option value="5">5 times</option>
+                </select>
+                <select class="metronome calc-trigger hide" title="How many times was this move successfully and consecutively used while holding Metronome before this turn?">
+                    <option value="0">Never</option>
+                    <option value="1">Once</option>
+                    <option value="2">Twice</option>
+                    <option value="3">3 times</option>
+                    <option value="4">4 times</option>
+                    <option value="5">5 times</option>
+                </select>
+            </div>
+            <div class="move5">
+                <select class="move-selector calc-trigger small-select"></select>
+                <input class="move-bp calc-trigger" value="0" inputmode="decimal" />
+                <select class="move-type calc-trigger"></select>
+                <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 g9">
+                    <option value="Physical">Physical</option>
+                    <option value="Special">Special</option>
+                </select>
+                <input aria-describedby="criticalHitInstruction" class="move-crit calc-trigger visually-hidden" type="checkbox" id="critL5" />
+                <label class="btn crit-btn" for="critL5" title="Force this attack to be a critical hit?">Crit</label>
+                <input aria-describedby="zMoveInstruction" class="move-z calc-trigger visually-hidden" type="checkbox" id="zL5"/>
+                <label class="btn z-btn gen-specific g7 g8 g9" for="zL5" title="Make this attack a Z-move?">Z</label>
+                <input aria-describedby="stellarBoostInstruction" class="move-stellar calc-trigger visually-hidden" type="checkbox" id="stellarL5" />
+                <label class="stellar-btn btn" style="display: none;" for="stellarL5" title="Make this attack Stellar boosted?">Stellar</label>
+                <select class="move-hits calc-trigger hide">
+                    <option value="2">2 hits</option>
+                    <option value="3">3 hits</option>
+                    <option value="4">4 hits</option>
+                    <option value="5">5 hits</option>
+                </select>
+                <select class="move-times calc-trigger hide" title="How many times was this move used in a row?">>
+                    <option value="1">Once</option>
+                    <option value="2">Twice</option>
+                    <option value="3">3 times</option>
+                    <option value="4">4 times</option>
+                    <option value="5">5 times</option>
+                </select>
+                <select class="metronome calc-trigger hide" title="How many times was this move successfully and consecutively used while holding Metronome before this turn?">
+                    <option value="0">Never</option>
+                    <option value="1">Once</option>
+                    <option value="2">Twice</option>
+                    <option value="3">3 times</option>
+                    <option value="4">4 times</option>
+                    <option value="5">5 times</option>
+                </select>
+            </div>
+            <div class="move6">
+                <select class="move-selector calc-trigger small-select"></select>
+                <input class="move-bp calc-trigger" value="0" inputmode="decimal" />
+                <select class="move-type calc-trigger"></select>
+                <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 g9">
+                    <option value="Physical">Physical</option>
+                    <option value="Special">Special</option>
+                </select>
+                <input aria-describedby="criticalHitInstruction" class="move-crit calc-trigger visually-hidden" type="checkbox" id="critL6" />
+                <label class="btn crit-btn" for="critL6" title="Force this attack to be a critical hit?">Crit</label>
+                <input aria-describedby="zMoveInstruction" class="move-z calc-trigger visually-hidden" type="checkbox" id="zL6"/>
+                <label class="btn z-btn gen-specific g7 g8 g9" for="zL6" title="Make this attack a Z-move?">Z</label>
+                <input aria-describedby="stellarBoostInstruction" class="move-stellar calc-trigger visually-hidden" type="checkbox" id="stellarL6" />
+                <label class="stellar-btn btn" style="display: none;" for="stellarL6" title="Make this attack Stellar boosted?">Stellar</label>
                 <select class="move-hits calc-trigger hide">
                     <option value="2">2 hits</option>
                     <option value="3">3 hits</option>
@@ -1597,6 +1689,78 @@
                 <label class="btn z-btn gen-specific g7 g8 g9" for="zR4" title="Make this attack a Z-move?">Z</label>
                 <input aria-describedby="stellarBoostInstruction" class="move-stellar calc-trigger visually-hidden" type="checkbox" id="stellarR4" />
                 <label class="stellar-btn btn" style="display: none;" for="stellarR4" title="Make this attack Stellar boosted?">Stellar</label>
+                <select class="move-hits calc-trigger hide">
+                    <option value="2">2 hits</option>
+                    <option value="3">3 hits</option>
+                    <option value="4">4 hits</option>
+                    <option value="5">5 hits</option>
+                </select>
+                <select class="move-times calc-trigger hide" title="How many times was this move used in a row?">>
+                    <option value="1">Once</option>
+                    <option value="2">Twice</option>
+                    <option value="3">3 times</option>
+                    <option value="4">4 times</option>
+                    <option value="5">5 times</option>
+                </select>
+                <select class="metronome calc-trigger hide" title="How many times was this move successfully and consecutively used while holding Metronome before this turn?">
+                    <option value="0">Never</option>
+                    <option value="1">Once</option>
+                    <option value="2">Twice</option>
+                    <option value="3">3 times</option>
+                    <option value="4">4 times</option>
+                    <option value="5">5 times</option>
+                </select>
+            </div>
+            <div class="move5">
+                <select class="move-selector calc-trigger small-select"></select>
+                <input class="move-bp calc-trigger" value="0" inputmode="decimal" />
+                <select class="move-type calc-trigger"></select>
+                <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 g9">
+                    <option value="Physical">Physical</option>
+                    <option value="Special">Special</option>
+                </select>
+                <input aria-describedby="criticalHitInstruction" class="move-crit calc-trigger visually-hidden" type="checkbox" id="critR5" />
+                <label class="btn crit-btn" for="critR5" title="Force this attack to be a critical hit?">Crit</label>
+                <input aria-describedby="zMoveInstruction" class="move-z calc-trigger visually-hidden" type="checkbox" id="zR5"/>
+                <label class="btn z-btn gen-specific g7 g8 g9" for="zR5" title="Make this attack a Z-move?">Z</label>
+                <input aria-describedby="stellarBoostInstruction" class="move-stellar calc-trigger visually-hidden" type="checkbox" id="stellarR5" />
+                <label class="stellar-btn btn" style="display: none;" for="stellarR5" title="Make this attack Stellar boosted?">Stellar</label>
+                <select class="move-hits calc-trigger hide">
+                    <option value="2">2 hits</option>
+                    <option value="3">3 hits</option>
+                    <option value="4">4 hits</option>
+                    <option value="5">5 hits</option>
+                </select>
+                <select class="move-times calc-trigger hide" title="How many times was this move used in a row?">>
+                    <option value="1">Once</option>
+                    <option value="2">Twice</option>
+                    <option value="3">3 times</option>
+                    <option value="4">4 times</option>
+                    <option value="5">5 times</option>
+                </select>
+                <select class="metronome calc-trigger hide" title="How many times was this move successfully and consecutively used while holding Metronome before this turn?">
+                    <option value="0">Never</option>
+                    <option value="1">Once</option>
+                    <option value="2">Twice</option>
+                    <option value="3">3 times</option>
+                    <option value="4">4 times</option>
+                    <option value="5">5 times</option>
+                </select>
+            </div>
+            <div class="move6">
+                <select class="move-selector calc-trigger small-select"></select>
+                <input class="move-bp calc-trigger" value="0" inputmode="decimal" />
+                <select class="move-type calc-trigger"></select>
+                <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 g9">
+                    <option value="Physical">Physical</option>
+                    <option value="Special">Special</option>
+                </select>
+                <input aria-describedby="criticalHitInstruction" class="move-crit calc-trigger visually-hidden" type="checkbox" id="critR6" />
+                <label class="btn crit-btn" for="critR6" title="Force this attack to be a critical hit?">Crit</label>
+                <input aria-describedby="zMoveInstruction" class="move-z calc-trigger visually-hidden" type="checkbox" id="zR6"/>
+                <label class="btn z-btn gen-specific g7 g8 g9" for="zR6" title="Make this attack a Z-move?">Z</label>
+                <input aria-describedby="stellarBoostInstruction" class="move-stellar calc-trigger visually-hidden" type="checkbox" id="stellarR6" />
+                <label class="stellar-btn btn" style="display: none;" for="stellarR6" title="Make this attack Stellar boosted?">Stellar</label>
                 <select class="move-hits calc-trigger hide">
                     <option value="2">2 hits</option>
                     <option value="3">3 hits</option>

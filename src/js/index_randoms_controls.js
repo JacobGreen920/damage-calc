@@ -16,7 +16,7 @@ lastManualStatus["#p2"] = "Healthy";
 lastAutoStatus["#p1"] = "Healthy";
 
 var resultLocations = [[], []];
-for (var i = 0; i < 4; i++) {
+for (var i = 0; i < 6; i++) {
 	resultLocations[0].push({
 		"move": "#resultMoveL" + (i + 1),
 		"damage": "#resultDamageL" + (i + 1)
@@ -48,7 +48,7 @@ function performCalculations() {
 	var result, maxDamage;
 	var bestResult;
 	var zProtectAlerted = false;
-	for (var i = 0; i < 4; i++) {
+	for (var i = 0; i < 6; i++) {
 		// P1
 		result = damageResults[0][i];
 		maxDamage = result.range()[1] * p1.moves[i].hits;
@@ -195,7 +195,7 @@ function checkStatBoost(p1, p2) {
 function calculateAllMoves(gen, p1, p1field, p2, p2field) {
 	checkStatBoost(p1, p2);
 	var results = [[], []];
-	for (var i = 0; i < 4; i++) {
+	for (var i = 0; i < 6; i++) {
 		results[0][i] = calc.calculate(gen, p1, p2, p1.moves[i], p1field);
 		results[1][i] = calc.calculate(gen, p2, p1, p2.moves[i], p2field);
 	}
