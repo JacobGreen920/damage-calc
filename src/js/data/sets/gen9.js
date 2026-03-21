@@ -1368,12 +1368,11 @@ var SETDEX_SV = {
     "National Dex RU Nasty Plot": { "ability": "Prankster", "item": "Flyinium Z", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Nasty Plot", "Hurricane", "Heat Wave", "Grass Knot"] },
   },
   "Tornadus-Therian": {
-    "OU Nasty Plot": { "ability": "Regenerator", "item": "Life Orb", "nature": "Timid", "teraType": "Steel", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Nasty Plot", "Bleakwind Storm", "Heat Wave", "Grass Knot"] },
-    "OU Boots Pivot": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "hp": 252, "sd": 4, "sp": 252 }, "moves": ["Bleakwind Storm", "U-turn", "Knock Off", "Heat Wave"] },
-    "OU Assault Vest": { "ability": "Regenerator", "item": "Assault Vest", "nature": "Timid", "teraType": "Steel", "evs": { "hp": 252, "sd": 4, "sp": 252 }, "moves": ["Bleakwind Storm", "U-turn", "Knock Off", "Heat Wave"] },
-    "National Dex Pivot": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Timid", "evs": { "hp": 184, "df": 108, "sp": 216 }, "moves": ["Bleakwind Storm", "U-turn", "Knock Off", "Heat Wave"] },
-    "National Dex Nasty Plot": { "ability": "Regenerator", "item": "Flyinium Z", "nature": "Timid", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Nasty Plot", "Hurricane", "Heat Wave", "Focus Blast"] },
-    "National Dex Assault Vest": { "ability": "Regenerator", "item": "Assault Vest", "nature": "Timid", "evs": { "hp": 252, "sa": 16, "sp": 240 }, "moves": ["Bleakwind Storm", "U-turn", "Heat Wave", "Knock Off"] },
+    "Generic Bulky": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Bleakwind Storm", "Heat Wave", "Grass Knot", "Psychic", "Focus Blast", "Sludge Wave"] },
+    "Generic Offensive": { "ability": "Regenerator", "item": "Life Orb", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sp": 252, "sd": 252 }, "moves": ["Bleakwind Storm", "Heat Wave", "Grass Knot", "Psychic", "Focus Blast", "Sludge Wave"] },
+    "Pivot": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "hp": 252, "sd": 4, "sp": 252 }, "moves": ["Bleakwind Storm", "U-turn", "Knock Off", "Heat Wave"] },
+    "Assault Vest": { "ability": "Regenerator", "item": "Assault Vest", "nature": "Timid", "teraType": "Steel", "evs": { "hp": 252, "sd": 4, "sp": 252 }, "moves": ["Bleakwind Storm", "U-turn", "Knock Off", "Heat Wave"] },
+    "Nasty Plot": { "ability": "Regenerator", "item": "Flyinium Z", "nature": "Timid", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Nasty Plot", "Hurricane", "Heat Wave", "Focus Blast"] },
   },
   "Thundurus": {
     "National Dex UU Offensive Pivot": { "ability": "Defiant", "item": "Heavy-Duty Boots", "nature": "Timid", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Thunderbolt", "Knock Off", "Focus Blast", "U-turn"] },
