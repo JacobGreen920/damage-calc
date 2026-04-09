@@ -10126,7 +10126,7 @@ const ZA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     weightkg: 69.6,
     abilities: {
-      '0': 'Flash Fire',
+      '0': 'Infiltrator',
     },
     baseSpecies: 'Chandelure',
   },
@@ -10145,7 +10145,7 @@ const ZA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     weightkg: 90.0,
     abilities: {
-      '0': 'Iron Barbs',
+      '0': 'Bulletproof',
     },
     baseSpecies: 'Chesnaught',
   },
@@ -10164,7 +10164,7 @@ const ZA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     weightkg: 42.3,
     abilities: {
-      '0': 'Magic Guard',
+      '0': 'Magic Bounce',
     },
     baseSpecies: 'Clefable',
   },
@@ -10221,7 +10221,7 @@ const ZA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     weightkg: 290.0,
     abilities: {
-      '0': 'Soul Heart',
+      '0': 'Multiscale',
     },
     baseSpecies: 'Dragonite',
   },
@@ -10240,7 +10240,7 @@ const ZA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     weightkg: 185,
     abilities: {
-      '0': 'Drizzle',
+      '0': 'Berserk',
     },
     baseSpecies: 'Drampa',
   },
@@ -10277,7 +10277,7 @@ const ZA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     weightkg: 180.3,
     abilities: {
-      '0': 'Supreme Overlord',
+      '0': 'Mold Breaker',
     },
     baseSpecies: 'Emboar',
   },
@@ -10353,7 +10353,7 @@ const ZA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     weightkg: 100.8,
     abilities: {
-      '0': 'Regenerator',
+      '0': 'Fairy Aura',
     },
     baseSpecies: 'Floette',
   },
@@ -10410,7 +10410,7 @@ const ZA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     weightkg: 25.0,
     abilities: {
-      '0': 'Moxie',
+      '0': 'No Guard',
     },
     baseSpecies: 'Hawlucha',
   },
@@ -10524,7 +10524,7 @@ const ZA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     weightkg: 40.4,
     abilities: {
-      '0': 'Tough Claws',
+      '0': 'Stalwart',
     },
     baseSpecies: 'Skarmory',
   },
@@ -10563,7 +10563,7 @@ const ZA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     weightkg: 125.5,
     abilities: {
-      '0': 'Corrosion',
+      '0': 'Innards Out',
     },
     baseSpecies: 'Victreebel',
   },
@@ -10735,7 +10735,7 @@ const ZA_PATCH_2: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     weightkg: 77,
     abilities: {
-      '0': 'Merciless',
+      '0': 'Adaptability',
     },
     baseSpecies: 'Glimmora',
   },
@@ -10773,7 +10773,7 @@ const ZA_PATCH_2: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     weightkg: 330,
     abilities: {
-      '0': 'Vessel of Ruin',
+      '0': 'Unseen Fist',
     },
     baseSpecies: 'Golurk',
   },
@@ -10848,7 +10848,7 @@ const ZA_PATCH_2: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     weightkg: 10.1,
     abilities: {
-      '0': 'Psychic Surge',
+      '0': 'Trace',
     },
     baseSpecies: 'Meowstic',
   },
@@ -10903,7 +10903,7 @@ const ZA_PATCH_2: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     weightkg: 22,
     abilities: {
-      '0': 'Contrary',
+      '0': 'Flame Body',
     },
     baseSpecies: 'Scovillain',
   },

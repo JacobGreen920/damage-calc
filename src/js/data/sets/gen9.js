@@ -1,569 +1,727 @@
 var SETDEX_SV = {
   "Venusaur": {
-    "OU Sun Sweeper": { "ability": "Chlorophyll", "item": "Life Orb", "nature": "Timid", "teraType": "Fire", "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Growth", "Giga Drain", "Weather Ball", "Sludge Bomb"] },
-    "UU Sun Sweeper": { "ability": "Chlorophyll", "item": "Life Orb", "nature": "Timid", "teraType": "Fire", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Growth", "Weather Ball", "Earth Power", "Sludge Bomb"] },
-    "RU Sun Sweeper": { "ability": "Chlorophyll", "item": "Life Orb", "nature": "Timid", "teraType": "Fire", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Growth", "Giga Drain", "Sludge Bomb", "Weather Ball"] },
-    "NU Sun Sweeper": { "ability": "Chlorophyll", "item": "Life Orb", "nature": "Modest", "teraType": "Fire", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Giga Drain", "Sludge Bomb", "Weather Ball", "Growth"] },
-    "PU Offensive": { "ability": "Overgrow", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Ground", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Leaf Storm", "Sludge Bomb", "Earth Power", "Synthesis"] },
-    "PU Defensive": { "ability": "Overgrow", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Water", "evs": { "hp": 252, "df": 168, "sd": 32, "sp": 56 }, "moves": ["Giga Drain", "Sludge Bomb", "Knock Off", "Synthesis"] },
-    "PU Chlorophyll Sweeper": { "ability": "Chlorophyll", "item": "Life Orb", "nature": "Modest", "teraType": "Fire", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Growth", "Weather Ball", "Giga Drain", "Sludge Bomb"] },
-    "National Dex Chlorophyll Sweeper": { "ability": "Chlorophyll", "item": "Life Orb", "nature": "Modest", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Growth", "Giga Drain", "Weather Ball", "Sludge Bomb"] },
+    "Generic Bulky": { "ability": "Chlorophyll", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Giga Drain", "Sludge Bomb", "Earth Power", "Leaf Storm", "Weather Ball", "Energy Ball"] },
+	"Generic Offensive": { "ability": "Chlorophyll", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Giga Drain", "Sludge Bomb", "Earth Power", "Leaf Storm", "Weather Ball", "Energy Ball"] },
   },
   "Venusaur-Mega": {
-    "National Dex Tank": { "ability": "Thick Fat", "item": "Venusaurite", "nature": "Modest", "ivs": { "at": 0 }, "evs": { "hp": 252, "sa": 156, "sp": 100 }, "moves": ["Giga Drain", "Sludge Bomb", "Earth Power", "Synthesis"] },
-    "National Dex UU Tank": { "ability": "Thick Fat", "item": "Venusaurite", "nature": "Modest", "ivs": { "at": 0 }, "evs": { "hp": 252, "sa": 152, "sp": 104 }, "moves": ["Sludge Bomb", "Knock Off", "Earth Power", "Synthesis"] },
+    "Generic Bulky": { "ability": "Thick Fat", "item": "Venusaurite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Giga Drain", "Sludge Bomb", "Earth Power", "Leaf Storm", "Weather Ball", "Energy Ball"] },
+	"Generic Offensive": { "ability": "Thick Fat", "item": "Venusaurite", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Giga Drain", "Sludge Bomb", "Earth Power", "Leaf Storm", "Weather Ball", "Energy Ball"] },
   },
   "Charizard": {
-    "PU Sun Wallbreaker": { "ability": "Solar Power", "item": "Choice Specs", "nature": "Timid", "teraType": "Fire", "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Weather Ball", "Solar Beam", "Focus Blast", "Flamethrower"] },
-    "ZU All-Out Attacker": { "ability": "Blaze", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Ground", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Hurricane", "Flamethrower", "Scorching Sands", "Will-O-Wisp"] },
-    "ZU Belly Drum": { "ability": "Blaze", "item": "Sitrus Berry", "nature": "Jolly", "teraType": "Flying", "evs": { "hp": 4, "at": 252, "sp": 252 }, "moves": ["Belly Drum", "Acrobatics", "Earthquake", "Flame Charge"] },
+    "Generic Bulky": { "ability": "Blaze", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Flamethrower", "Fire Blast", "Hurricane", "Scorching Sands", "Air Slash", "Ancient Power"] },
+    "Generic Offensive": { "ability": "Blaze", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Flamethrower", "Fire Blast", "Hurricane", "Scorching Sands", "Air Slash", "Ancient Power"] },
   },
   "Charizard-Mega-Y": {
-    "National Dex Drought Wallbreaker": { "ability": "Drought", "item": "Charizardite Y", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Weather Ball", "Solar Beam", "Scorching Sands", "Roost"] },
+    "Generic Bulky": { "ability": "Drought", "item": "Charizardite Y", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Heat Wave", "Fire Blast", "Focus Blast", "Solar Beam", "Scorching Sands", "Air Slash"] },
+	"Generic Offensive": { "ability": "Drought", "item": "Charizardite Y", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Heat Wave", "Fire Blast", "Focus Blast", "Solar Beam", "Scorching Sands", "Air Slash"] },
   },
   "Charizard-Mega-X": {
     "Generic Bulky": { "ability": "Tough Claws", "item": "Charizardite X", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Flare Blitz", "Dragon Claw", "Earthquake", "Outrage", "Thunder Punch", "Rock Slide"] },
 	"Generic Offensive": { "ability": "Tough Claws", "item": "Charizardite X", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Flare Blitz", "Dragon Claw", "Earthquake", "Outrage", "Thunder Punch", "Rock Slide"] },
   },
+  "Wartortle": {
+    "Generic Bulky": { "ability": "Torrent", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Wave Crash", "Flip Turn", "Aqua Jet", "Rapid Spin", "Ice Spinner", "Brick Break"] },
+	"Generic Offensive": { "ability": "Torrent", "item": "Eviolite", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Wave Crash", "Flip Turn", "Aqua Jet", "Rapid Spin", "Ice Spinner", "Brick Break"] },
+  },
   "Blastoise": {
-    "UU Shell Smash": { "ability": "Torrent", "item": "White Herb", "nature": "Modest", "teraType": "Electric", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Shell Smash", "Surf", "Ice Beam", "Tera Blast"] },
+    "Generic Bulky": { "ability": "Torrent", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Surf", "Ice Beam", "Aura Sphere", "Rapid Spin", "Flip Turn", "Dark Pulse"] },
+	"Generic Offensive": { "ability": "Torrent", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Surf", "Ice Beam", "Aura Sphere", "Rapid Spin", "Flip Turn", "Dark Pulse"] },
+  },
+  "Blastoise-Mega": {
+    "Generic Bulky": { "ability": "Mega Launcher", "item": "Blastoisinite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Rapid Spin", "Water Spout", "Water Pulse", "Aura Sphere", "Dark Pulse", "Ice Beam"] },
+    "Generic Offensive": { "ability": "Mega Launcher", "item": "Blastoisinite", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Rapid Spin", "Water Spout", "Water Pulse", "Aura Sphere", "Dark Pulse", "Ice Beam"] },
+  },
+  "Butterfree": {
+    "Generic Bulky": { "ability": "Compound Eyes", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Bug Buzz", "Hurricane", "Energy Ball", "Shadow Ball", "Psychic", "Draining Kiss"] },
+	"Generic Offensive": { "ability": "Compound Eyes", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Bug Buzz", "Hurricane", "Energy Ball", "Shadow Ball", "Psychic", "Draining Kiss"] },
+  },
+  "Beedrill": {
+    "Generic Bulky": { "ability": "Swarm", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Lunge", "U-turn", "Poison Jab", "Pursuit", "Drill Run", "Brick Break"] },
+	"Generic Offensive": { "ability": "Swarm", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Lunge", "U-turn", "Poison Jab", "Pursuit", "Drill Run", "Brick Break"] },
   },
   "Beedrill-Mega": {
-    "National Dex UU Please Don't Use Mega Beedrill": { "ability": "Adaptability", "item": "Beedrillite", "nature": "Jolly", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["U-turn", "Poison Jab", "Drill Run", "Knock Off"] },
+    "Generic Bulky": { "ability": "Adaptability", "item": "Beedrillite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["U-turn", "Poison Jab", "Drill Run", "Fell Stinger", "Brick Break", "Dual Wingbeat"] },
+	"Generic Offensive": { "ability": "Adaptability", "item": "Beedrillite", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["U-turn", "Poison Jab", "Drill Run", "Fell Stinger", "Brick Break", "Dual Wingbeat"] },
+  },
+  "Pidgeot": {
+    "Generic Bulky": { "ability": "Big Pecks", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Brave Bird", "Return", "Dual Wingbeat", "Pursuit", "U-turn", "Sky Attack"] },
+	"Generic Offensive": { "ability": "Big Pecks", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Brave Bird", "Return", "Dual Wingbeat", "Pursuit", "U-turn", "Sky Attack"] },
   },
   "Pidgeot-Mega": {
-    "National Dex RU Offensive Pivot": { "ability": "No Guard", "item": "Pidgeotite", "nature": "Timid", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["U-turn", "Hurricane", "Heat Wave", "Roost"] },
+    "Generic Bulky": { "ability": "No Guard", "item": "Pidgeotite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Hurricane", "Heat Wave", "U-turn", "Quick Attack", "Pursuit", "Hyper Beam"] },
+	"Generic Offensive": { "ability": "No Guard", "item": "Pidgeotite", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Hurricane", "Heat Wave", "U-turn", "Quick Attack", "Pursuit", "Hyper Beam"] },
+  },
+  "Raticate": {
+    "Generic Bulky": { "ability": "Guts", "item": "Flame Orb", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Facade", "U-turn", "Sucker Punch", "Stomping Tantrum", "Pursuit", "Flame Wheel"] },
+	"Generic Offensive": { "ability": "Guts", "item": "Flame Orb", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Facade", "U-turn", "Sucker Punch", "Stomping Tantrum", "Pursuit", "Flame Wheel"] },
+  },
+  "Raticate-Alola": {
+    "Generic Bulky": { "ability": "Thick Fat", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Return", "U-turn", "Sucker Punch", "Stomping Tantrum", "Pursuit", "Revenge"] },
+	"Generic Offensive": { "ability": "Thick Fat", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Return", "U-turn", "Sucker Punch", "Stomping Tantrum", "Pursuit", "Revenge"] },
+  },
+  "Fearow": {
+    "Generic Bulky": { "ability": "Sniper", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Return", "U-turn", "Drill Peck", "Drill Run", "Pursuit", "Quick Attack"] },
+	"Generic Offensive": { "ability": "Sniper", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Return", "U-turn", "Drill Peck", "Drill Run", "Pursuit", "Quick Attack"] },
+  },
+  "Arbok": {
+    "Generic Bulky": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Gunk Shot", "Dragon Tail", "Earthquake", "Sucker Punch", "Pursuit", "Sludge Wave"] },
+	"Generic Offensive": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Gunk Shot", "Dragon Tail", "Earthquake", "Sucker Punch", "Pursuit", "Sludge Wave"] },
+  },
+  "Pikachu": {
+    "Generic Bulky": { "ability": "Lightning Rod", "item": "Light Ball", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Volt Tackle", "Extreme Speed", "Fake Out", "Thunderbolt", "Volt Switch", "Surf"] },
+	"Generic Offensive": { "ability": "Lightning Rod", "item": "Light Ball", "nature": "Naive", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Volt Tackle", "Extreme Speed", "Fake Out", "Thunderbolt", "Volt Switch", "Surf"] },
+  },
+  "Raichu": {
+    "Generic Bulky": { "ability": "Lightning Rod", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Volt Tackle", "Extreme Speed", "Fake Out", "Thunderbolt", "Volt Switch", "Surf"] },
+	"Generic Offensive": { "ability": "Lightning Rod", "item": "Heavy-Duty Boots", "nature": "Naive", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Volt Tackle", "Extreme Speed", "Fake Out", "Thunderbolt", "Volt Switch", "Surf"] },
   },
   "Raichu-Alola": {
-    "ZU Nasty Plot": { "ability": "Surge Surfer", "item": "Life Orb", "nature": "Timid", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Nasty Plot", "Thunderbolt", "Psyshock", "Draining Kiss"] }
+    "Generic Bulky": { "ability": "Surge Surfer", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Thunderbolt", "Volt Switch", "Psyshock", "Draining Kiss", "Alluring Voice", "Psychic"] },
+	"Generic Offensive": { "ability": "Surge Surfer", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Thunderbolt", "Volt Switch", "Psyshock", "Draining Kiss", "Alluring Voice", "Psychic"] },
   },
   "Sandslash": {
-    "NU Sand Wallbreaker": { "ability": "Sand Rush", "item": "Life Orb", "nature": "Adamant", "teraType": "Dark", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Earthquake", "Knock Off", "Leech Life"] },
-    "NU Physical Wall": { "ability": "Sand Rush", "item": "Leftovers", "nature": "Impish", "teraType": "Ghost", "evs": { "hp": 252, "df": 252, "sp": 4 }, "moves": ["Earthquake", "Knock Off", "Rapid Spin", "Spikes"] },
-    "PU Defensive Spinner": { "ability": "Sand Rush", "item": "Leftovers", "nature": "Impish", "teraType": "Ghost", "evs": { "hp": 248, "df": 252, "sd": 8 }, "moves": ["Rapid Spin", "Earthquake", "Knock Off", "Spikes"] },
-    "ZU Rapid Spin": { "ability": "Sand Rush", "item": "Heavy-Duty Boots", "nature": "Impish", "teraType": "Ghost", "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Rapid Spin", "Earthquake", "Knock Off", "Stealth Rock"] },
-    "ZU Swords Dance": { "ability": "Sand Rush", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Dark", "evs": { "hp": 128, "at": 252, "sp": 128 }, "moves": ["Swords Dance", "Earthquake", "Knock Off", "Gunk Shot"] }
+    "Generic Bulky": { "ability": "Sand Rush", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Rapid Spin", "Earthquake", "Rock Slide", "Throat Chop", "Brick Break", "Gunk Shot"] },
+	"Generic Offensive": { "ability": "Sand Rush", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Rapid Spin", "Earthquake", "Rock Slide", "Throat Chop", "Brick Break", "Gunk Shot"] },
   },
   "Sandslash-Alola": {
-    "NU Specially Defensive": { "ability": "Slush Rush", "item": "Leftovers", "nature": "Careful", "teraType": "Water", "evs": { "hp": 248, "sd": 216, "sp": 44 }, "moves": ["Rapid Spin", "Icicle Crash", "Knock Off", "Spikes"] },
-    "NU Swords Dance": { "ability": "Slush Rush", "item": "Life Orb", "nature": "Jolly", "teraType": "Ground", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Triple Axel", "Knock Off", "Earthquake"] },
-    "PU Specially Defensive Spinner": { "ability": "Slush Rush", "item": "Leftovers", "nature": "Careful", "teraType": "Water", "evs": { "hp": 252, "sd": 204, "sp": 52 }, "moves": ["Rapid Spin", "Triple Axel", "Knock Off", "Spikes"] },
+    "Generic Bulky": { "ability": "Slush Rush", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Rapid Spin", "Earthquake", "Icicle Crash", "Triple Axel", "Brick Break", "Iron Head"] },
+	"Generic Offensive": { "ability": "Slush Rush", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Rapid Spin", "Earthquake", "Icicle Crash", "Triple Axel", "Brick Break", "Iron Head"] },
   },
   "Nidoqueen": {
-    "National Dex RU Offensive Utility": { "ability": "Sheer Force", "item": "Life Orb", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "hp": 48, "sa": 252, "sp": 208 }, "moves": ["Stealth Rock", "Earth Power", "Sludge Wave", "Ice Beam"] },
-    "National Dex RU Defensive Utility": { "ability": "Sheer Force", "item": "Black Sludge", "nature": "Bold", "ivs": { "at": 0 }, "evs": { "hp": 248, "df": 172, "sp": 88 }, "moves": ["Stealth Rock", "Earth Power", "Ice Beam", "Protect"] }
+    "Generic Bulky": { "ability": "Sheer Force", "item": "Life Orb", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earth Power", "Sludge Wave", "Ice Beam", "Flamethrower", "Thunderbolt", "Shadow Ball"] },
+	"Generic Offensive": { "ability": "Sheer Force", "item": "Life Orb", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earth Power", "Sludge Wave", "Ice Beam", "Flamethrower", "Thunderbolt", "Shadow Ball"] },
   },
   "Nidoking": {
-    "National Dex Wallbreaker": { "ability": "Sheer Force", "item": "Life Orb", "nature": "Timid", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Sludge Wave", "Earth Power", "Ice Beam", "Flamethrower"] },
-    "National Dex RU Offensive": { "ability": "Sheer Force", "item": "Life Orb", "nature": "Modest", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Earth Power", "Sludge Wave", "Ice Beam", "Flamethrower"] },
+    "Generic Bulky": { "ability": "Sheer Force", "item": "Life Orb", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earth Power", "Sludge Wave", "Ice Beam", "Flamethrower", "Thunderbolt", "Shadow Ball"] },
+	"Generic Offensive": { "ability": "Sheer Force", "item": "Life Orb", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earth Power", "Sludge Wave", "Ice Beam", "Flamethrower", "Thunderbolt", "Shadow Ball"] },
+  },
+  "Clefairy": {
+    "Generic Bulky": { "ability": "Magic Guard", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Moonblast", "Flamethrower", "Ice Beam", "Shadow Ball", "Thunderbolt", "Chilling Water"] },
+	"Generic Offensive": { "ability": "Magic Guard", "item": "Eviolite", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Moonblast", "Flamethrower", "Ice Beam", "Shadow Ball", "Thunderbolt", "Chilling Water"] },
   },
   "Clefable": {
-    "OU Utility": { "ability": "Magic Guard", "item": "Leftovers", "nature": "Bold", "teraType": "Water", "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Stealth Rock", "Moonblast", "Moonlight", "Thunder Wave"] },
-    "OU Calm Mind": { "ability": "Magic Guard", "item": "Leftovers", "nature": "Bold", "teraType": "Fire", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Calm Mind", "Moonblast", "Moonlight", "Knock Off"] },
-    "OU Unaware": { "ability": "Unaware", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Poison", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Calm Mind", "Moonblast", "Moonlight", "Thunder Wave"] },
-    "National Dex Utility": { "ability": "Magic Guard", "item": "Leftovers", "nature": "Bold", "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Moonblast", "Stealth Rock", "Knock Off", "Soft-Boiled"] },
-    "National Dex Calm Mind": { "ability": "Magic Guard", "item": "Leftovers", "nature": "Bold", "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Moonblast", "Calm Mind", "Knock Off", "Soft-Boiled"] },
-    "National Dex UU Utility": { "ability": "Magic Guard", "item": "Rocky Helmet", "nature": "Bold", "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Moonblast", "Soft-Boiled", "Thunder Wave", "Stealth Rock"] },
-    "Ubers UU Unaware Wall": { "ability": "Unaware", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Dark", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 252, "sa": 4 }, "moves": ["Moonblast", "Calm Mind", "Wish", "Protect"] },
-    "Ubers UU Magic Guard": { "ability": "Magic Guard", "item": "Leftovers", "nature": "Bold", "teraType": "Water", "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Moonblast", "Moonlight", "Stealth Rock", "Knock Off"] },
+    "Generic Bulky": { "ability": "Magic Guard", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Moonblast", "Flamethrower", "Thunderbolt", "Ice Beam", "Air Slash", "Grass Knot"] },
+	"Generic Offensive": { "ability": "Magic Guard", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Moonblast", "Flamethrower", "Thunderbolt", "Ice Beam", "Air Slash", "Grass Knot"] },
   },
   "Ninetales": {
-    "OU Sun Setter": { "ability": "Drought", "item": "Heat Rock", "nature": "Timid", "teraType": "Grass", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 4, "sp": 252 }, "moves": ["Weather Ball", "Encore", "Healing Wish", "Will-O-Wisp"] },
-    "UU Sun Setter": { "ability": "Drought", "item": "Heat Rock", "nature": "Timid", "teraType": "Water", "ivs": { "at": 0 }, "evs": { "hp": 252, "sd": 4, "sp": 252 }, "moves": ["Encore", "Overheat", "Healing Wish", "Scorching Sands"] },
-    "RU Sun Setter": { "ability": "Drought", "item": "Heat Rock", "nature": "Timid", "teraType": "Grass", "evs": { "hp": 252, "sa": 4, "sp": 252 }, "moves": ["Flamethrower", "Healing Wish", "Encore", "Will-O-Wisp"] },
+    "Generic Bulky": { "ability": "Desolate Land", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Heat Wave", "Fire Blast", "Energy Ball", "Weather Ball", "Scorching Sands", "Solar Beam"] },
+	"Generic Offensive": { "ability": "Desolate Land", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Heat Wave", "Fire Blast", "Energy Ball", "Weather Ball", "Scorching Sands", "Solar Beam"] },
   },
   "Ninetales-Alola": {
-    "OU Aurora Veil": { "ability": "Snow Warning", "item": "Light Clay", "nature": "Timid", "teraType": "Water", "evs": { "hp": 252, "df": 4, "sp": 252 }, "moves": ["Aurora Veil", "Encore", "Freeze-Dry", "Moonblast"] },
-    "RU Nasty Plot": { "ability": "Snow Warning", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Ground", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Nasty Plot", "Freeze-Dry", "Tera Blast", "Encore"] },
-    "RU Aurora Veil": { "ability": "Snow Warning", "item": "Icy Rock", "nature": "Timid", "teraType": "Water", "ivs": { "at": 0 }, "evs": { "hp": 248, "sa": 8, "sp": 252 }, "moves": ["Aurora Veil", "Blizzard", "Encore", "Snowscape"] },
-    "NU Aurora Veil Support": { "ability": "Snow Warning", "item": "Icy Rock", "nature": "Timid", "teraType": "Water", "evs": { "hp": 248, "df": 8, "sp": 252 }, "moves": ["Aurora Veil", "Freeze-Dry", "Encore", "Moonblast"] },
-    "NU Nasty Plot": { "ability": "Snow Warning", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Ground", "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Nasty Plot", "Moonblast", "Freeze-Dry", "Tera Blast"] },
-    "PU Support": { "ability": "Snow Warning", "item": "Icy Rock", "nature": "Timid", "teraType": "Water", "evs": { "hp": 252, "sd": 4, "sp": 252 }, "moves": ["Aurora Veil", "Freeze-Dry", "Moonblast", "Encore"] },
-    "PU Nasty Plot": { "ability": "Snow Warning", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Water", "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Nasty Plot", "Moonblast", "Freeze-Dry", "Tera Blast"] },
-    "Ubers UU Aurora Veil": { "ability": "Snow Warning", "item": "Light Clay", "nature": "Timid", "teraType": "Water", "ivs": { "at": 0 }, "evs": { "hp": 248, "sa": 8, "sp": 252 }, "moves": ["Aurora Veil", "Moonblast", "Freeze-Dry", "Encore"] },
+    "Generic Bulky": { "ability": "Snow Warning", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Freeze-Dry", "Moonblast", "Blizzard", "Ice Beam", "Psyshock", "Chilling Water"] },
+	"Generic Offensive": { "ability": "Snow Warning", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Freeze-Dry", "Moonblast", "Blizzard", "Ice Beam", "Psyshock", "Chilling Water"] },
+  },
+  "Jigglypuff": {
+    "Jiggler Bulky": { "ability": "Competetive", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Moonblast", "Flamethrower", "Ice Beam", "Shadow Ball", "Thunderbolt", "Tri Attack"] },
+	"Jiggler Offensive": { "ability": "Competetive", "item": "Eviolite", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Moonblast", "Flamethrower", "Ice Beam", "Shadow Ball", "Thunderbolt", "Tri Attack"] },
+  },
+  "Wigglytuff": {
+    "Wiggler Bulky": { "ability": "Frisk", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Moonblast", "Flamethrower", "Ice Beam", "Shadow Ball", "Thunderbolt", "Tri Attack"] },
+	"Wiggler Offensive": { "ability": "Competetive", "item": "Life Orb", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Moonblast", "Flamethrower", "Ice Beam", "Shadow Ball", "Thunderbolt", "Tri Attack"] },
+  },
+  "Golbat": {
+    "Generic Bulky": { "ability": "Infiltrator", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["U-turn", "Brave Bird", "Dual Wingbeat", "Heat Wave", "Poison Fang", "Sludge Bomb"] },
+    "Generic Offensive": { "ability": "Infiltrator", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["U-turn", "Brave Bird", "Dual Wingbeat", "Heat Wave", "Poison Fang", "Sludge Bomb"] },
   },
   "Vileplume": {
-    "RU Physically Defensive": { "ability": "Effect Spore", "item": "Leftovers", "nature": "Bold", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Sludge Wave", "Giga Drain", "Strength Sap", "Leech Seed"] },
-    "NU Physically Defensive": { "ability": "Effect Spore", "item": "Rocky Helmet", "nature": "Bold", "teraType": "Water", "evs": { "hp": 252, "df": 252, "sp": 4 }, "moves": ["Sludge Bomb", "Giga Drain", "Leech Seed", "Strength Sap"] }
+    "Generic Bulky": { "ability": "Effect Spore", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Giga Drain", "Sludge Bomb", "Moonblast", "Energy Ball", "Leaf Storm", "Grass Knot"] },
+	"Generic Offensive": { "ability": "Effect Spore", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Giga Drain", "Sludge Bomb", "Moonblast", "Energy Ball", "Leaf Storm", "Grass Knot"] },
+  },
+  "Parasect": {
+    "Generic Bulky": { "ability": "Dry Skin", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Leech Life", "Seed Bomb", "Brick Break", "Pursuit", "Aerial Ace", "Spore"] },
+	"Generic Offensive": { "ability": "Dry Skin", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Leech Life", "Seed Bomb", "Brick Break", "Pursuit", "Aerial Ace", "Spore"] },
   },
   "Venomoth": {
-    "PU Quiver Dance": { "ability": "Tinted Lens", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Fairy", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Quiver Dance", "Bug Buzz", "Sludge Bomb", "Morning Sun"] },
-    "PU Choice Specs": { "ability": "Tinted Lens", "item": "Choice Specs", "nature": "Timid", "teraType": "Bug", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Bug Buzz", "Sludge Bomb", "U-turn", "Energy Ball"] }
+    "Generic Bulky": { "ability": "Tinted Lens", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Bug Buzz", "Sludge Bomb", "Energy Ball", "Psychic Noise", "U-turn", "Air Slash"] },
+	"Generic Offensive": { "ability": "Tinted Lens", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Bug Buzz", "Sludge Bomb", "Energy Ball", "Psychic Noise", "U-turn", "Air Slash"] },
   },
   "Dugtrio-Alola": {
-    "ZU Fast Attacker": { "ability": "Tangling Hair", "item": "Life Orb", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Stealth Rock", "Earthquake", "Iron Head", "Stone Edge"] }
+    "Generic Bulky": { "ability": "Tangling Hair", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earthquake", "Iron Head", "Sucker Punch", "Rock Slide", "Throat Chop", "Pursuit"] },
+	"Generic Offensive": { "ability": "Tangling Hair", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earthquake", "Iron Head", "Sucker Punch", "Rock Slide", "Throat Chop", "Pursuit"] },
+  },
+  "Persian": {
+    "Generic Bulky": { "ability": "Technician", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Return", "U-turn", "Hyper Voice", "Icy Wind", "Chilling Water", "Snarl"] },
+	"Generic Offensive": { "ability": "Technician", "item": "Heavy-Duty Boots", "nature": "Naive", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Return", "U-turn", "Hyper Voice", "Icy Wind", "Chilling Water", "Snarl"] },
   },
   "Persian-Alola": {
-    "PU Heavy-Duty Boots": { "ability": "Fur Coat", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Ghost", "evs": { "at": 4, "df": 252, "sp": 252 }, "moves": ["Knock Off", "Foul Play", "Parting Shot", "Taunt"] },
-    "PU Choice Scarf": { "ability": "Fur Coat", "item": "Choice Scarf", "nature": "Jolly", "teraType": "Ghost", "evs": { "at": 4, "df": 252, "sp": 252 }, "moves": ["Parting Shot", "Switcheroo", "Foul Play", "Knock Off"] },
-    "ZU Defensive Pivot": { "ability": "Fur Coat", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Poison", "evs": { "hp": 252, "df": 4, "sp": 252 }, "moves": ["Parting Shot", "Foul Play", "Knock Off", "Taunt"] }
+    "Generic Bulky": { "ability": "Fur Coat", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Foul Play", "Play Rough", "Power Gem", "Shadow Ball", "Thunderbolt", "U-turn"] },
+	"Generic Offensive": { "ability": "Fur Coat", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Foul Play", "Play Rough", "Power Gem", "Shadow Ball", "Thunderbolt", "U-turn"] },
+  },
+  "Golduck": {
+    "Generic Bulky": { "ability": "Cloud Nine", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Hydro Pump", "Grass Knot", "Focus Blast", "Ice Beam", "Psychic", "Aqua Jet"] },
+	"Generic Offensive": { "ability": "Cloud Nine", "item": "Heavy-Duty Boots", "nature": "Naive", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Hydro Pump", "Grass Knot", "Focus Blast", "Ice Beam", "Psychic", "Aqua Jet"] },
   },
   "Primeape": {
-    "ZU Offensive Stealth Rock": { "ability": "Defiant", "item": "Eviolite", "nature": "Jolly", "teraType": "Ghost", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Stealth Rock", "Close Combat", "Rage Fist", "U-turn"] },
-    "ZU Bulk Up": { "ability": "Defiant", "item": "Eviolite", "nature": "Careful", "teraType": "Ghost", "evs": { "hp": 248, "sd": 244, "sp": 16 }, "moves": ["Bulk Up", "Drain Punch", "Rage Fist", "Taunt"] }
+    "Generic Bulky": { "ability": "Defiant", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Close Combat", "Rage First", "Drain Punch", "U-turn", "Earthquake", "Thunder Punch"] },
+	"Generic Offensive": { "ability": "Defiant", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Close Combat", "Rage First", "Drain Punch", "U-turn", "Earthquake", "Thunder Punch"] },
   },
   "Arcanine": {
-    "NU Curse Sweeper": { "ability": "Intimidate", "item": "Leftovers", "nature": "Adamant", "teraType": "Normal", "evs": { "hp": 248, "at": 252, "sd": 8 }, "moves": ["Curse", "Flare Blitz", "Extreme Speed", "Crunch"] },
-    "PU Curse": { "ability": "Intimidate", "item": "Leftovers", "nature": "Adamant", "teraType": "Normal", "evs": { "hp": 160, "at": 252, "sp": 96 }, "moves": ["Curse", "Extreme Speed", "Flare Blitz", "Morning Sun"] },
-    "PU Choice Band": { "ability": "Intimidate", "item": "Choice Band", "nature": "Jolly", "teraType": "Normal", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Flare Blitz", "Close Combat", "Extreme Speed", "Raging Fury"] },
+    "Generic Bulky": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Extreme Speed", "Flare Blitz", "Close Combat", "Play Rough", "Wild Charge", "Body Slam"] },
+	"Generic Offensive": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Extreme Speed", "Flare Blitz", "Close Combat", "Play Rough", "Wild Charge", "Body Slam"] },
   },
   "Arcanine-Hisui": {
-    "OU Choice Band": { "ability": "Rock Head", "item": "Choice Band", "nature": "Jolly", "teraType": "Normal", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Head Smash", "Flare Blitz", "Extreme Speed", "Close Combat"] },
-    "UU Offensive": { "ability": "Rock Head", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Normal", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Head Smash", "Flare Blitz", "Extreme Speed", "Stealth Rock"] },
+    "Generic Bulky": { "ability": "Rock Head", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Extreme Speed", "Flare Blitz", "Close Combat", "Rock Slide", "Wild Charge", "Head Smash"] },
+	"Generic Offensive": { "ability": "Rock Head", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Extreme Speed", "Flare Blitz", "Close Combat", "Rock Slide", "Wild Charge", "Head Smash"] },
+  },
+  "Poliwhirl": {
+    "Generic Bulky": { "ability": "Water Absorb", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Hydro Pump", "Earthquake", "Focus Punch", "Ice Beam", "Psychic", "Brick Break"] },
+	"Generic Offensive": { "ability": "Water Absorb", "item": "Eviolite", "nature": "Naive", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Hydro Pump", "Earthquake", "Focus Punch", "Ice Beam", "Psychic", "Brick Break"] },
   },
   "Poliwrath": {
-    "PU Bulk Up": { "ability": "Water Absorb", "item": "Leftovers", "nature": "Careful", "teraType": "Dark", "evs": { "hp": 248, "sd": 164, "sp": 96 }, "moves": ["Bulk Up", "Drain Punch", "Knock Off", "Substitute"] },
-    "ZU Bulk Up": { "ability": "Water Absorb", "item": "Leftovers", "nature": "Careful", "teraType": "Dark", "evs": { "hp": 252, "df": 4, "sd": 252 }, "moves": ["Bulk Up", "Substitute", "Drain Punch", "Knock Off"] }
+    "Generic Bulky": { "ability": "Water Absorb", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Liquidation", "Close Combat", "Earthquake", "Rock Slide", "Ice Punch", "Poison Jab"] },
+	"Generic Offensive": { "ability": "Water Absorb", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Liquidation", "Close Combat", "Earthquake", "Rock Slide", "Ice Punch", "Poison Jab"] },
   },
+  "Abra": {
+    "Generic Bulky": { "ability": "Magic Guard", "item": "Focus Sash", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Psychic", "Psyshock", "Energy Ball", "Shadow Ball", "Signal Beam", "Zap Cannon"] },
+	"Generic Offensive": { "ability": "Magic Guard", "item": "Focus Sash", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Psychic", "Psyshock", "Energy Ball", "Shadow Ball", "Signal Beam", "Zap Cannon"] },
+  },
+  "Kadabra": {
+    "Generic Bulky": { "ability": "Magic Guard", "item": "Focus Sash", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Psychic", "Psyshock", "Energy Ball", "Shadow Ball", "Signal Beam", "Zap Cannon"] },
+	"Generic Offensive": { "ability": "Magic Guard", "item": "Focus Sash", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Psychic", "Psyshock", "Energy Ball", "Shadow Ball", "Signal Beam", "Zap Cannon"] },
+  }, 
   "Alakazam": {
-    "National Dex UU Nasty Plot": { "ability": "Magic Guard", "item": "Focus Sash", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Nasty Plot", "Psychic", "Focus Blast", "Shadow Ball"] },
+    "Generic Bulky": { "ability": "Magic Guard", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Psychic", "Focus Blast", "Shadow Ball", "Dazzling Gleam", "Energy Ball", "Signal Beam"] },
+	"Generic Offensive": { "ability": "Magic Guard", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Psychic", "Focus Blast", "Shadow Ball", "Dazzling Gleam", "Energy Ball", "Signal Beam"] },
+  },
+  "Machoke": {
+    "Generic Bulky": { "ability": "No Guard", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Drain Punch", "Earthquake", "Knock Off", "Poison Jab", "Bullet Punch", "Dynamic Punch"] },
+	"Generic Offensive": { "ability": "Guts", "item": "Flame Orb", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Close Combat", "Earthquake", "Knock Off", "Poison Jab", "Bullet Punch", "Facade"] },
+  },
+  "Machamp": {
+    "Generic Bulky": { "ability": "No Guard", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Drain Punch", "Earthquake", "Knock Off", "Poison Jab", "Bullet Punch", "Dynamic Punch"] },
+	"Generic Offensive": { "ability": "Guts", "item": "Flame Orb", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Close Combat", "Earthquake", "Knock Off", "Poison Jab", "Bullet Punch", "Facade"] },
   },
   "Victreebel": {
-    "ZU All-Out Attacker": { "ability": "Chlorophyll", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Fire", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Strength Sap", "Power Whip", "Poison Jab", "Knock Off"] }
+    "Generic Bulky": { "ability": "Chlorophyll", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Leaf Storm", "Sludge Wave", "Knock Off", "Leech Life", "Energy Ball", "Poison Jab"] },
+	"Generic Offensive": { "ability": "Chlorophyll", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Leaf Storm", "Sludge Wave", "Knock Off", "Leech Life", "Energy Ball", "Poison Jab"] },
   },
   "Tentacruel": {
-    "NU Defensive Pivot": { "ability": "Liquid Ooze", "item": "Leftovers", "nature": "Jolly", "teraType": "Dark", "evs": { "hp": 252, "df": 120, "sp": 136 }, "moves": ["Flip Turn", "Rapid Spin", "Knock Off", "Haze"] },
+    "Generic Bulky": { "ability": "Clear Body", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Sludge Bomb", "Surf", "Rapid Spin", "Flip Turn", "Ice Beam", "Dazzling Gleam"] },
+	"Generic Offensive": { "ability": "Clear Body", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Sludge Bomb", "Surf", "Rapid Spin", "Flip Turn", "Ice Beam", "Dazzling Gleam"] },
+  },
+  "Golem": {
+    "Generic Bulky": { "ability": "Sturdy", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Rock Slide", "Earthquake", "Body Press", "Explosion", "Sucker Punch", "Thunder Punch"] },
+	"Generic Offensive": { "ability": "Sturdy", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Rock Slide", "Earthquake", "Body Press", "Explosion", "Sucker Punch", "Thunder Punch"] },
+  },
+  "Golem-Alola": {
+    "Generic Bulky": { "ability": "Sturdy", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Rock Slide", "Earthquake", "Body Press", "Explosion", "Fire Punch", "Wild Charge"] },
+	"Generic Offensive": { "ability": "Galvanize", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Rock Slide", "Earthquake", "Body Press", "Explosion", "Fire Punch", "Return"] },
+  },
+  "Rapidash": {
+    "Generic Bulky": { "ability": "Flash Fire", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Flare Blitz", "Scorching Sands", "Overheat", "Heat Wave", "Wild Charge", "Fire Spin"] },
+	"Generic Offensive": { "ability": "Flash Fire", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Flare Blitz", "High Horsepower", "Megahorn", "Play Rough", "Wild Charge", "Throat Chop"] },
+  },
+  "Rapidash-Galar": {
+    "Generic Bulky": { "ability": "Pastel Veil", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Psycho Cut", "High Horsepower", "Megahorn", "Play Rough", "Wild Charge", "Throat Chop"] },
+	"Generic Offensive": { "ability": "Pastel Veil", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Psycho Cut", "High Horsepower", "Megahorn", "Play Rough", "Wild Charge", "Throat Chop"] },
   },
   "Slowbro": {
-    "UU Calm Mind": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Poison", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Calm Mind", "Psychic Noise", "Scald", "Slack Off"] },
-    "RU Calm Mind": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Poison", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Calm Mind", "Scald", "Psychic Noise", "Slack Off"] },
-    "RU Future Sight": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Scald", "Future Sight", "Thunder Wave", "Slack Off"] },
-    "National Dex Defensive Pivot": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Relaxed", "ivs": { "at": 0, "sp": 0 }, "evs": { "hp": 248, "df": 252, "sd": 8 }, "moves": ["Scald", "Future Sight", "Teleport", "Slack Off"] },
-    "National Dex UU Defensive Pivot": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Relaxed", "ivs": { "at": 0, "sp": 0 }, "evs": { "hp": 248, "df": 252, "sd": 8 }, "moves": ["Scald", "Future Sight", "Slack Off", "Teleport"] },
+    "Generic Bulky": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Future Sight", "Surf", "Ice Beam", "Psychic Noise", "Focus Blast", "Flamethrower"] },
+	"Generic Offensive": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Future Sight", "Surf", "Ice Beam", "Psychic Noise", "Focus Blast", "Flamethrower"] },
   },
   "Slowbro-Mega": {
-    "National Dex UU Calm Mind": { "ability": "Shell Armor", "item": "Slowbronite", "nature": "Bold", "evs": { "hp": 248, "df": 112, "sd": 148 }, "moves": ["Calm Mind", "Scald", "Psychic", "Slack Off"] },
+    "Generic Bulky": { "ability": "Shell Armor", "item": "Slowbronite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Future Sight", "Body Press", "Ice Beam", "Surf", "Focus Blast", "Flamethrower"] },
+	"Generic Offensive": { "ability": "Shell Armor", "item": "Slowbronite", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Future Sight", "Body Press", "Ice Beam", "Surf", "Focus Blast", "Flamethrower"] },
   },
   "Slowbro-Galar": {
-    "RU Calm Mind": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Water", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Calm Mind", "Sludge Bomb", "Flamethrower", "Slack Off"] },
-    "RU Defensive": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Water", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Psyshock", "Flamethrower", "Slack Off", "Toxic"] },
-    "NU Physical Wall": { "ability": "Regenerator", "item": "Rocky Helmet", "nature": "Bold", "teraType": "Water", "evs": { "hp": 252, "df": 228, "sp": 28 }, "moves": ["Sludge Bomb", "Flamethrower", "Calm Mind", "Slack Off"] },
-    "NU Assault Vest": { "ability": "Regenerator", "item": "Assault Vest", "nature": "Modest", "teraType": "Water", "evs": { "hp": 228, "sa": 252, "sp": 28 }, "moves": ["Shell Side Arm", "Psyshock", "Flamethrower", "Ice Beam"] },
-    "National Dex RU Calm Mind": { "ability": "Regenerator", "item": "Slowbronite", "nature": "Calm", "evs": { "hp": 252, "df": 4, "sd": 252 }, "moves": ["Calm Mind", "Scald", "Sludge Bomb", "Slack Off"] },
+    "Generic Bulky": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Shell Side Arm", "Psyshock", "Ice Beam", "Flamethrower", "Grass Knot", "Surf"] },
+	"Generic Offensive": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Shell Side Arm", "Psyshock", "Ice Beam", "Flamethrower", "Grass Knot", "Surf"] },
   },
-
   "Magneton": {
-    "PU Special Attacker": { "ability": "Analytic", "item": "Eviolite", "nature": "Timid", "teraType": "Water", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Thunderbolt", "Flash Cannon", "Volt Switch", "Tera Blast"] },
-    "PU Choice Scarf": { "ability": "Analytic", "item": "Choice Scarf", "nature": "Timid", "teraType": "Water", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Thunderbolt", "Flash Cannon", "Volt Switch", "Tera Blast"] },
-    "ZU Offensive Pivot": { "ability": "Analytic", "item": "Eviolite", "nature": "Modest", "teraType": "Grass", "ivs": { "at": 0 }, "evs": { "hp": 172, "sa": 252, "sp": 84 }, "moves": ["Thunderbolt", "Flash Cannon", "Volt Switch", "Tera Blast"] },
-    "ZU Choice Specs": { "ability": "Analytic", "item": "Choice Specs", "nature": "Timid", "teraType": "Steel", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Thunderbolt", "Flash Cannon", "Volt Switch", "Steel Beam"] },
-    "ZU Choice Scarf": { "ability": "Analytic", "item": "Choice Scarf", "nature": "Timid", "teraType": "Steel", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Thunderbolt", "Flash Cannon", "Volt Switch", "Steel Beam"] }
+    "Generic Bulky": { "ability": "Magnet Pull", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Thunderbolt", "Flash Cannon", "Volt Switch", "Steel Beam", "Explosion", "Discharge"] },
+	"Generic Offensive": { "ability": "Magnet Pull", "item": "Eviolite", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Thunderbolt", "Flash Cannon", "Volt Switch", "Steel Beam", "Explosion", "Discharge"] },
+  },
+  "Farfetch’d": {
+    "Generic Bulky": { "ability": "Defiant", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Brave Bird", "Return", "First Impression", "Final Gambit", "U-turn", "Knock Off"] },
+	"Generic Offensive": { "ability": "Defiant", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Brave Bird", "Return", "First Impression", "Final Gambit", "U-turn", "Knock Off"] },
+  },
+  "Farfetch’d-Galar": {
+    "Generic Bulky": { "ability": "Scrappy", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Brave Bird", "Return", "First Impression", "Final Gambit", "U-turn", "Knock Off"] },
+	"Generic Offensive": { "ability": "Scrappy", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Brave Bird", "Close Combat", "First Impression", "Final Gambit", "Poison Jab", "Knock Off"] },
   },
   "Dodrio": {
-    "ZU Swords Dance": { "ability": "Tangled Feet", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Fighting", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Brave Bird", "Low Kick", "Quick Attack"] }
+    "Generic Bulky": { "ability": "Early Bird", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Brave Bird", "Low Kick", "Drill Run", "Pursuit", "Trailblaze", "Quick Attack"] },
+	"Generic Offensive": { "ability": "Early Bird", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Brave Bird", "Low Kick", "Drill Run", "Pursuit", "Trailblaze", "Quick Attack"] },
+  },
+  "Dewgong": {
+    "Generic Bulky": { "ability": "Thick Fat", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Liquidation", "Triple Axel", "Aqua Jet", "Ice Shard", "Flip Turn", "Megahorn"] },
+	"Generic Offensive": { "ability": "Thick Fat", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Liquidation", "Triple Axel", "Aqua Jet", "Ice Shard", "Flip Turn", "Megahorn"] },
   },
   "Muk": {
-    "PU ToxTect": { "ability": "Sticky Hold", "item": "Leftovers", "nature": "Impish", "teraType": "Dark", "evs": { "hp": 248, "df": 252, "sd": 8 }, "moves": ["Toxic", "Protect", "Knock Off", "Drain Punch"] },
-    "ZU Defensive": { "ability": "Sticky Hold", "item": "Leftovers", "nature": "Careful", "teraType": "Dark", "evs": { "hp": 252, "df": 4, "sd": 252 }, "moves": ["Poison Jab", "Knock Off", "Zen Headbutt", "Toxic"] }
+    "Generic Bulky": { "ability": "Sticky Hold", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Poison Jab", "Zen Headbutt", "Brick Break", "Drain Punch", "Fire Punch", "Thunder Punch"] },
+	"Generic Offensive": { "ability": "Sticky Hold", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Poison Jab", "Zen Headbutt", "Brick Break", "Drain Punch", "Fire Punch", "Thunder Punch"] },
   },
   "Muk-Alola": {
-    "RU RestTalk": { "ability": "Poison Touch", "item": "Leftovers", "nature": "Careful", "teraType": "Water", "evs": { "hp": 252, "df": 4, "sd": 252 }, "moves": ["Knock Off", "Poison Jab", "Rest", "Sleep Talk"] },
+    "Generic Bulky": { "ability": "Poison Touch", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Poison Jab", "Zen Headbutt", "Brick Break", "Drain Punch", "Fire Punch", "Thunder Punch"] },
+	"Generic Offensive": { "ability": "Poison Touch", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Poison Jab", "Zen Headbutt", "Brick Break", "Drain Punch", "Fire Punch", "Thunder Punch"] },
   },
   "Cloyster": {
-    "RU Shell Smash Sweeper": { "ability": "Skill Link", "item": "White Herb", "nature": "Adamant", "teraType": "Electric", "evs": { "at": 252, "sa": 4, "sp": 252 }, "moves": ["Shell Smash", "Icicle Spear", "Drill Run", "Tera Blast"] },
+    "Generic Bulky": { "ability": "Skill Link", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Icicle Spear", "Drill Run", "Poison Jab", "Waterfall", "Rock Blast", "Explosion"] },
+	"Generic Offensive": { "ability": "Skill Link", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Icicle Spear", "Drill Run", "Poison Jab", "Waterfall", "Rock Blast", "Explosion"] },
   },
   "Haunter": {
-    "ZU Choiced": { "ability": "Levitate", "item": "Choice Scarf", "nature": "Timid", "teraType": "Ghost", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Shadow Ball", "Sludge Bomb", "Psychic", "Trick"] }
+    "Generic Bulky": { "ability": "Levitate", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Shadow Ball", "Sludge Bomb", "Psychic", "Dazzling Gleam", "Energy Ball", "Focus Blast"] },
+	"Generic Offensive": { "ability": "Levitate", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Shadow Ball", "Sludge Bomb", "Psychic", "Dazzling Gleam", "Energy Ball", "Focus Blast"] },
   },
   "Gengar": {
-    "RU Nasty Plot": { "ability": "Cursed Body", "item": "Air Balloon", "nature": "Timid", "teraType": "Ghost", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Nasty Plot", "Shadow Ball", "Sludge Wave", "Focus Blast"] },
-    "RU Hex": { "ability": "Cursed Body", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Hex", "Sludge Bomb", "Dazzling Gleam", "Will-O-Wisp"] },
-    "RU Choice Scarf": { "ability": "Cursed Body", "item": "Choice Scarf", "nature": "Timid", "teraType": "Ghost", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Shadow Ball", "Sludge Wave", "Trick", "Toxic Spikes"] },
+    "Generic Bulky": { "ability": "Levitate", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Shadow Ball", "Sludge Wave", "Psychic", "Dazzling Gleam", "Energy Ball", "Focus Blast"] },
+	"Generic Offensive": { "ability": "Levitate", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Shadow Ball", "Sludge Wave", "Psychic", "Dazzling Gleam", "Energy Ball", "Focus Blast"] },
+  },
+  "Hypno": {
+    "Generic Bulky": { "ability": "Forewarn", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Psychic", "Psyshock", "Psychic Noise", "Shadow Ball", "Dazzling Gleam", "Future Sight"] },
+	"Generic Offensive": { "ability": "Forewarn", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Psychic", "Psyshock", "Psychic Noise", "Shadow Ball", "Dazzling Gleam", "Future Sight"] },
+  },
+  "Kingler": {
+    "Generic Bulky": { "ability": "Sheer Force", "item": "Life Orb", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Liquidation", "Rock Slide", "Stomping Tantrum", "Night Slash", "Super Power", "X-Scissor"] },
+	"Generic Offensive": { "ability": "Sheer Force", "item": "Life Orb", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Liquidation", "Rock Slide", "Stomping Tantrum", "Night Slash", "Super Power", "X-Scissor"] },
+  },
+  "Electrode": {
+    "Generic Bulky": { "ability": "Soundproof", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Explosion", "Foul Play", "Signal Beam", "Thunderbolt", "Volt Switch", "Thief"] },
+	"Generic Offensive": { "ability": "Soundproof", "item": "Heavy-Duty Boots", "nature": "Naive", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Explosion", "Foul Play", "Signal Beam", "Thunderbolt", "Volt Switch", "Thief"] },
   },
   "Electrode-Hisui": {
-    "PU Pivot": { "ability": "Aftermath", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Fire", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Volt Switch", "Thunderbolt", "Leaf Storm", "Taunt"] },
+    "Generic Bulky": { "ability": "Static", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Thunderbolt", "Volt Switch", "Leaf Storm", "Giga Drain", "Chloroblast", "Foul Play"] },
+	"Generic Offensive": { "ability": "Aftermath", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Thunderbolt", "Volt Switch", "Leaf Storm", "Giga Drain", "Chloroblast", "Foul Play"] },
   },
   "Exeggutor": {
-    "PU Choice Specs": { "ability": "Chlorophyll", "item": "Choice Specs", "nature": "Modest", "teraType": "Steel", "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Leaf Storm", "Psyshock", "Ancient Power", "Giga Drain"] }
+    "Generic Bulky": { "ability": "Chlorophyll", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Psyshock", "Sludge Bomb", "Leaf Storm", "Giga Drain", "Ancient Power", "Future Sight"] },
+	"Generic Offensive": { "ability": "Chlorophyll", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Psyshock", "Sludge Bomb", "Leaf Storm", "Giga Drain", "Ancient Power", "Future Sight"] },
   },
   "Exeggutor-Alola": {
-    "PU Choice Specs": { "ability": "Frisk", "item": "Choice Specs", "nature": "Modest", "teraType": "Steel", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Draco Meteor", "Leaf Storm", "Flamethrower", "Giga Drain"] },
-    "PU Eject Pack": { "ability": "Frisk", "item": "Eject Pack", "nature": "Modest", "teraType": "Steel", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Draco Meteor", "Leaf Storm", "Flamethrower", "Giga Drain"] },
-    "ZU Choice Specs": { "ability": "Frisk", "item": "Choice Specs", "nature": "Modest", "teraType": "Dragon", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Draco Meteor", "Leaf Storm", "Flamethrower", "Sludge Bomb"] },
-    "ZU Offensive Trick Room": { "ability": "Frisk", "item": "Eject Pack", "nature": "Quiet", "teraType": "Dragon", "ivs": { "at": 0, "sp": 0 }, "evs": { "hp": 252, "sa": 252, "sd": 4 }, "moves": ["Trick Room", "Draco Meteor", "Giga Drain", "Flamethrower"] },
-    "ZU Bulky Attacker": { "ability": "Frisk", "item": "Eject Pack", "nature": "Modest", "teraType": "Steel", "evs": { "hp": 248, "sa": 252, "sp": 8 }, "moves": ["Draco Meteor", "Giga Drain", "Knock Off", "Flamethrower"] }
+    "Generic Bulky": { "ability": "Harvest", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Draco Meteor", "Leaf Storm", "Flamethrower", "Sludge Bomb", "Giga Drain", "Psychic"] },
+	"Generic Offensive": { "ability": "Harvest", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Draco Meteor", "Leaf Storm", "Flamethrower", "Sludge Bomb", "Giga Drain", "Psychic"] },
+  },
+  "Marowak": {
+    "Generic Bulky": { "ability": "Rock Head", "item": "Thick Club", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Rock Slide", "Earthquake", "Throat Chop", "Double Edge", "Fire Punch", "Thunder Punch"] },
+	"Generic Offensive": { "ability": "Rock Head", "item": "Thick Club", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Rock Slide", "Earthquake", "Throat Chop", "Double Edge", "Fire Punch", "Thunder Punch"] },
+  },
+  "Marowak-Alola": {
+    "Generic Bulky": { "ability": "Rock Head", "item": "Thick Club", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Rock Slide", "Earthquake", "Flare Blitz", "Poltergeist", "Throat Chop", "Double Edge"] },
+	"Generic Offensive": { "ability": "Rock Head", "item": "Thick Club", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Rock Slide", "Earthquake", "Flare Blitz", "Poltergeist", "Throat Chop", "Double Edge"] },
   },
   "Hitmonlee": {
-    "NU Terrain Sweeper": { "ability": "Unburden", "item": "Grassy Seed", "nature": "Adamant", "teraType": "Dark", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Close Combat", "Knock Off", "Poison Jab"] },
-    "PU Terrain Sweeper": { "ability": "Unburden", "item": "Psychic Seed", "nature": "Adamant", "teraType": "Dark", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Close Combat", "Knock Off", "Stone Edge"] },
+    "Generic Bulky": { "ability": "Unburden", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Close Combat", "Stone Edge", "Earthquake", "Poison Jab", "High Jump Kick", "Mach Punch"] },
+	"Generic Offensive": { "ability": "Unburden", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Close Combat", "Stone Edge", "Earthquake", "Poison Jab", "High Jump Kick", "Mach Punch"] },
   },
   "Hitmonchan": {
-    "ZU Bulky Rapid Spin": { "ability": "Iron Fist", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Dark", "evs": { "hp": 248, "at": 16, "sd": 244 }, "moves": ["Drain Punch", "Knock Off", "Mach Punch", "Rapid Spin"] }
+    "Generic Bulky": { "ability": "Iron Fist", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Close Combat", "Rapid Spin", "Earthquake", "Poison Jab", "High Jump Kick", "Mach Punch"] },
+	"Generic Offensive": { "ability": "Iron Fist", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Close Combat", "Rapid Spin", "Earthquake", "Poison Jab", "High Jump Kick", "Mach Punch"] },
   },
-
+  "Lickitung": {
+    "Generic Bulky": { "ability": "Oblivious", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Body Slam", "Earthquake", "Knock Off", "Power Whip", "Dragon Tail", "Body Press"] },
+	"Generic Offensive": { "ability": "Oblivious", "item": "Eviolite", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Body Slam", "Earthquake", "Knock Off", "Power Whip", "Dragon Tail", "Body Press"] },
+  },
   "Weezing": {
-    "NU Physical Wall": { "ability": "Levitate", "item": "Rocky Helmet", "nature": "Bold", "teraType": "Steel", "evs": { "hp": 252, "df": 212, "sp": 44 }, "moves": ["Sludge Bomb", "Flamethrower", "Taunt", "Pain Split"] },
-    "ZU Physical Wall": { "ability": "Levitate", "item": "Rocky Helmet", "nature": "Bold", "teraType": "Steel", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 252, "sp": 4 }, "moves": ["Sludge Bomb", "Will-O-Wisp", "Pain Split", "Haze"] },
+    "Generic Bulky": { "ability": "Levitate", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Heat Wave", "Sludge Bomb", "Dark Pulse", "Venoshock", "Shadow Ball", "Thunderbolt"] },
+	"Generic Offensive": { "ability": "Levitate", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Heat Wave", "Sludge Bomb", "Dark Pulse", "Venoshock", "Shadow Ball", "Thunderbolt"] },
   },
   "Weezing-Galar": {
-    "OU Defensive": { "ability": "Neutralizing Gas", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Flying", "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Sludge Bomb", "Defog", "Pain Split", "Will-O-Wisp"] },
-    "National Dex Defensive": { "ability": "Neutralizing Gas", "item": "Black Sludge", "nature": "Bold", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Strange Steam", "Will-O-Wisp", "Pain Split", "Defog"] },
+    "Generic Bulky": { "ability": "Levitate", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Heat Wave", "Sludge Bomb", "Strange Steam", "Venoshock", "Shadow Ball", "Thunderbolt"] },
+	"Generic Offensive": { "ability": "Levitate", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Heat Wave", "Sludge Bomb", "Strange Steam", "Venoshock", "Shadow Ball", "Thunderbolt"] },
   },
   "Rhydon": {
-    "PU Stealth Rock": { "ability": "Lightning Rod", "item": "Eviolite", "nature": "Adamant", "teraType": "Poison", "evs": { "hp": 248, "at": 16, "sd": 200, "sp": 44 }, "moves": ["Stealth Rock", "Earthquake", "Stone Edge", "Swords Dance"] },
-    "PU Offensive Swords Dance": { "ability": "Lightning Rod", "item": "Eviolite", "nature": "Jolly", "teraType": "Poison", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Earthquake", "Stone Edge", "Rock Polish"] }
+    "Generic Bulky": { "ability": "Rock Head", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earthquake", "Stone Edge", "Drain Punch", "Hammer Arm", "Thunder Punch", "Smart Strike"] },
+	"Generic Offensive": { "ability": "Rock Head", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earthquake", "Stone Edge", "Drain Punch", "Hammer Arm", "Thunder Punch", "Smart Strike"] },
   },
   "Chansey": {
-    "OU Defensive": { "ability": "Natural Cure", "item": "Eviolite", "nature": "Bold", "teraType": "Ghost", "ivs": { "at": 0 }, "evs": { "hp": 248, "df": 252, "sd": 8 }, "moves": ["Stealth Rock", "Seismic Toss", "Soft-Boiled", "Thunder Wave"] },
-    "RU Defensive": { "ability": "Natural Cure", "item": "Eviolite", "nature": "Bold", "teraType": "Dark", "ivs": { "at": 0 }, "evs": { "hp": 56, "df": 252, "sd": 200 }, "moves": ["Seismic Toss", "Soft-Boiled", "Stealth Rock", "Thunder Wave"] },
-    "National Dex Little Pink Blob": { "ability": "Natural Cure", "item": "Eviolite", "nature": "Bold", "ivs": { "at": 0 }, "evs": { "hp": 248, "df": 252, "sd": 8 }, "moves": ["Seismic Toss", "Soft-Boiled", "Toxic", "Stealth Rock"] },
-    "National Dex Ubers Special Wall": { "ability": "Natural Cure", "item": "Eviolite", "nature": "Sassy", "teraType": "Grass", "ivs": { "at": 0, "sp": 0 }, "evs": { "hp": 8, "df": 252, "sd": 248 }, "moves": ["Aromatherapy", "Soft-Boiled", "Confide", "Seismic Toss"] },
-    "National Dex UU Pink Blob:2": { "ability": "Natural Cure", "item": "Eviolite", "nature": "Bold", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Seismic Toss", "Soft-Boiled", "Toxic", "Stealth Rock"] },
+    "Generic Bulky": { "ability": "Natural Cure", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Thunderbolt", "Ice Beam", "Flamethrower", "Dazzling Gleam", "Chilling Water", "Shadow Ball"] },
+	"Generic Offensive": { "ability": "Natural Cure", "item": "Eviolite", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Thunderbolt", "Ice Beam", "Flamethrower", "Dazzling Gleam", "Chilling Water", "Shadow Ball"] },
+  },
+  "Tangela": {
+    "Generic Bulky": { "ability": "Regenerator", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Leaf Storm", "Giga Drain", "Knock Off", "Sludge Bomb", "Ancient Power", "Energy Ball"] },
+	"Generic Offensive": { "ability": "Regenerator", "item": "Eviolite", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Leaf Storm", "Giga Drain", "Knock Off", "Sludge Bomb", "Ancient Power", "Energy Ball"] },
+  },
+  "Kangaskhan": {
+    "Generic Bulky": { "ability": "Scrappy", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Crunch", "Return", "Earthquake", "Sucker Punch", "Drain Punch", "Fake Out"] },
+	"Generic Offensive": { "ability": "Scrappy", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Crunch", "Return", "Earthquake", "Sucker Punch", "Drain Punch", "Fake Out"] },
+  },
+  "Seadra": {
+    "Generic Bulky": { "ability": "Poison Point", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Hydro Pump", "Surf", "Flip Turn", "Ice Beam", "Clear Smog", "Chilling Water"] },
+	"Generic Offensive": { "ability": "Poison Point", "item": "Eviolite", "nature": "Naive", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Hydro Pump", "Surf", "Flip Turn", "Ice Beam", "Clear Smog", "Chilling Water"] },
+  },
+  "Seaking": {
+    "Generic Bulky": { "ability": "Lightning Rod", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Aqua Tail", "Flip Turn", "Megahorn", "Drill Run", "Poison Jab", "Throat Chop"] },
+	"Generic Offensive": { "ability": "Lightning Rod", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Aqua Tail", "Flip Turn", "Megahorn", "Drill Run", "Poison Jab", "Throat Chop"] },
   },
   "Starmie": {
-    "National Dex RU Offensive": { "ability": "Analytic", "item": "Life Orb", "nature": "Timid", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Hydro Pump", "Ice Beam", "Thunderbolt", "Rapid Spin"] },
-    "National Dex RU Defensive": { "ability": "Natural Cure", "item": "Heavy-Duty Boots", "nature": "Timid", "evs": { "hp": 252, "sa": 4, "sp": 252 }, "moves": ["Scald", "Recover", "Teleport", "Rapid Spin"] }
+    "Generic Bulky": { "ability": "Natural Cure", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Thunderbolt", "Ice Beam", "Flip Turn", "Dazzling Gleam", "Psychic", "Rapid Spin"] },
+	"Generic Offensive": { "ability": "Natural Cure", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Thunderbolt", "Ice Beam", "Flip Turn", "Dazzling Gleam", "Psychic", "Rapid Spin"] },
+  },
+  "Mr. Mime": {
+    "Generic Bulky": { "ability": "Filter", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Psychic", "Psyshock", "Thunderbolt", "Shadow Ball", "Dazzling Gleam", "Mystical Fire"] },
+	"Generic Offensive": { "ability": "Filter", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Psychic", "Psyshock", "Thunderbolt", "Shadow Ball", "Dazzling Gleam", "Mystical Fire"] },
+  },
+  "Mr. Mime-Galar": {
+    "Generic Bulky": { "ability": "Screen Cleaner", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Psychic", "Psyshock", "Ice Beam", "Shadow Ball", "Dazzling Gleam", "Energy Ball"] },
+	"Generic Offensive": { "ability": "Screen Cleaner", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Psychic", "Psyshock", "Ice Beam", "Shadow Ball", "Dazzling Gleam", "Energy Ball"] },
   },
   "Scyther": {
-    "NU Swords Dance": { "ability": "Technician", "item": "Eviolite", "nature": "Jolly", "teraType": "Electric", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Dual Wingbeat", "Close Combat", "Trailblaze"] },
-    "NU Offensive Pivot": { "ability": "Technician", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Electric", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["U-turn", "Dual Wingbeat", "Close Combat", "Swords Dance"] }
+   "Generic Bulky": { "ability": "Technician", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Dual Wingbeat", "Close Combat", "Trailblaze", "U-turn", "X-Scissor", "Night Slash"] },
+	"Generic Offensive": { "ability": "Technician", "item": "Eviolite", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Dual Wingbeat", "Close Combat", "Trailblaze", "U-turn", "X-Scissor", "Night Slash"] },
+  },
+  "Jynx": {
+    "Generic Bulky": { "ability": "Dry Skin", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Psychic", "Psyshock", "Ice Beam", "Shadow Ball", "Focus Blast", "Energy Ball"] },
+	"Generic Offensive": { "ability": "Dry Skin", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Psychic", "Psyshock", "Ice Beam", "Shadow Ball", "Focus Blast", "Energy Ball"] },
+  },
+  "Electabuzz": {
+    "Generic Bulky": { "ability": "Static", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Thunderbolt", "Volt Switch", "Psychic", "Signal Beam", "Focus Blast", "Ice Punch"] },
+	"Generic Offensive": { "ability": "Static", "item": "Eviolite", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Thunderbolt", "Volt Switch", "Psychic", "Signal Beam", "Focus Blast", "Ice Punch"] },
+  },
+  "Magmar": {
+    "Generic Bulky": { "ability": "Flame Body", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Heat Wave", "Overheat", "Psychic", "Scorching Sands", "Focus Blast", "Lava Plume"] },
+	"Generic Offensive": { "ability": "Flame Body", "item": "Eviolite", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Heat Wave", "Overheat", "Psychic", "Scorching Sands", "Focus Blast", "Lava Plume"] },
+  },
+  "Pinsir": {
+    "Generic Bulky": { "ability": "Mold Breaker", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Lunge", "Close Combat", "Earthquake", "Rock Slide", "Throat Chop", "Quick Attack"] },
+	"Generic Offensive": { "ability": "Mold Breaker", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Lunge", "Close Combat", "Earthquake", "Rock Slide", "Throat Chop", "Quick Attack"] },
   },
   "Tauros": {
-    "PU All-Out-Attacker": { "ability": "Sheer Force", "item": "Life Orb", "nature": "Jolly", "teraType": "Ghost", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Body Slam", "Throat Chop", "Close Combat", "Iron Head"] },
-    "ZU All-Out Attacker": { "ability": "Sheer Force", "item": "Life Orb", "nature": "Jolly", "teraType": "Dark", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Body Slam", "Close Combat", "Throat Chop", "Substitute"] }
+    "Generic Bulky": { "ability": "Sheer Force", "item": "Life Orb", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Body Slam", "Rock Slide", "Earthquake", "Flamethrower", "Wild Charge", "Zen Headbutt"] },
+	"Generic Offensive": { "ability": "Sheer Force", "item": "Life Orb", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Body Slam", "Rock Slide", "Earthquake", "Flamethrower", "Wild Charge", "Zen Headbutt"] },
+  },
+  "Tauros-Paldea-Combat": {
+    "Generic Bulky": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Close Combat", "Stone Edge", "Earthquake", "Throat Chop", "Iron Head", "Body Press"] },
+	"Generic Offensive": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Close Combat", "Stone Edge", "Earthquake", "Throat Chop", "Iron Head", "Body Press"] },
   },
   "Tauros-Paldea-Blaze": {
-    "NU Bulk Up": { "ability": "Intimidate", "item": "Leftovers", "nature": "Jolly", "teraType": "Grass", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Bulk Up", "Flare Blitz", "Close Combat", "Trailblaze"] },
-    "NU Choice Item": { "ability": "Intimidate", "item": "Choice Band", "nature": "Jolly", "teraType": "Fighting", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Close Combat", "Flare Blitz", "Earthquake", "Stone Edge"] },
-    "PU Bulk Up": { "ability": "Intimidate", "item": "Leftovers", "nature": "Jolly", "teraType": "Grass", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Bulk Up", "Close Combat", "Flare Blitz", "Trailblaze"] },
-    "PU Choice Item": { "ability": "Intimidate", "item": "Choice Scarf", "nature": "Jolly", "teraType": "Fighting", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Close Combat", "Flare Blitz", "Earthquake", "Stone Edge"] },
+    "Generic Bulky": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Close Combat", "Rock Slide", "Earthquake", "Flare Blitz", "Wild Charge", "Zen Headbutt"] },
+	"Generic Offensive": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Close Combat", "Rock Slide", "Earthquake", "Flare Blitz", "Wild Charge", "Zen Headbutt"] },
   },
   "Tauros-Paldea-Aqua": {
-    "NU Choice Item": { "ability": "Intimidate", "item": "Choice Band", "nature": "Jolly", "teraType": "Water", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Wave Crash", "Close Combat", "Aqua Jet", "Zen Headbutt"] },
-    "NU Bulk Up": { "ability": "Intimidate", "item": "Leftovers", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Bulk Up", "Wave Crash", "Close Combat", "Aqua Jet"] },
+    "Generic Bulky": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Close Combat", "Rock Slide", "Earthquake", "Wave Crash", "Wild Charge", "Zen Headbutt"] },
+	"Generic Offensive": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Close Combat", "Rock Slide", "Earthquake", "Wave Crash", "Wild Charge", "Zen Headbutt"] },
   },
   "Gyarados": {
-    "UU Dragon Dance": { "ability": "Moxie", "item": "Leftovers", "nature": "Adamant", "teraType": "Dragon", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Dragon Dance", "Waterfall", "Scale Shot", "Substitute"] },
+    "Generic Bulky": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Temper Flare", "Stone Edge", "Earthquake", "Waterfall", "Power Whip", "Outrage"] },
+	"Generic Offensive": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Temper Flare", "Stone Edge", "Earthquake", "Waterfall", "Power Whip", "Outrage"] },
   },
   "Gyarados-Mega": {
-    "National Dex Dragon Dance": { "ability": "Mold Breaker", "item": "Gyaradosite", "nature": "Jolly", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Dragon Dance", "Waterfall", "Crunch", "Substitute"] },
+    "Generic Bulky": { "ability": "Mold Breaker", "item": "Gyaradosite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Temper Flare", "Stone Edge", "Earthquake", "Waterfall", "Power Whip", "Crunch"] },
+	"Generic Offensive": { "ability": "Mold Breaker", "item": "Gyaradosite", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Temper Flare", "Stone Edge", "Earthquake", "Waterfall", "Power Whip", "Crunch"] },
   },
   "Lapras": {
-    "ZU Special Tank": { "ability": "Water Absorb", "item": "Heavy-Duty Boots", "nature": "Modest", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "df": 196, "sa": 252, "sp": 60 }, "moves": ["Freeze-Dry", "Hydro Pump", "Alluring Voice", "Ice Beam"] },
-    "NU Showdown Usage": { "ability": "Water Absorb", "item": "Leftovers", "nature": "Bold", "teraType": "Dragon", "evs": { "hp": 248, "df": 252, "sp": 8 }, "moves": ["Freeze-Dry", "Ice Shard", "Perish Song", "Protect"] },
-    "PU Showdown Usage": { "ability": "Water Absorb", "item": "Leftovers", "nature": "Calm", "teraType": "Fairy", "evs": { "hp": 252, "df": 160, "sd": 96 }, "moves": ["Freeze-Dry", "Perish Song", "Protect", "Whirlpool"] }
-  },
-  "Ditto": {
-    "OU Choice Scarf": { "ability": "Imposter", "item": "Choice Scarf", "nature": "Quiet", "teraType": "Ghost", "ivs": { "sp": 0 }, "evs": { "hp": 248, "at": 8, "sa": 252 }, "moves": ["Transform"] },
-    "Ubers Choice Scarf": { "ability": "Imposter", "item": "Choice Scarf", "nature": "Relaxed", "teraType": "Fairy", "ivs": { "sp": 0 }, "evs": { "hp": 252, "at": 4, "df": 252 }, "moves": ["Transform"] },
-    "RU Imposter": { "ability": "Imposter", "item": "Choice Scarf", "nature": "Quiet", "teraType": "Steel", "ivs": { "sp": 0 }, "evs": { "hp": 248, "df": 8, "sa": 252 }, "moves": ["Transform"] },
-    "NU Among Us (Imposter)": { "ability": "Imposter", "item": "Choice Scarf", "nature": "Relaxed", "teraType": "Steel", "ivs": { "sp": 0 }, "evs": { "hp": 248, "df": 252, "sd": 8 }, "moves": ["Transform"] },
-    "PU Choice Scarf": { "ability": "Imposter", "item": "Choice Scarf", "nature": "Relaxed", "teraType": "Ghost", "evs": { "hp": 248, "df": 252, "sd": 8 }, "moves": ["Transform"] },
-    "National Dex Ubers Choice Scarf": { "ability": "Imposter", "item": "Choice Scarf", "nature": "Relaxed", "teraType": "Ghost", "ivs": { "sp": 0 }, "evs": { "hp": 248, "at": 8, "df": 252 }, "moves": ["Transform"] },
-    "National Dex RU Choice Scarf": { "ability": "Imposter", "item": "Choice Scarf", "nature": "Relaxed", "ivs": { "sp": 0 }, "evs": { "hp": 248, "at": 8, "df": 252 }, "moves": ["Transform"] },
-    "ZU Revenge Killer": { "ability": "Imposter", "item": "Choice Scarf", "nature": "Relaxed", "teraType": "Steel", "ivs": { "sp": 0 }, "evs": { "hp": 248, "df": 252, "sd": 8 }, "moves": ["Transform"] },
+    "Generic Bulky": { "ability": "Water Absorb", "item": "Loaded Dice", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Icicle Spear", "Liquidation", "Earthquake", "Freeze-Dry", "Alluring Voice", "Ice Beam"] },
+	"Generic Offensive": { "ability": "Water Absorb", "item": "Loaded Dice", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Icicle Spear", "Liquidation", "Earthquake", "Freeze-Dry", "Alluring Voice", "Ice Beam"] },
   },
   "Vaporeon": {
-    "RU Defensive": { "ability": "Water Absorb", "item": "Leftovers", "nature": "Bold", "teraType": "Poison", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Scald", "Haze", "Wish", "Protect"] },
-    "NU Wish Passer": { "ability": "Water Absorb", "item": "Leftovers", "nature": "Bold", "teraType": "Poison", "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Scald", "Wish", "Protect", "Flip Turn"] },
-    "UU Showdown Usage": { "ability": "Water Absorb", "item": "Leftovers", "nature": "Calm", "teraType": "Ghost", "evs": { "hp": 252, "df": 172, "sd": 84 }, "moves": ["Wish", "Scald", "Protect", "Haze"] },
+    "Generic Bulky": { "ability": "Water Absorb", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Surf", "Ice Beam", "Flip Turn", "Alluring Voice", "Hydro Pump", "Hyper Voice"] },
+	"Generic Offensive": { "ability": "Water Absorb", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Surf", "Ice Beam", "Flip Turn", "Alluring Voice", "Hydro Pump", "Hyper Voice"] },
   },
   "Jolteon": {
-    "PU Calm Mind": { "ability": "Volt Absorb", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Calm Mind", "Thunderbolt", "Volt Switch", "Alluring Voice"] },
-    "ZU Calm Mind": { "ability": "Volt Absorb", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Fairy", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Calm Mind", "Thunderbolt", "Volt Switch", "Alluring Voice"] },
-    "ZU Choice Specs": { "ability": "Volt Absorb", "item": "Choice Specs", "nature": "Timid", "teraType": "Fairy", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Thunderbolt", "Volt Switch", "Alluring Voice", "Shadow Ball"] }
+    "Generic Bulky": { "ability": "Volt Absorb", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Thunderbolt", "Volt Switch", "Shadow Ball", "Alluring Voice", "Discharge", "Hyper Voice"] },
+	"Generic Offensive": { "ability": "Volt Absorb", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Thunderbolt", "Volt Switch", "Shadow Ball", "Alluring Voice", "Discharge", "Hyper Voice"] },
+  },
+  "Flareon": {
+    "Generic Bulky": { "ability": "Flash Fire", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Lava Plume", "Scorching Sands", "Overheat", "Heat Wave", "Alluring Voice", "Flare Blitz"] },
+	"Generic Offensive": { "ability": "Guts", "item": "Toxic Orb", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Flare Blitz", "Superpower", "Facade", "Trailblaze", "Quick Attack", "Iron Tail"] },
+  },
+  "Porygon": {
+    "Generic Bulky": { "ability": "Trace", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Tri Attack", "Thunderbolt", "Ice Beam", "Shadow Ball", "Flash Cannon", "Psychic"] },
+	"Generic Offensive": { "ability": "Analytic", "item": "Eviolite", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Tri Attack", "Thunderbolt", "Ice Beam", "Shadow Ball", "Flash Cannon", "Psychic"] },
+  },
+  "Omastar": {
+    "Generic Bulky": { "ability": "Weak Armor", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Hydro Pump", "Earth Power", "Ancient Power", "Ice Beam", "Surf", "Meteor Beam"] },
+	"Generic Offensive": { "ability": "Weak Armor", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Hydro Pump", "Earth Power", "Ancient Power", "Ice Beam", "Surf", "Meteor Beam"] },
+  },
+  "Kabutops": {
+    "Generic Bulky": { "ability": "Weak Armor", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Liquidation", "Stone Edge", "Aqua Jet", "Rapid Spin", "Psycho Cut", "Flip Turn"] },
+	"Generic Offensive": { "ability": "Weak Armor", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Liquidation", "Stone Edge", "Aqua Jet", "Rapid Spin", "Psycho Cut", "Flip Turn"] },
+  },
+  "Aerodactyl": {
+    "Generic Bulky": { "ability": "Unnerve", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Liquidation", "Stone Edge", "Aqua Jet", "Rapid Spin", "Psycho Cut", "Flip Turn"] },
+	"Generic Offensive": { "ability": "Unnerve", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Rock Slide", "Stone Edge", "Dual Wingbeat", "Earthquake", "Aqua Tail", "Crunch"] },
   },
   "Aerodactyl-Mega": {
-   "Generic Bulky": { "ability": "Tough Claws", "item": "Aerodactylite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Dual Wingbeat", "Rock Slide", "Stone Edge", "Earthquake", "Pursuit", "Psychic Fangs"] },
-   "Generic Offensive": { "ability": "Tough Claws", "item": "Aerodactylite", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Dual Wingbeat", "Rock Slide", "Stone Edge", "Earthquake", "Pursuit", "Psychic Fangs"] },
+    "Generic Bulky": { "ability": "Tough Claws", "item": "Aerodactylite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Dual Wingbeat", "Rock Slide", "Earthquake", "Pursuit", "Ice Fang", "Psychic Fangs"] },
+	"Generic Offensive": { "ability": "Tough Claws", "item": "Aerodactylite", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Dual Wingbeat", "Rock Slide", "Earthquake", "Pursuit", "Ice Fang", "Psychic Fangs"] },
   },
   "Snorlax": {
-    "NU CurseLax": { "ability": "Thick Fat", "item": "Leftovers", "nature": "Careful", "teraType": "Fairy", "evs": { "hp": 12, "df": 244, "sd": 252 }, "moves": ["Curse", "Body Slam", "Crunch", "Rest"] },
-    "PU Curse": { "ability": "Thick Fat", "item": "Leftovers", "nature": "Careful", "teraType": "Fairy", "evs": { "hp": 12, "df": 244, "sd": 252 }, "moves": ["Curse", "Body Slam", "Heat Crash", "Rest"] },
-    "ZU CurseLax": { "ability": "Thick Fat", "item": "Leftovers", "nature": "Careful", "teraType": "Fairy", "evs": { "hp": 252, "sd": 252, "sp": 4 }, "moves": ["Curse", "Body Slam", "Heat Crash", "Rest"] },
+    "Generic Bulky": { "ability": "Immunity", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Body Slam", "Earthquake", "Fire Punch", "Gunk Shot", "Ice Punch", "Superpower"] },
+	"Generic Offensive": { "ability": "Immunity", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Body Slam", "Earthquake", "Fire Punch", "Gunk Shot", "Ice Punch", "Superpower"] },
   },
   "Articuno": {
-    "PU Special Wall": { "ability": "Pressure", "item": "Heavy-Duty Boots", "nature": "Calm", "teraType": "Steel", "evs": { "hp": 248, "sd": 244, "sp": 16 }, "moves": ["Roost", "Freeze-Dry", "U-turn", "Haze"] },
-    "ZU Special Wall": { "ability": "Pressure", "item": "Heavy-Duty Boots", "nature": "Calm", "teraType": "Dragon", "evs": { "hp": 248, "df": 8, "sd": 252 }, "moves": ["Roost", "Freeze-Dry", "U-turn", "Haze"] },
+    "Generic Bulky": { "ability": "Pressure", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Air Slash", "Freeze Dry", "Hurricane", "Ice Beam", "Extrasensory", "Blizzard"] },
+	"Generic Offensive": { "ability": "Pressure", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Air Slash", "Freeze Dry", "Hurricane", "Ice Beam", "Extrasensory", "Blizzard"] },
   },
   "Articuno-Galar": {
-    "NU Calm Mind": { "ability": "Competitive", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Calm Mind", "Recover", "Hurricane", "Freezing Glare"] },
-    "NU Future Sight Pivot": { "ability": "Competitive", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Fairy", "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Future Sight", "Hurricane", "U-turn", "Recover"] }
+    "Generic Bulky": { "ability": "Competitive", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Air Slash", "Freezing Glare", "Hurricane", "Shadow Ball", "Future Sight", "Ancient Power"] },
+	"Generic Offensive": { "ability": "Competitive", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Air Slash", "Freezing Glare", "Hurricane", "Shadow Ball", "Future Sight", "Ancient Power"] },
   },
   "Zapdos": {
-   "Generic Bulky": { "ability": "Static", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Hurricane", "Volt Switch", "Thunderbolt", "Heat Wave", "Air Slash", "Thunder"] },
-   "Generic Offensive": { "ability": "Static", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Hurricane", "Volt Switch", "Thunderbolt", "Heat Wave", "Air Slash", "Thunder"] },
+    "Generic Bulky": { "ability": "Static", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Air Slash", "Thunderbolt", "Hurricane", "Volt Switch", "Heat Wave", "Ancient Power"] },
+	"Generic Offensive": { "ability": "Static", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Air Slash", "Thunderbolt", "Hurricane", "Volt Switch", "Heat Wave", "Ancient Power"] },
   },
   "Zapdos-Galar": {
-    "UU Pivot": { "ability": "Defiant", "item": "Choice Scarf", "nature": "Jolly", "teraType": "Fighting", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Brave Bird", "Close Combat", "Knock Off", "U-turn"] },
+    "Generic Bulky": { "ability": "Defiant", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Close Combat", "Brave Bird", "Thunderous Kick", "U-turn", "Blaze Kick", "Throat Chop"] },
+	"Generic Offensive": { "ability": "Defiant", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Close Combat", "Brave Bird", "Thunderous Kick", "U-turn", "Blaze Kick", "Throat Chop"] },
   },
   "Moltres": {
-    "OU Defensive": { "ability": "Flame Body", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Fairy", "evs": { "hp": 248, "df": 248, "sp": 12 }, "moves": ["Flamethrower", "Roost", "U-turn", "Roar"] },
-    "National Dex Defensive": { "ability": "Flame Body", "item": "Heavy-Duty Boots", "nature": "Bold", "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Flamethrower", "U-turn", "Hurricane", "Roost"] },
-    "Ubers UU Physically Defensive": { "ability": "Flame Body", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Steel", "evs": { "hp": 248, "df": 248, "sd": 8 }, "moves": ["Flamethrower", "Will-O-Wisp", "U-turn", "Roost"] },
+    "Generic Bulky": { "ability": "Flame Body", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Air Slash", "Heat Wave", "Hurricane", "U-turn", "Overheat", "Ancient Power"] },
+	"Generic Offensive": { "ability": "Flame Body", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Air Slash", "Heat Wave", "Hurricane", "U-turn", "Overheat", "Ancient Power"] },
   },
   "Moltres-Galar": {
-    "OU Nasty Plot": { "ability": "Berserk", "item": "Sitrus Berry", "nature": "Modest", "teraType": "Ghost", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Nasty Plot", "Fiery Wrath", "Hurricane", "Agility"] },
-    "National Dex UU Nasty Plot": { "ability": "Berserk", "item": "Flyinium Z", "nature": "Modest", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Nasty Plot", "Agility", "Fiery Wrath", "Hurricane"] },
+    "Generic Bulky": { "ability": "Berserk", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Air Slash", "Fiery Wrath", "Hurricane", "U-turn", "Dark Pulse", "Ancient Power"] },
+	"Generic Offensive": { "ability": "Berserk", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Air Slash", "Fiery Wrath", "Hurricane", "U-turn", "Dark Pulse", "Ancient Power"] },
   },
-
+  "Dragonair": {
+    "Generic Bulky": { "ability": "Marvel Scale", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Draco Meteor", "Thunderbolt", "Ice Beam", "Extreme Speed", "Flamethrower", "Dragon Tail"] },
+	"Generic Offensive": { "ability": "Marvel Scale", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Draco Meteor", "Thunderbolt", "Ice Beam", "Extreme Speed", "Flamethrower", "Dragon Tail"] },
+  },
   "Dragonite": {
-   "Generic Bulky": { "ability": "Multiscale", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Extreme Speed", "Ice Spinner", "Earthquake", "Fire Punch", "Draco Meteor", "Hurricane"] },
-   "Generic Offensive": { "ability": "Multiscale", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Extreme Speed", "Ice Spinner", "Earthquake", "Fire Punch", "Draco Meteor", "Hurricane"] },
-  },
-  "Mewtwo": {
-    "Ubers Nasty Plot": { "ability": "Pressure", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Nasty Plot", "Psystrike", "Grass Knot", "Taunt"] },
-    "Ubers Choice Specs": { "ability": "Pressure", "item": "Choice Specs", "nature": "Timid", "teraType": "Fire", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Psystrike", "Ice Beam", "Flamethrower", "Grass Knot"] },
-    "National Dex Ubers Tera Fairy Wallbreaker": { "ability": "Pressure", "item": "Life Orb", "nature": "Timid", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "hp": 4, "sa": 252, "sp": 252 }, "moves": ["Nasty Plot", "Psystrike", "Tera Blast", "Earth Power"] },
-    "Ubers UU 2A Nasty Plot": { "ability": "Pressure", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Fighting", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Psystrike", "Focus Blast", "Recover", "Nasty Plot"] },
-    "Ubers UU 3A Nasty Plot": { "ability": "Pressure", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Fighting", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Psystrike", "Focus Blast", "Fire Blast", "Nasty Plot"] },
-    "Ubers UU Support": { "ability": "Pressure", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "hp": 252, "sd": 4, "sp": 252 }, "moves": ["Psystrike", "Knock Off", "Will-O-Wisp", "Recover"] }
-  },
-  "Mewtwo-Mega-Y": {
-    "National Dex Ubers Mega Y Wallbreaker": { "ability": "Insomnia", "item": "Mewtwonite Y", "nature": "Timid", "teraType": "Psychic", "ivs": { "at": 0 }, "evs": { "df": 88, "sa": 204, "sp": 216 }, "moves": ["Nasty Plot", "Psystrike", "Fire Blast", "Ice Beam"] }
+    "Generic Bulky": { "ability": "Multiscale", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Extreme Speed", "Ice Spinner", "Earthquake", "Fire Punch", "Draco Meteor", "Hurricane"] },
+    "Generic Offensive": { "ability": "Multiscale", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Extreme Speed", "Ice Spinner", "Earthquake", "Fire Punch", "Draco Meteor", "Hurricane"] },
   },
   "Mew": {
-   "Generic Bulky": { "ability": "Synchronize", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Psychic Fangs", "Play Rough", "Flare Blitz", "Psychic", "Shadow Ball", "Sludge Wave"] },
-   "Generic Offensive": { "ability": "Synchronize", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Psychic Fangs", "Play Rough", "Flare Blitz", "Psychic", "Shadow Ball", "Sludge Wave"] },
+    "Generic Bulky": { "ability": "Synchronize", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Psychic Fangs", "Play Rough", "Flare Blitz", "Psychic", "Shadow Ball", "Sludge Wave"] },
+    "Generic Offensive": { "ability": "Synchronize", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Psychic Fangs", "Play Rough", "Flare Blitz", "Psychic", "Shadow Ball", "Sludge Wave"] },
+  },
+  "Meganium": {
+    "Generic Bulky": { "ability": "Overgrow", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Leaf Storm", "Energy Ball", "Giga Drain", "Earth Power", "Body Press", "Earthquake"] },
+    "Generic Offensive": { "ability": "Overgrow", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Leaf Storm", "Energy Ball", "Giga Drain", "Earth Power", "Earthquake", "Dazzling Gleam"] },
   },
   "Typhlosion": {
-    "ZU Choice Specs": { "ability": "Flash Fire", "item": "Choice Specs", "nature": "Timid", "teraType": "Fire", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Eruption", "Fire Blast", "Focus Blast", "Scorching Sands"] },
-    "ZU Choice Scarf": { "ability": "Flash Fire", "item": "Choice Scarf", "nature": "Timid", "teraType": "Fire", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Eruption", "Fire Blast", "Focus Blast", "Scorching Sands"] }
+    "Generic Bulky": { "ability": "Flash Fire", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Eruption", "Overheat", "Heat Wave", "Focus Blast", "Shadow Ball", "Scorching Sands"] },
+    "Generic Offensive": { "ability": "Blaze", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Eruption", "Overheat", "Heat Wave", "Focus Blast", "Shadow Ball", "Scorching Sands"] },
   },
   "Typhlosion-Hisui": {
-    "NU All-out Attacker": { "ability": "Frisk", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Fighting", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Eruption", "Flamethrower", "Shadow Ball", "Focus Blast"] },
-    "NU Choice Scarf": { "ability": "Frisk", "item": "Choice Scarf", "nature": "Timid", "teraType": "Fire", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Eruption", "Fire Blast", "Shadow Ball", "Focus Blast"] },
-    "PU Heavy-Duty Boots": { "ability": "Blaze", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Fire", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Eruption", "Lava Plume", "Infernal Parade", "Focus Blast"] },
-    "PU Choice Item": { "ability": "Blaze", "item": "Choice Scarf", "nature": "Timid", "teraType": "Fire", "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Eruption", "Fire Blast", "Shadow Ball", "Focus Blast"] },
-    "PU Substitute + Calm Mind": { "ability": "Blaze", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Fairy", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Substitute", "Calm Mind", "Infernal Parade", "Flamethrower"] },
-    "National Dex RU Calm Mind": { "ability": "Blaze", "item": "Leftovers", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Calm Mind", "Infernal Parade", "Flamethrower", "Substitute"] },
-    "National Dex RU Choice Scarf": { "ability": "Frisk", "item": "Choice Scarf", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Eruption", "Fire Blast", "Shadow Ball", "Focus Blast"] },
-    "National Dex RU Choice Specs": { "ability": "Frisk", "item": "Choice Specs", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Eruption", "Fire Blast", "Shadow Ball", "Focus Blast"] },
+    "Generic Bulky": { "ability": "Frisk", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Eruption", "Overheat", "Heat Wave", "Focus Blast", "Shadow Ball", "Scorching Sands"] },
+    "Generic Offensive": { "ability": "Blaze", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Eruption", "Overheat", "Heat Wave", "Focus Blast", "Shadow Ball", "Scorching Sands"] },
   },
   "Feraligatr": {
-    "RU Setup Sweeper": { "ability": "Sheer Force", "item": "Life Orb", "nature": "Jolly", "teraType": "Dark", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Aqua Jet", "Ice Punch", "Crunch"] }
+    "Generic Bulky": { "ability": "Sheer Force", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Liquidation", "Ice Punch", "Crunch", "Earthquake", "Aqua Jet", "Rock Slide"] },
+    "Generic Offensive": { "ability": "Sheer Force", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Liquidation", "Ice Punch", "Crunch", "Earthquake", "Aqua Jet", "Rock Slide"] },
   },
   "Crobat": {
-    "National Dex RU Utility": { "ability": "Inner Focus", "item": "Heavy-Duty Boots", "nature": "Jolly", "evs": { "hp": 252, "df": 40, "sp": 216 }, "moves": ["Brave Bird", "Roost", "U-turn", "Defog"] },
+    "Generic Bulky": { "ability": "Infiltrator", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["U-turn", "Brave Bird", "Dual Wingbeat", "Heat Wave", "Poison Fang", "Sludge Bomb"] },
+    "Generic Offensive": { "ability": "Infiltrator", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["U-turn", "Brave Bird", "Dual Wingbeat", "Heat Wave", "Poison Fang", "Sludge Bomb"] },
   },
   "Lanturn": {
-    "PU RestTalk": { "ability": "Water Absorb", "item": "Heavy-Duty Boots", "nature": "Calm", "teraType": "Fairy", "evs": { "hp": 216, "sd": 252, "sp": 40 }, "moves": ["Scald", "Volt Switch", "Rest", "Sleep Talk"] },
-    "ZU Defensive Pivot": { "ability": "Volt Absorb", "item": "Heavy-Duty Boots", "nature": "Calm", "teraType": "Dragon", "evs": { "hp": 252, "df": 4, "sd": 252 }, "moves": ["Volt Switch", "Scald", "Rest", "Sleep Talk"] }
+    "Generic Bulky": { "ability": "Volt Absorb", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Volt Switch", "Hydro Pump", "Flip Turn", "Discharge", "Thunderbolt", "Signal Beam"] },
+    "Generic Offensive": { "ability": "Volt Absorb", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Volt Switch", "Hydro Pump", "Flip Turn", "Discharge", "Thunderbolt", "Signal Beam"] },
+  },
+  "Xatu": {
+    "Generic Bulky": { "ability": "Magic Bounce", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Air Slash", "Psychic", "Heat Wave", "Grass Knot", "Shadow Ball", "U-turn"] },
+    "Generic Offensive": { "ability": "Magic Bounce", "item": "Heavy-Duty Boots", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Air Slash", "Psychic", "Heat Wave", "Grass Knot", "Shadow Ball", "U-turn"] },
+  },
+  "Ampharos": {
+    "Generic Bulky": { "ability": "Static", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Volt Switch", "Focus Blast", "Meteor Beam", "Signal Beam", "Thunderbolt", "Power Gem"] },
+    "Generic Offensive": { "ability": "Static", "item": "Heavy-Duty Boots", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Volt Switch", "Focus Blast", "Meteor Beam", "Signal Beam", "Thunderbolt", "Power Gem"] },
+  },
+  "Ampharos-Mega": {
+    "Generic Bulky": { "ability": "Mold Breaker", "item": "Ampharosite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Volt Switch", "Focus Blast", "Dragon Pulse", "Signal Beam", "Thunderbolt", "Power Gem"] },
+    "Generic Offensive": { "ability": "Mold Breaker", "item": "Ampharosite", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Volt Switch", "Focus Blast", "Dragon Pulse", "Signal Beam", "Thunderbolt", "Power Gem"] },
+  },
+  "Bellossom": {
+    "Generic Bulky": { "ability": "Chlorophyll", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Leaf Storm", "Weather Ball", "Sludge Bomb", "Moonblast", "Energy Ball", "Triple Axel"] },
+    "Generic Offensive": { "ability": "Chlorophyll", "item": "Heavy-Duty Boots", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Leaf Storm", "Weather Ball", "Sludge Bomb", "Moonblast", "Energy Ball", "Triple Axel"] },
   },
   "Azumarill": {
-    "UU Belly Drum": { "ability": "Huge Power", "item": "Sitrus Berry", "nature": "Adamant", "teraType": "Steel", "evs": { "hp": 4, "at": 252, "sp": 252 }, "moves": ["Belly Drum", "Play Rough", "Liquidation", "Aqua Jet"] },
-    "National Dex UU Belly Drum": { "ability": "Huge Power", "item": "Normalium Z", "nature": "Adamant", "evs": { "hp": 4, "at": 252, "sp": 252 }, "moves": ["Belly Drum", "Aqua Jet", "Play Rough", "Knock Off"] },
-    "National Dex UU Choice Band": { "ability": "Huge Power", "item": "Choice Band", "nature": "Adamant", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Liquidation", "Play Rough", "Aqua Jet", "Knock Off"] },
+    "Generic Bulky": { "ability": "Huge Power", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Aqua Tail", "Play Rough", "Aqua Jet", "Superpower", "Ice Spinner", "Return"] },
+    "Generic Offensive": { "ability": "Huge Power", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Aqua Tail", "Play Rough", "Aqua Jet", "Superpower", "Ice Spinner", "Return"] },
   },
   "Politoed": {
-    "UU Rain Setter": { "ability": "Drizzle", "item": "Damp Rock", "nature": "Calm", "teraType": "Grass", "evs": { "hp": 252, "sd": 156, "sp": 100 }, "moves": ["Surf", "Ice Beam", "Tera Blast", "Encore"] },
-    "RU Perish Trapper": { "ability": "Drizzle", "item": "Damp Rock", "nature": "Timid", "teraType": "Ghost", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 80, "sp": 176 }, "moves": ["Whirlpool", "Perish Song", "Ice Beam", "Encore"] },
+    "Generic Bulky": { "ability": "Primordial Sea", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Hydro Pump", "Weather Ball", "Ice Beam", "Earth Power", "Focus Blast", "Psychic"] },
+    "Generic Offensive": { "ability": "Primordial Sea", "item": "Heavy-Duty Boots", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Hydro Pump", "Weather Ball", "Ice Beam", "Earth Power", "Focus Blast", "Psychic"] },
+  },
+  "Jumpluff": {
+    "Generic Bulky": { "ability": "Infiltrator", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Leaf Storm", "Acrobatics", "U-Turn", "Energy Ball", "Seed Bomb", "Lunge"] },
+    "Generic Offensive": { "ability": "Infiltrator", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Leaf Storm", "Acrobatics", "U-Turn", "Energy Ball", "Seed Bomb", "Lunge"] },
   },
   "Quagsire": {
-    "OU Defensive": { "ability": "Unaware", "item": "Leftovers", "nature": "Impish", "teraType": "Fairy", "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Stealth Rock", "Earthquake", "Recover", "Toxic"] },
-    "UU Unaware Wall": { "ability": "Unaware", "item": "Heavy-Duty Boots", "nature": "Impish", "teraType": "Fairy", "evs": { "hp": 252, "at": 4, "df": 252 }, "moves": ["Earthquake", "Toxic", "Haze", "Recover"] },
-    "RU Spikes": { "ability": "Unaware", "item": "Heavy-Duty Boots", "nature": "Impish", "teraType": "Poison", "evs": { "hp": 252, "at": 4, "df": 252 }, "moves": ["Spikes", "Earthquake", "Toxic", "Recover"] },
-    "Ubers UU Unaware Wall": { "ability": "Unaware", "item": "Heavy-Duty Boots", "nature": "Impish", "teraType": "Poison", "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Spikes", "Toxic", "Earthquake", "Recover"] },
+    "Generic Bulky": { "ability": "Water Absorb", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earthquake", "Body Press", "Aqua Tail", "Ice Punch", "Stone Edge", "Seismic Toss"] },
+    "Generic Offensive": { "ability": "Water Absorb", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earthquake", "Drain Punch", "Aqua Tail", "Ice Punch", "Stone Edge", "Return"] },
   },
   "Espeon": {
-    "RU Choice Specs": { "ability": "Magic Bounce", "item": "Choice Specs", "nature": "Timid", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Psyshock", "Shadow Ball", "Alluring Voice", "Trick"] },
-    "RU Calm Mind": { "ability": "Magic Bounce", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Calm Mind", "Psyshock", "Draining Kiss", "Shadow Ball"] },
-    "RU Choice Scarf": { "ability": "Magic Bounce", "item": "Choice Scarf", "nature": "Timid", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Psychic", "Shadow Ball", "Dazzling Gleam", "Trick"] },
-    "NU Terrain Sweeper": { "ability": "Magic Bounce", "item": "Grassy Seed", "nature": "Timid", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 240, "sp": 16 }, "moves": ["Calm Mind", "Stored Power", "Draining Kiss", "Morning Sun"] },
-    "NU Choice Specs": { "ability": "Magic Bounce", "item": "Choice Specs", "nature": "Timid", "teraType": "Fighting", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Psyshock", "Alluring Voice", "Tera Blast", "Trick"] },
-    "NU Rain Support": { "ability": "Magic Bounce", "item": "Eject Button", "nature": "Timid", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Psychic Noise", "Alluring Voice", "Weather Ball", "Shadow Ball"] },
+    "Generic Bulky": { "ability": "Magic Bounce", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Psychic", "Alluring Voice", "Power Gem", "Psyshock", "Shadow Ball", "Grass Knot"] },
+    "Generic Offensive": { "ability": "Magic Bounce", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Psychic", "Alluring Voice", "Power Gem", "Psyshock", "Shadow Ball", "Grass Knot"] },
   },
   "Umbreon": {
-    "OU Defensive": { "ability": "Inner Focus", "item": "Leftovers", "nature": "Calm", "teraType": "Water", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 4, "sd": 252 }, "moves": ["Foul Play", "Wish", "Protect", "Thunder Wave"] },
-    "RU Wish Support": { "ability": "Inner Focus", "item": "Leftovers", "nature": "Calm", "teraType": "Poison", "evs": { "hp": 252, "df": 4, "sd": 252 }, "moves": ["Foul Play", "Wish", "Toxic", "Protect"] },
+    "Generic Bulky": { "ability": "Synchronize", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Knock Off", "Foul Play", "Pursuit", "Sucker Punch", "Synchronoise", "Synchronoise"] },
+    "Generic Offensive": { "ability": "Synchronize", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Knock Off", "Foul Play", "Pursuit", "Sucker Punch", "Synchronoise", "Synchronoise"] },
   },
   "Slowking": {
-    "OU Defensive Pivot": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Relaxed", "teraType": "Fairy", "ivs": { "at": 0, "sp": 0 }, "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Scald", "Future Sight", "Chilly Reception", "Thunder Wave"] },
-    "UU Utility Pivot": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Sassy", "teraType": "Fairy", "ivs": { "at": 0, "sp": 0 }, "evs": { "hp": 252, "df": 240, "sd": 16 }, "moves": ["Scald", "Thunder Wave", "Slack Off", "Chilly Reception"] },
-    "National Dex Defensive Pivot": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Relaxed", "ivs": { "at": 0, "sp": 0 }, "evs": { "hp": 252, "df": 188, "sd": 68 }, "moves": ["Scald", "Future Sight", "Teleport", "Thunder Wave"] },
-    "National Dex UU Specially Defensive Pivot": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Sassy", "ivs": { "at": 0, "sp": 0 }, "evs": { "hp": 252, "df": 4, "sd": 252 }, "moves": ["Scald", "Future Sight", "Slack Off", "Teleport"] },
-    "National Dex RU Physically Defensive": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Relaxed", "ivs": { "at": 0, "sp": 0 }, "evs": { "hp": 252, "df": 252, "sa": 4 }, "moves": ["Scald", "Future Sight", "Slack Off", "Teleport"] },
-    "National Dex RU Specially Defensive": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Sassy", "ivs": { "at": 0, "sp": 0 }, "evs": { "hp": 248, "df": 52, "sd": 208 }, "moves": ["Scald", "Future Sight", "Slack Off", "Teleport"] },
+    "Generic Bulky": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Surf", "Psychic", "Flamethrower", "Grass Knot", "Hydro Pump", "Future Sight"] },
+    "Generic Offensive": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Surf", "Psychic", "Flamethrower", "Grass Knot", "Hydro Pump", "Future Sight"] },
   },
   "Slowking-Galar": {
     "Generic Bulky": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Sludge Bomb", "Future Sight", "Psyshock", "Ice Beam", "Psychic Noise", "Sludge Wave"] },
-	"Generic Offensive": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Sludge Bomb", "Future Sight", "Psyshock", "Ice Beam", "Psychic Noise", "Sludge Wave"] },
+	"Generic Offensive": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Sludge Bomb", "Future Sight", "Psyshock", "Ice Beam", "Psychic Noise", "Sludge Wave"] },
+  },
+  "Misdreavus": {
+    "Generic Bulky": { "ability": "Levitate", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Shadow Ball", "Dazzling Gleam", "Energy Ball", "Psyshock", "Thunderbolt", "Power Gem"] },
+	"Generic Offensive": { "ability": "Levitate", "item": "Eviolite", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Shadow Ball", "Dazzling Gleam", "Energy Ball", "Psyshock", "Thunderbolt", "Power Gem"] },
   },
   "Forretress": {
-    "RU Support": { "ability": "Sturdy", "item": "Leftovers", "nature": "Relaxed", "teraType": "Ghost", "evs": { "hp": 252, "df": 164, "sd": 92 }, "moves": ["Spikes", "Body Press", "Volt Switch", "Gyro Ball"] },
+    "Generic Bulky": { "ability": "Sturdy", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Body Press", "Volt Switch", "Gyro Ball", "Earthquake", "Lunge", "Explosion"] },
+	"Generic Offensive": { "ability": "Sturdy", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Body Press", "Volt Switch", "Gyro Ball", "Earthquake", "Lunge", "Explosion"] },
+  },
+  "Dunsparce": {
+    "Generic Bulky": { "ability": "Serene Grace", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Hyper Drill", "Earthquake", "Ice Beam", "Thunderbolt", "Fire Blast", "Poison Jab"] },
+    "Generic Offensive": { "ability": "Serene Grace", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Hyper Drill", "Earthquake", "Ice Beam", "Thunderbolt", "Fire Blast", "Poison Jab"] },
   },
   "Gligar": {
-    "UU Physically Defensive": { "ability": "Immunity", "item": "Eviolite", "nature": "Impish", "teraType": "Water", "evs": { "hp": 248, "df": 196, "sd": 64 }, "moves": ["Spikes", "Earthquake", "U-turn", "Toxic"] },
-    "RU Utility": { "ability": "Immunity", "item": "Eviolite", "nature": "Impish", "teraType": "Water", "evs": { "hp": 252, "df": 204, "sd": 36, "sp": 16 }, "moves": ["Spikes", "Earthquake", "Toxic", "U-turn"] },
-    "NU Physical Wall": { "ability": "Immunity", "item": "Eviolite", "nature": "Impish", "teraType": "Water", "evs": { "hp": 252, "df": 200, "sp": 56 }, "moves": ["Spikes", "Earthquake", "Knock Off", "U-turn"] },
-    "National Dex RU Defensive": { "ability": "Immunity", "item": "Eviolite", "nature": "Impish", "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Roost", "Defog", "Earthquake", "U-turn"] }
+    "Generic Bulky": { "ability": "Immunity", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["U-turn", "Earthquake", "Knock Off", "Dual Wingbeat", "Crabhammer", "Stone Edge"] },
+	"Generic Offensive": { "ability": "Immunity", "item": "Eviolite", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["U-turn", "Earthquake", "Knock Off", "Dual Wingbeat", "Crabhammer", "Stone Edge"] },
+  },
+  "Steelix": {
+    "Generic Bulky": { "ability": "Sheer Force", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earthquake", "Rock Slide", "Head Smash", "Gyro Ball", "Heavy Slam", "Body Press"] },
+	"Generic Offensive": { "ability": "Sheer Force", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earthquake", "Rock Slide", "Head Smash", "Gyro Ball", "Heavy Slam", "Body Press"] },
   },
   "Steelix-Mega": {
-    "National Dex RU Tank": { "ability": "Sand Force", "item": "Steelixite", "nature": "Sassy", "ivs": { "sp": 0 }, "evs": { "hp": 252, "at": 32, "df": 8, "sd": 216 }, "moves": ["Stealth Rock", "Earthquake", "Gyro Ball", "Toxic"] },
-    "National Dex RU Curse": { "ability": "Sand Force", "item": "Steelixite", "nature": "Brave", "ivs": { "sp": 0 }, "evs": { "hp": 252, "at": 200, "df": 8, "sd": 48 }, "moves": ["Stealth Rock", "Gyro Ball", "Earthquake", "Curse"] },
+    "Generic Bulky": { "ability": "Sand Force", "item": "Steelixite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earthquake", "Rock Slide", "Head Smash", "Gyro Ball", "Heavy Slam", "Body Press"] },
+	"Generic Offensive": { "ability": "Sand Force", "item": "Steelixite", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earthquake", "Rock Slide", "Head Smash", "Gyro Ball", "Heavy Slam", "Body Press"] },
+  },
+  "Granbull": {
+    "Generic Bulky": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Play Rough", "Close Combat", "Earthquake", "Stone Edge", "Thunder Punch", "Ice Punch"] },
+	"Generic Offensive": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Play Rough", "Close Combat", "Earthquake", "Stone Edge", "Thunder Punch", "Ice Punch"] },
   },
   "Qwilfish": {
-    "PU Physical Defensive": { "ability": "Intimidate", "item": "Rocky Helmet", "nature": "Impish", "teraType": "Ground", "evs": { "hp": 252, "df": 240, "sp": 16 }, "moves": ["Spikes", "Barb Barrage", "Flip Turn", "Pain Split"] },
-    "PU Swords Dance": { "ability": "Intimidate", "item": "Leftovers", "nature": "Jolly", "teraType": "Water", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Gunk Shot", "Liquidation", "Aqua Jet"] },
+    "Generic Bulky": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Flip Turn", "Gunk Shot", "Aqua Tail", "Aqua Jet", "Explosion", "Poison Jab"] },
+	"Generic Offensive": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Flip Turn", "Gunk Shot", "Aqua Tail", "Aqua Jet", "Explosion", "Poison Jab"] },
   },
   "Qwilfish-Hisui": {
-    "PU Specially Defensive": { "ability": "Intimidate", "item": "Eviolite", "nature": "Careful", "teraType": "Ghost", "evs": { "hp": 252, "sd": 240, "sp": 16 }, "moves": ["Spikes", "Barb Barrage", "Crunch", "Pain Split"] },
-    "PU Swords Dance": { "ability": "Intimidate", "item": "Eviolite", "nature": "Jolly", "teraType": "Water", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Gunk Shot", "Crunch", "Aqua Jet"] }
+    "Generic Bulky": { "ability": "Intimidate", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Crunch", "Gunk Shot", "Aqua Tail", "Aqua Jet", "Self-Destruct", "Poison Jab"] },
+	"Generic Offensive": { "ability": "Intimidate", "item": "Eviolite", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Crunch", "Gunk Shot", "Aqua Tail", "Aqua Jet", "Self-Destruct", "Poison Jab"] },
   },
   "Scizor": {
-    "OU Choice Band": { "ability": "Technician", "item": "Choice Band", "nature": "Adamant", "teraType": "Steel", "evs": { "hp": 120, "at": 252, "sp": 136 }, "moves": ["Bullet Punch", "U-turn", "Knock Off", "Close Combat"] },
-    "OU Swords Dance": { "ability": "Technician", "item": "Life Orb", "nature": "Adamant", "teraType": "Steel", "evs": { "hp": 120, "at": 252, "sp": 136 }, "moves": ["Swords Dance", "Bullet Punch", "Close Combat", "Knock Off"] },
-    "OU Utility": { "ability": "Technician", "item": "Sitrus Berry", "nature": "Adamant", "teraType": "Steel", "evs": { "hp": 248, "at": 252, "sd": 8 }, "moves": ["Bullet Punch", "U-turn", "Knock Off", "Defog"] },
-    "National Dex UU Offensive Swords Dance": { "ability": "Technician", "item": "Life Orb", "nature": "Adamant", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Bullet Punch", "Knock Off", "Dual Wingbeat"] },
-    "National Dex UU Bulky Swords Dance": { "ability": "Technician", "item": "Heavy-Duty Boots", "nature": "Adamant", "evs": { "hp": 252, "at": 112, "df": 56, "sd": 76, "sp": 12 }, "moves": ["Swords Dance", "Bullet Punch", "Knock Off", "Roost"] },
-    "National Dex UU Choice Band": { "ability": "Technician", "item": "Choice Band", "nature": "Adamant", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Bullet Punch", "U-turn", "Knock Off", "Pursuit"] },
-  },
-  "Scizor-Mega": {
-    "National Dex Bulky Swords Dance": { "ability": "Technician", "item": "Scizorite", "nature": "Impish", "evs": { "hp": 248, "df": 112, "sd": 128, "sp": 20 }, "moves": ["Swords Dance", "Bullet Punch", "Knock Off", "Roost"] },
-    "National Dex Offensive Swords Dance": { "ability": "Technician", "item": "Scizorite", "nature": "Adamant", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Bullet Punch", "Close Combat", "Knock Off"] },
+    "Generic Bulky": { "ability": "Technician", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Bullet Punch", "U-turn", "Pursuit", "Dual Wingbeat", "Close Combat", "Night Slash"] },
+	"Generic Offensive": { "ability": "Technician", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Bullet Punch", "U-turn", "Pursuit", "Dual Wingbeat", "Close Combat", "Night Slash"] },
   },
   "Shuckle": {
-    "National Dex Ubers Suicide Lead": { "ability": "Sturdy", "item": "Mental Herb", "nature": "Bold", "teraType": "Steel", "ivs": { "at": 0 }, "evs": { "hp": 248, "df": 136, "sd": 124 }, "moves": ["Final Gambit", "Encore", "Stealth Rock", "Sticky Web"] },
+    "Generic Bulky": { "ability": "Sturdy", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Rollout", "Rollout", "Rollout", "Rollout", "Rollout", "Rollout"] },
+	"Generic Offensive": { "ability": "Sturdy", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Rollout", "Rollout", "Rollout", "Rollout", "Rollout", "Rollout"] },
   },
   "Heracross": {
-    "NU Guts Wallbreaker": { "ability": "Guts", "item": "Flame Orb", "nature": "Jolly", "teraType": "Dark", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Close Combat", "Knock Off", "Facade", "Trailblaze"] },
+    "Generic Bulky": { "ability": "Swarm", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Megahorn", "Close Combat", "Earthquake", "Pursuit", "Rock Slide", "Lunge"] },
+	"Generic Offensive": { "ability": "Moxie", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Megahorn", "Close Combat", "Earthquake", "Pursuit", "Rock Slide", "Lunge"] },
   },
   "Heracross-Mega": {
-    "National Dex UU Swords Dance": { "ability": "Skill Link", "item": "Heracronite", "nature": "Adamant", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Close Combat", "Rock Blast", "Pin Missile"] },
-    "National Dex UU All-out-Attacker": { "ability": "Skill Link", "item": "Heracronite", "nature": "Adamant", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Close Combat", "Pin Missile", "Rock Blast", "Earthquake"] },
+    "Generic Bulky": { "ability": "Skill Link", "item": "Heracronite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Pin Missile", "Close Combat", "Earthquake", "Throat Chop", "Rock Blast", "Bullet Seed"] },
+	"Generic Offensive": { "ability": "Skill Link", "item": "Heracronite", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Pin Missile", "Close Combat", "Earthquake", "Throat Chop", "Rock Blast", "Bullet Seed"] },
   },
   "Sneasel": {
-    "NU Swords Dance": { "ability": "Inner Focus", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Ice", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Swords Dance", "Ice Shard", "Knock Off", "Icicle Crash"] },
-    "PU Swords Dance": { "ability": "Inner Focus", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Ice", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Swords Dance", "Triple Axel", "Knock Off", "Ice Shard"] },
-    "PU Choice Band": { "ability": "Inner Focus", "item": "Choice Band", "nature": "Jolly", "teraType": "Ice", "evs": { "hp": 4, "at": 252, "sp": 252 }, "moves": ["Knock Off", "Triple Axel", "Ice Shard", "Low Kick"] },
-    "ZU Fast Attacker": { "ability": "Inner Focus", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Ice", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Knock Off", "Triple Axel", "Ice Shard", "Swords Dance"] },
-    "ZU Choice Band": { "ability": "Inner Focus", "item": "Choice Band", "nature": "Jolly", "teraType": "Ice", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Knock Off", "Triple Axel", "Ice Shard", "Low Kick"] }
+    "Generic Bulky": { "ability": "Pickpocket", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Triple Axel", "Throat Chop", "Ice Shard", "Low Kick", "Poison Jab", "Pursuit"] },
+	"Generic Offensive": { "ability": "Pickpocket", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Triple Axel", "Throat Chop", "Ice Shard", "Low Kick", "Poison Jab", "Pursuit"] },
   },
   "Sneasel-Hisui": {
-    "PU Swords Dance": { "ability": "Inner Focus", "item": "Eviolite", "nature": "Jolly", "teraType": "Dark", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Swords Dance", "Close Combat", "Gunk Shot", "Throat Chop"] },
-    "ZU Swords Dance": { "ability": "Inner Focus", "item": "Eviolite", "nature": "Jolly", "teraType": "Dark", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Close Combat", "Gunk Shot", "Throat Chop"] },
-    "ZU Choice Item": { "ability": "Inner Focus", "item": "Choice Band", "nature": "Jolly", "teraType": "Fighting", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Close Combat", "Gunk Shot", "Throat Chop", "Switcheroo"] }
+    "Generic Bulky": { "ability": "Pickpocket", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Gunk Shot", "Night Slash", "Close Combat", "Low Kick", "Poison Jab", "Shadow Claw"] },
+	"Generic Offensive": { "ability": "Pickpocket", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Gunk Shot", "Night Slash", "Close Combat", "Low Kick", "Poison Jab", "Shadow Claw"] },
+  },
+  "Ursaring": {
+    "Generic Bulky": { "ability": "Guts", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Body Slam", "Double Edge", "Earthquake", "Close Combat", "Gunk Shot", "Stone Edge"] },
+	"Generic Offensive": { "ability": "Guts", "item": "Eviolite", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Body Slam", "Double Edge", "Earthquake", "Close Combat", "Gunk Shot", "Stone Edge"] },
+  },
+  "Magcargo": {
+    "Generic Bulky": { "ability": "Flame Body", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Overheat", "Heat Wave", "Power Gem", "Earth Power", "Solar Beam", "Lava Plume"] },
+	"Generic Offensive": { "ability": "Flame Body", "item": "Heavy-Duty Boots", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Overheat", "Heat Wave", "Power Gem", "Earth Power", "Solar Beam", "Lava Plume"] },
   },
   "Piloswine": {
-    "ZU Stealth Rock": { "ability": "Thick Fat", "item": "Eviolite", "nature": "Adamant", "teraType": "Ghost", "evs": { "hp": 252, "at": 252, "sd": 4 }, "moves": ["Stealth Rock", "Icicle Crash", "Earthquake", "Ice Shard"] },
-    "ZU Choice Band": { "ability": "Thick Fat", "item": "Choice Band", "nature": "Adamant", "teraType": "Ground", "evs": { "hp": 252, "at": 252, "sd": 4 }, "moves": ["Earthquake", "Icicle Crash", "Ice Shard", "Stone Edge"] },
+    "Generic Bulky": { "ability": "Thick Fat", "item": "Eviolite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earthquake", "Icicle Crash", "Stone Edge", "Rock Slide", "Ice Shard", "Return"] },
+	"Generic Offensive": { "ability": "Thick Fat", "item": "Eviolite", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earthquake", "Icicle Crash", "Stone Edge", "Rock Slide", "Ice Shard", "Return"] },
+  },
+  "Octillery": {
+    "Generic Bulky": { "ability": "Sniper", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Water Spout", "Hydro Pump", "Ice Beam", "Sludge Wave", "Fire Blast", "Energy Ball"] },
+	"Generic Offensive": { "ability": "Sniper", "item": "Heavy-Duty Boots", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Water Spout", "Hydro Pump", "Ice Beam", "Sludge Wave", "Fire Blast", "Energy Ball"] },
+  },
+  "Mantine": {
+    "Generic Bulky": { "ability": "Water Absorb", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Surf", "Hydro Pump", "Ice Beam", "Hurricane", "Air Slash", "Signal Beam"] },
+	"Generic Offensive": { "ability": "Water Absorb", "item": "Heavy-Duty Boots", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Surf", "Hydro Pump", "Ice Beam", "Hurricane", "Air Slash", "Signal Beam"] },
   },
   "Skarmory": {
-    "OU Defensive": { "ability": "Sturdy", "item": "Rocky Helmet", "nature": "Bold", "teraType": "Dragon", "evs": { "hp": 252, "df": 160, "sp": 96 }, "moves": ["Body Press", "Iron Defense", "Roost", "Spikes"] },
-    "Ubers Defensive": { "ability": "Sturdy", "item": "Rocky Helmet", "nature": "Bold", "teraType": "Ground", "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Body Press", "Whirlwind", "Spikes", "Roost"] },
-    "UU Wall": { "ability": "Sturdy", "item": "Rocky Helmet", "nature": "Impish", "teraType": "Ghost", "ivs": { "at": 0 }, "evs": { "hp": 248, "df": 16, "sd": 180, "sp": 64 }, "moves": ["Spikes", "Body Press", "Whirlwind", "Roost"] },
-    "National Dex Physical Wall": { "ability": "Sturdy", "item": "Rocky Helmet", "nature": "Impish", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 160, "sp": 96 }, "moves": ["Iron Defense", "Body Press", "Roost", "Spikes"] },
-    "National Dex UU Defensive": { "ability": "Sturdy", "item": "Rocky Helmet", "nature": "Impish", "evs": { "hp": 248, "df": 252, "sd": 8 }, "moves": ["Spikes", "Iron Defense", "Body Press", "Roost"] },
-    "Ubers UU Physical Wall": { "ability": "Sturdy", "item": "Leftovers", "nature": "Bold", "teraType": "Water", "ivs": { "at": 0 }, "evs": { "hp": 248, "df": 252, "sd": 8 }, "moves": ["Body Press", "Iron Defense", "Roost", "Spikes"] },
+    "Generic Bulky": { "ability": "Sturdy", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Body Press", "Brave Bird", "Drill Peck", "Drill Run", "Iron Head", "Rock Slide"] },
+	"Generic Offensive": { "ability": "Weak Armor", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Body Press", "Brave Bird", "Drill Peck", "Drill Run", "Iron Head", "Rock Slide"] },
+  },
+  "Houndoom": {
+    "Generic Bulky": { "ability": "Flash Fire", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Dark Pulse", "Overheat", "Fire Blast", "Heat Wave", "Sludge Bomb", "Pursuit"] },
+	"Generic Offensive": { "ability": "Flash Fire", "item": "Heavy-Duty Boots", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Dark Pulse", "Overheat", "Fire Blast", "Heat Wave", "Sludge Bomb", "Pursuit"] },
   },
   "Houndoom-Mega": {
-    "National Dex RU Nasty Plot": { "ability": "Solar Power", "item": "Houndoominite", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Nasty Plot", "Dark Pulse", "Fire Blast", "Sludge Bomb"] }
+    "Generic Bulky": { "ability": "Solar Power", "item": "Houndoominite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Dark Pulse", "Overheat", "Fire Blast", "Heat Wave", "Sludge Bomb", "Pursuit"] },
+	"Generic Offensive": { "ability": "Solar Power", "item": "Houndoominite", "nature": "Modest", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Dark Pulse", "Overheat", "Fire Blast", "Heat Wave", "Sludge Bomb", "Pursuit"] },
   },
   "Kingdra": {
-    "RU Rain Sweeper": { "ability": "Swift Swim", "item": "Choice Specs", "nature": "Modest", "teraType": "Water", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Hydro Pump", "Draco Meteor", "Hurricane", "Dragon Pulse"] },
-    "NU Rain Sweeper": { "ability": "Swift Swim", "item": "Life Orb", "nature": "Modest", "teraType": "Water", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Surf", "Draco Meteor", "Flip Turn", "Hurricane"] },
-    "PU CritDra": { "ability": "Sniper", "item": "Scope Lens", "nature": "Timid", "teraType": "Dragon", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Focus Energy", "Agility", "Draco Meteor", "Hydro Pump"] },
-    "PU Rain Sweeper": { "ability": "Swift Swim", "item": "Life Orb", "nature": "Modest", "teraType": "Water", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Rain Dance", "Draco Meteor", "Weather Ball", "Surf"] },
+    "Generic Bulky": { "ability": "Swift Swim", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Draco Meteor", "Hydro Pump", "Outrage", "Wave Crash", "Ice Beam", "Flip Turn"] },
+	"Generic Offensive": { "ability": "Swift Swim", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Draco Meteor", "Hydro Pump", "Outrage", "Wave Crash", "Ice Beam", "Flip Turn"] },
   },
   "Donphan": {
-    "UU Defensive": { "ability": "Sturdy", "item": "Leftovers", "nature": "Impish", "teraType": "Ghost", "evs": { "hp": 248, "at": 16, "df": 244 }, "moves": ["Stealth Rock", "Earthquake", "Knock Off", "Rapid Spin"] },
+    "Generic Bulky": { "ability": "Sturdy", "item": "Heavy-Duty Boots", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earthquake", "Rapid Spin", "Rock Slide", "Head Smash", "Body Press", "Knock Off"] },
+	"Generic Offensive": { "ability": "Sturdy", "item": "Heavy-Duty Boots", "nature": "Adamant", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earthquake", "Rapid Spin", "Rock Slide", "Head Smash", "Superpower", "Knock Off"] },
   },
   "Porygon2": {
-    "NU Special Wall": { "ability": "Trace", "item": "Eviolite", "nature": "Calm", "teraType": "Poison", "evs": { "hp": 252, "sa": 4, "sd": 252 }, "moves": ["Recover", "Tri Attack", "Shadow Ball", "Thunder Wave"] },
-    "PU Special Wall": { "ability": "Download", "item": "Eviolite", "nature": "Calm", "teraType": "Poison", "evs": { "hp": 252, "sa": 4, "sd": 252 }, "moves": ["Recover", "Tri Attack", "Shadow Ball", "Thunder Wave"] },
-  },
-  "Smeargle": {
-    "NU Lead": { "ability": "Own Tempo", "item": "Focus Sash", "nature": "Jolly", "teraType": "Ghost", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Ceaseless Edge", "Stone Axe", "Mortal Spin", "Burning Bulwark"] },
-    "PU Hazard Setter": { "ability": "Own Tempo", "item": "Focus Sash", "nature": "Jolly", "teraType": "Ghost", "evs": { "hp": 252, "sd": 4, "sp": 252 }, "moves": ["Sticky Web", "Stone Axe", "Explosion", "Silk Trap"] },
-    "National Dex Ubers Sticky Web Lead": { "ability": "Technician", "item": "Focus Sash", "nature": "Jolly", "teraType": "Steel", "evs": { "hp": 252, "at": 4, "sp": 252 }, "moves": ["Sticky Web", "Nuzzle", "Rapid Spin", "Perish Song"] },
-    "ZU Hazard Lead": { "ability": "Own Tempo", "item": "Focus Sash", "nature": "Jolly", "teraType": "Ghost", "evs": { "hp": 252, "df": 4, "sp": 252 }, "moves": ["Sticky Web", "Stone Axe", "Ceaseless Edge", "Mortal Spin"] },
+    "Generic Bulky": { "ability": "Download", "item": "Eviolite", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Tri Attack", "Volt Switch", "Ice Beam", "Psyshock", "Shadow Ball", "Signal Beam"] },
+	"Generic Offensive": { "ability": "Download", "item": "Eviolite", "nature": "Modest", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Tri Attack", "Volt Switch", "Ice Beam", "Psyshock", "Shadow Ball", "Signal Beam"] },
   },
   "Hitmontop": {
-    "PU Rapid Spin": { "ability": "Technician", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Rapid Spin", "Close Combat", "Triple Axel", "Bullet Punch"] },
-    "ZU Rapid Spin": { "ability": "Technician", "item": "Protective Pads", "nature": "Adamant", "teraType": "Steel", "evs": { "hp": 252, "at": 200, "sp": 56 }, "moves": ["Rapid Spin", "Close Combat", "Triple Axel", "Bullet Punch"] },
+    "Generic Bulky": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["High Jump Kick", "Triple Axel", "Rapid Spin", "Earthquake", "Mach Punch", "Rock Slide"] },
+	"Generic Offensive": { "ability": "Technician", "item": "Heavy-Duty Boots", "nature": "Adamant", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["High Jump Kick", "Triple Axel", "Rapid Spin", "Earthquake", "Mach Punch", "Rock Slide"] },
   },
   "Blissey": {
-    "OU Defensive": { "ability": "Natural Cure", "item": "Leftovers", "nature": "Calm", "teraType": "Dark", "ivs": { "at": 0 }, "evs": { "hp": 4, "df": 252, "sd": 252 }, "moves": ["Soft-Boiled", "Calm Mind", "Seismic Toss", "Stealth Rock"] },
-    "Ubers Pink Blob (Specially Defensive)": { "ability": "Natural Cure", "item": "Heavy-Duty Boots", "nature": "Calm", "teraType": "Ground", "evs": { "hp": 4, "df": 252, "sd": 252 }, "moves": ["Seismic Toss", "Stealth Rock", "Thunder Wave", "Soft-Boiled"] },
-    "UU Defensive Tank": { "ability": "Natural Cure", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Dark", "ivs": { "at": 0 }, "evs": { "hp": 4, "df": 252, "sd": 252 }, "moves": ["Stealth Rock", "Seismic Toss", "Soft-Boiled", "Thunder Wave"] },
-    "RU Defensive": { "ability": "Natural Cure", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Dark", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Seismic Toss", "Thunder Wave", "Stealth Rock", "Soft-Boiled"] },
-    "National Dex Pink Blob": { "ability": "Natural Cure", "item": "Heavy-Duty Boots", "nature": "Bold", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Seismic Toss", "Soft-Boiled", "Toxic", "Stealth Rock"] },
-    "National Dex Ubers Defensive Pivot": { "ability": "Natural Cure", "item": "Heavy-Duty Boots", "nature": "Calm", "teraType": "Dark", "ivs": { "at": 0, "sp": 5 }, "evs": { "hp": 16, "df": 252, "sd": 240 }, "moves": ["Seismic Toss", "Stealth Rock", "Soft-Boiled", "Teleport"] },
-    "Ubers UU Calm Mind": { "ability": "Natural Cure", "item": "Heavy-Duty Boots", "nature": "Calm", "teraType": "Dark", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 4, "sd": 252 }, "moves": ["Shadow Ball", "Calm Mind", "Seismic Toss", "Soft-Boiled"] },
+    "Generic Bulky": { "ability": "Natural Cure", "item": "Heavy-Duty Boots", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Tri Attack", "Ice Beam", "Thunderbolt", "Fire Blast", "Focus Blast", "Seismic Toss"] },
+	"Generic Offensive": { "ability": "Serene Grace", "item": "Heavy-Duty Boots", "nature": "Modest", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Tri Attack", "Ice Beam", "Thunderbolt", "Fire Blast", "Focus Blast", "Seismic Toss"] },
   },
   "Raikou": {
-    "RU Offensive Pivot": { "ability": "Pressure", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Water", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Thunderbolt", "Scald", "Aura Sphere", "Volt Switch"] },
-    "RU Calm Mind": { "ability": "Pressure", "item": "Leftovers", "nature": "Timid", "teraType": "Water", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Calm Mind", "Thunderbolt", "Scald", "Aura Sphere"] },
-    "NU Calm Mind": { "ability": "Pressure", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Fairy", "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Calm Mind", "Volt Switch", "Scald", "Tera Blast"] },
+    "Generic Bulky": { "ability": "Inner Focus", "item": "Heavy-Duty Boots", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Volt Switch", "Thunderbolt", "Scald", "Aura Sphere", "Extrasensory", "Shadow Ball"] },
+	"Generic Offensive": { "ability": "Inner Focus", "item": "Heavy-Duty Boots", "nature": "Modest", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Volt Switch", "Thunderbolt", "Scald", "Aura Sphere", "Extrasensory", "Shadow Ball"] },
   },
   "Entei": {
-    "OU Offensive": { "ability": "Inner Focus", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Normal", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Sacred Fire", "Extreme Speed", "Stone Edge", "Stomping Tantrum"] },
-    "RU All-Out Attacker": { "ability": "Inner Focus", "item": "Choice Band", "nature": "Jolly", "teraType": "Normal", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Extreme Speed", "Sacred Fire", "Stone Edge", "Crunch"] },
+    "Generic Bulky": { "ability": "Inner Focus", "item": "Heavy-Duty Boots", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Sacred Fire", "Extreme Speed", "Stomping Tantrum", "Stone Edge", "Crunch", "Flare Blitz"] },
+	"Generic Offensive": { "ability": "Inner Focus", "item": "Heavy-Duty Boots", "nature": "Adamant", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Sacred Fire", "Extreme Speed", "Stomping Tantrum", "Stone Edge", "Crunch", "Flare Blitz"] },
   },
   "Suicune": {
-    "RU Substitute + Calm Mind": { "ability": "Pressure", "item": "Leftovers", "nature": "Timid", "teraType": "Dark", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 4, "sp": 252 }, "moves": ["Substitute", "Calm Mind", "Scald", "Protect"] },
-    "National Dex RU Calm Mind": { "ability": "Pressure", "item": "Leftovers", "nature": "Timid", "evs": { "hp": 252, "df": 120, "sp": 136 }, "moves": ["Calm Mind", "Scald", "Substitute", "Protect"] },
+    "Generic Bulky": { "ability": "Inner Focus", "item": "Heavy-Duty Boots", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Hydro Pump", "Surf", "Ice Beam", "Shadow Ball", "Extrasensory", "Air Slash"] },
+	"Generic Offensive": { "ability": "Inner Focus", "item": "Heavy-Duty Boots", "nature": "Modest", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Hydro Pump", "Surf", "Ice Beam", "Shadow Ball", "Extrasensory", "Air Slash"] },
   },
   "Tyranitar": {
-    "OU Choice Band": { "ability": "Sand Stream", "item": "Choice Band", "nature": "Adamant", "teraType": "Flying", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Knock Off", "Stone Edge", "Low Kick", "Ice Punch"] },
-    "OU Defensive": { "ability": "Sand Stream", "item": "Smooth Rock", "nature": "Sassy", "teraType": "Flying", "evs": { "hp": 252, "df": 16, "sd": 240 }, "moves": ["Stealth Rock", "Knock Off", "Ice Beam", "Roar"] },
-    "UU Specially Defensive": { "ability": "Sand Stream", "item": "Leftovers", "nature": "Adamant", "teraType": "Fairy", "evs": { "hp": 248, "at": 24, "sd": 192, "sp": 44 }, "moves": ["Stealth Rock", "Thunder Wave", "Knock Off", "Stone Edge"] },
-    "UU Choice Band": { "ability": "Sand Stream", "item": "Choice Band", "nature": "Adamant", "teraType": "Dark", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Stone Edge", "Knock Off", "Earthquake", "Ice Punch"] },
-    "National Dex UU Choice Band": { "ability": "Sand Stream", "item": "Choice Band", "nature": "Adamant", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Stone Edge", "Knock Off", "Pursuit", "Superpower"] },
-    "National Dex UU Utility Attacker": { "ability": "Sand Stream", "item": "Leftovers", "nature": "Adamant", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Stealth Rock", "Knock Off", "Pursuit", "Stone Edge"] },
-    "Ubers UU Sand Setter": { "ability": "Sand Stream", "item": "Smooth Rock", "nature": "Adamant", "teraType": "Fairy", "evs": { "hp": 252, "at": 16, "sp": 240 }, "moves": ["Stealth Rock", "Thunder Wave", "Low Kick", "Knock Off"] },
+    "Generic Bulky": { "ability": "Sand Stream", "item": "Heavy-Duty Boots", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Rock Slide", "Crunch", "Earthquake", "Pursuit", "Fire Blast", "Ice Punch"] },
+	"Generic Offensive": { "ability": "Sand Stream", "item": "Heavy-Duty Boots", "nature": "Adamant", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Rock Slide", "Crunch", "Earthquake", "Pursuit", "Fire Blast", "Ice Punch"] },
   },
   "Tyranitar-Mega": {
-    "National Dex Offensive Utility": { "ability": "Sand Stream", "item": "Tyranitarite", "nature": "Adamant", "evs": { "hp": 92, "at": 252, "sp": 164 }, "moves": ["Knock Off", "Pursuit", "Stone Edge", "Stealth Rock"] },
-  },
-  "Lugia": {
-    "Ubers UU Specially Defensive": { "ability": "Multiscale", "item": "Heavy-Duty Boots", "nature": "Calm", "teraType": "Fairy", "evs": { "hp": 252, "df": 4, "sd": 252 }, "moves": ["Recover", "Whirlwind", "Aeroblast", "Whirlpool"] },
-    "Ubers UU Calm Mind": { "ability": "Multiscale", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "hp": 248, "df": 252, "sa": 8 }, "moves": ["Air Slash", "Earth Power", "Calm Mind", "Recover"] },
-  },
-  "Ho-Oh": {
-    "Ubers Defensive": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Impish", "teraType": "Fairy", "evs": { "hp": 248, "df": 252, "sd": 8 }, "moves": ["Sacred Fire", "Brave Bird", "Whirlwind", "Recover"] },
-    "Ubers Offensive": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Ground", "evs": { "hp": 104, "at": 252, "sp": 152 }, "moves": ["Sacred Fire", "Brave Bird", "Earthquake", "Recover"] },
-    "National Dex Ubers Offensive": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Adamant", "teraType": "Grass", "evs": { "hp": 248, "at": 176, "df": 20, "sd": 56, "sp": 8 }, "moves": ["Sacred Fire", "Brave Bird", "Defog", "Thunder Wave"] },
-    "National Dex Ubers Defensive": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Impish", "teraType": "Grass", "evs": { "hp": 248, "df": 204, "sd": 56 }, "moves": ["Sacred Fire", "Toxic", "Defog", "Whirlwind"] },
-    "National Dex Ubers Choice Band": { "ability": "Regenerator", "item": "Choice Band", "nature": "Jolly", "teraType": "Flying", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Brave Bird", "Sacred Fire", "Earthquake", "Defog"] },
+    "Generic Bulky": { "ability": "Sand Stream", "item": "Tyranitarite", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Rock Slide", "Crunch", "Earthquake", "Pursuit", "Fire Blast", "Ice Punch"] },
+	"Generic Offensive": { "ability": "Sand Stream", "item": "Tyranitarite", "nature": "Adamant", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Rock Slide", "Crunch", "Earthquake", "Pursuit", "Fire Blast", "Ice Punch"] },
   },
   "Sceptile": {
-    "NU Terrain Sweeper": { "ability": "Unburden", "item": "Psychic Seed", "nature": "Adamant", "teraType": "Flying", "evs": { "hp": 136, "at": 252, "sp": 120 }, "moves": ["Swords Dance", "Leaf Blade", "Acrobatics", "Earthquake"] },
-    "PU Terrain Sweeper": { "ability": "Unburden", "item": "Grassy Seed", "nature": "Adamant", "teraType": "Flying", "evs": { "hp": 248, "at": 252, "sd": 8 }, "moves": ["Swords Dance", "Leaf Blade", "Acrobatics", "Drain Punch"] },
-    "ZU Choice Specs": { "ability": "Overgrow", "item": "Choice Specs", "nature": "Timid", "teraType": "Dragon", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Leaf Storm", "Giga Drain", "Focus Blast", "Dragon Pulse"] },
-    "ZU Swords Dance": { "ability": "Overgrow", "item": "Life Orb", "nature": "Jolly", "teraType": "Ground", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Leaf Blade", "Earthquake", "Rock Slide"] }
+    "Generic Bulky": { "ability": "Unburden", "item": "Heavy-Duty Boots", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Leaf Storm", "Leaf Blade", "Earthquake", "Brick Break", "Focus Blast", "Rock Slide"] },
+	"Generic Offensive": { "ability": "Unburden", "item": "Heavy-Duty Boots", "nature": "Bashful", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Leaf Storm", "Leaf Blade", "Earthquake", "Brick Break", "Focus Blast", "Rock Slide"] },
   },
   "Sceptile-Mega": {
-    "National Dex RU Offensive": { "ability": "Lightning Rod", "item": "Sceptilite", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Leaf Storm", "Dragon Pulse", "Focus Blast", "Hidden Power Fire"] },
+    "Generic Bulky": { "ability": "Lightning Rod", "item": "Sceptilite", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Leaf Storm", "Leaf Blade", "Earthquake", "Brick Break", "Focus Blast", "Rock Slide"] },
+	"Generic Offensive": { "ability": "Lightning Rod", "item": "Sceptilite", "nature": "Bashful", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Leaf Storm", "Leaf Blade", "Earthquake", "Brick Break", "Focus Blast", "Rock Slide"] },
   },
   "Blaziken": {
-    "OU Swords Dance": { "ability": "Speed Boost", "item": "Life Orb", "nature": "Adamant", "teraType": "Fighting", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Swords Dance", "Close Combat", "Flare Blitz", "Stone Edge"] },
+    "Generic Bulky": { "ability": "Speed Boost", "item": "Heavy-Duty Boots", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Flare Blitz", "Close Combat", "Earthquake", "Brave Bird", "Poison Jab", "Stone Edge"] },
+	"Generic Offensive": { "ability": "Speed Boost", "item": "Heavy-Duty Boots", "nature": "Adamant", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Flare Blitz", "Close Combat", "Earthquake", "Brave Bird", "Poison Jab", "Stone Edge"] },
   },
   "Swampert": {
-    "RU Defensive Utility": { "ability": "Torrent", "item": "Leftovers", "nature": "Impish", "teraType": "Ghost", "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Stealth Rock", "Earthquake", "Knock Off", "Flip Turn"] },
-    "NU Utility Tank": { "ability": "Torrent", "item": "Leftovers", "nature": "Careful", "teraType": "Fairy", "evs": { "hp": 252, "at": 4, "sd": 252 }, "moves": ["Stealth Rock", "Earthquake", "Flip Turn", "Knock Off"] },
-    "National Dex UU Defensive Pivot": { "ability": "Torrent", "item": "Leftovers", "nature": "Relaxed", "ivs": { "sp": 0 }, "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Stealth Rock", "Flip Turn", "Earthquake", "Toxic"] },
-    "National Dex RU Specially Defensive": { "ability": "Torrent", "item": "Leftovers", "nature": "Careful", "evs": { "hp": 252, "df": 4, "sd": 252 }, "moves": ["Flip Turn", "Earthquake", "Yawn", "Stealth Rock"] },
+    "Generic Bulky": { "ability": "Torrent", "item": "Heavy-Duty Boots", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earthquake", "Aqua Tail", "Flip Turn", "Rock Slide", "Ice Punch", "Poison Jab"] },
+	"Generic Offensive": { "ability": "Torrent", "item": "Heavy-Duty Boots", "nature": "Adamant", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earthquake", "Aqua Tail", "Flip Turn", "Rock Slide", "Ice Punch", "Poison Jab"] },
   },
   "Swampert-Mega": {
-    "National Dex Rain Sweeper": { "ability": "Swift Swim", "item": "Swampertite", "nature": "Jolly", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Waterfall", "Earthquake", "Flip Turn", "Stealth Rock"] },
+    "Generic Bulky": { "ability": "Swift Swim", "item": "Swampertite", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earthquake", "Aqua Tail", "Flip Turn", "Rock Slide", "Ice Punch", "Poison Jab"] },
+	"Generic Offensive": { "ability": "Swift Swim", "item": "Swampertite", "nature": "Adamant", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earthquake", "Aqua Tail", "Flip Turn", "Rock Slide", "Ice Punch", "Poison Jab"] },
   },
   "Ludicolo": {
-    "NU Rain Dance Sweeper": { "ability": "Swift Swim", "item": "Life Orb", "nature": "Modest", "teraType": "Water", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Hydro Pump", "Giga Drain", "Ice Beam", "Rain Dance"] },
+    "Generic Bulky": { "ability": "Swift Swim", "item": "Heavy-Duty Boots", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Hydro Pump", "Weather Ball", "Giga Drain", "Leaf Storm", "Ice Beam", "Focus Blast"] },
+	"Generic Offensive": { "ability": "Swift Swim", "item": "Heavy-Duty Boots", "nature": "Modest", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Hydro Pump", "Weather Ball", "Giga Drain", "Leaf Storm", "Ice Beam", "Focus Blast"] },
   },
   "Shiftry": {
-    "ZU All-Out Attacker": { "ability": "Wind Rider", "item": "Life Orb", "nature": "Adamant", "teraType": "Dark", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Leaf Blade", "Knock Off", "Sucker Punch"] }
+    "Generic Bulky": { "ability": "Wind Rider", "item": "Heavy-Duty Boots", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Leaf Blade", "Throat Chop", "Sucker Punch", "Brick Break", "Low Kick", "Rock Slide"] },
+	"Generic Offensive": { "ability": "Wind Rider", "item": "Heavy-Duty Boots", "nature": "Adamant", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Leaf Blade", "Throat Chop", "Sucker Punch", "Brick Break", "Low Kick", "Rock Slide"] },
   },
   "Pelipper": {
-    "OU Rain Setter": { "ability": "Drizzle", "item": "Damp Rock", "nature": "Relaxed", "teraType": "Ground", "ivs": { "sp": 0 }, "evs": { "hp": 248, "df": 252, "sd": 8 }, "moves": ["Hurricane", "U-turn", "Roost", "Knock Off"] },
-    "National Dex Rain Setter": { "ability": "Drizzle", "item": "Damp Rock", "nature": "Relaxed", "ivs": { "sp": 0 }, "evs": { "hp": 248, "df": 252, "sd": 8 }, "moves": ["Scald", "U-turn", "Roost", "Defog"] },
-    "Ubers UU Rain Setter": { "ability": "Drizzle", "item": "Damp Rock", "nature": "Relaxed", "teraType": "Ground", "ivs": { "sp": 0 }, "evs": { "hp": 248, "df": 252, "sa": 8 }, "moves": ["U-turn", "Surf", "Hurricane", "Roost"] },
+    "Generic Bulky": { "ability": "Primordial Sea", "item": "Heavy-Duty Boots", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Weather Ball", "Hurricane", "Hydro Pump", "Ice Beam", "Tera Blast", "Hyper Beam"] },
+	"Generic Offensive": { "ability": "Primordial Sea", "item": "Heavy-Duty Boots", "nature": "Modest", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Weather Ball", "Hurricane", "Hydro Pump", "Ice Beam", "Tera Blast", "Hyper Beam"] },
   },
   "Gardevoir": {
-    "UU Choice Scarf": { "ability": "Trace", "item": "Choice Scarf", "nature": "Modest", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Moonblast", "Psychic Noise", "Focus Blast", "Healing Wish"] },
-    "RU Choice Scarf": { "ability": "Trace", "item": "Choice Scarf", "nature": "Timid", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Moonblast", "Psychic", "Trick", "Healing Wish"] },
+    "Generic Bulky": { "ability": "Trace", "item": "Heavy-Duty Boots", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Moonblast", "Psyshock", "Energy Ball", "Mystical Fire", "Focus Blast", "Thunderbolt"] },
+	"Generic Offensive": { "ability": "Trace", "item": "Heavy-Duty Boots", "nature": "Modest", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Moonblast", "Psyshock", "Energy Ball", "Mystical Fire", "Focus Blast", "Thunderbolt"] },
   },
   "Gardevoir-Mega": {
-    "National Dex Offensive": { "ability": "Pixilate", "item": "Gardevoirite", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Hyper Voice", "Psyshock", "Mystical Fire", "Taunt"] },
-    "National Dex UU Stallbreaker": { "ability": "Pixilate", "item": "Gardevoirite", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Hyper Voice", "Psyshock", "Mystical Fire", "Taunt"] },
+    "Generic Bulky": { "ability": "Trace", "item": "Gardevoirite", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Hyper Voice", "Psyshock", "Energy Ball", "Mystical Fire", "Focus Blast", "Thunderbolt"] },
+	"Generic Offensive": { "ability": "Trace", "item": "Gardevoirite", "nature": "Modest", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Hyper Voice", "Psyshock", "Energy Ball", "Mystical Fire", "Focus Blast", "Thunderbolt"] },
   },
   "Breloom": {
-    "RU Poison Heal": { "ability": "Poison Heal", "item": "Toxic Orb", "nature": "Adamant", "teraType": "Steel", "evs": { "hp": 252, "at": 80, "sp": 176 }, "moves": ["Close Combat", "Seed Bomb", "Facade", "Protect"] },
-    "NU Choice Band": { "ability": "Technician", "item": "Choice Band", "nature": "Adamant", "teraType": "Fighting", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Close Combat", "Bullet Seed", "Mach Punch", "Aerial Ace"] },
-    "NU Swords Dance": { "ability": "Technician", "item": "Loaded Dice", "nature": "Adamant", "teraType": "Steel", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Bullet Seed", "Mach Punch", "Aerial Ace"] },
-    "NU GlisLoom (Poison Heal)": { "ability": "Poison Heal", "item": "Toxic Orb", "nature": "Careful", "teraType": "Normal", "evs": { "hp": 240, "sd": 220, "sp": 48 }, "moves": ["Seed Bomb", "Facade", "Bulk Up", "Protect"] },
-    "National Dex RU Swords Dance": { "ability": "Technician", "item": "Loaded Dice", "nature": "Adamant", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Mach Punch", "Bullet Seed", "Rock Tomb"] },
-    "National Dex RU Choice Band": { "ability": "Technician", "item": "Choice Band", "nature": "Adamant", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Bullet Seed", "Close Combat", "Mach Punch", "Rock Tomb"] },
+    "Generic Bulky": { "ability": "Poison Heal", "item": "Toxic Orb", "nature": "Bashful", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Mach Punch", "Close Combat", "Seed Bomb", "Stone Edge", "Poison Jab", "Facade"] },
+	"Generic Offensive": { "ability": "Technician", "item": "Heavy-Duty Boots", "nature": "Adamant", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Mach Punch", "Close Combat", "Seed Bomb", "Rock Tomb", "Bulldoze", "Poison Jab"] },
   },
   "Hariyama": {
     "NU Belly Drum": { "ability": "Guts", "item": "Sitrus Berry", "nature": "Adamant", "teraType": "Steel", "evs": { "hp": 4, "at": 252, "sp": 252 }, "moves": ["Belly Drum", "Drain Punch", "Knock Off", "Bullet Punch"] },
@@ -681,8 +839,8 @@ var SETDEX_SV = {
     "National Dex UU Offensive": { "ability": "Levitate", "item": "Latiasite", "nature": "Timid", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Psychic", "Aura Sphere", "Draco Meteor", "Roost"] },
   },
   "Latios": {
-   "Generic Bulky": { "ability": "Levitate", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Draco Meteor", "Luster Purge", "Surf", "Aura Sphere", "Aura Sphere", "Flip Turn"] },
-   "Generic Offensive": { "ability": "Levitate", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Draco Meteor", "Luster Purge", "Surf", "Aura Sphere", "Aura Sphere", "Flip Turn"] },
+    "Generic Bulky": { "ability": "Levitate", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Draco Meteor", "Luster Purge", "Surf", "Aura Sphere", "Aura Sphere", "Flip Turn"] },
+    "Generic Offensive": { "ability": "Levitate", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Draco Meteor", "Luster Purge", "Surf", "Aura Sphere", "Aura Sphere", "Flip Turn"] },
   },
   "Latios-Mega": {
     "National Dex Wallbreaker": { "ability": "Levitate", "item": "Latiosite", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Luster Purge", "Aura Sphere", "Mystical Fire", "Roost"] },
@@ -881,11 +1039,8 @@ var SETDEX_SV = {
     "ZU Swords Dance": { "ability": "Chlorophyll", "item": "Life Orb", "nature": "Adamant", "teraType": "Fire", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Leaf Blade", "Double-Edge", "Tera Blast"] }
   },
   "Gliscor": {
-    "OU Swords Dance": { "ability": "Poison Heal", "item": "Toxic Orb", "nature": "Careful", "teraType": "Normal", "evs": { "hp": 244, "df": 36, "sd": 228 }, "moves": ["Swords Dance", "Facade", "Knock Off", "Protect"] },
-    "OU Utility": { "ability": "Poison Heal", "item": "Toxic Orb", "nature": "Careful", "teraType": "Water", "evs": { "hp": 244, "df": 36, "sd": 228 }, "moves": ["Spikes", "Knock Off", "Toxic", "Protect"] },
-    "Ubers Defensive": { "ability": "Poison Heal", "item": "Toxic Orb", "nature": "Impish", "teraType": "Water", "evs": { "hp": 244, "df": 252, "sd": 12 }, "moves": ["Earthquake", "Toxic", "Spikes", "Protect"] },
-    "National Dex Utility": { "ability": "Poison Heal", "item": "Toxic Orb", "nature": "Careful", "evs": { "hp": 244, "df": 36, "sd": 228 }, "moves": ["Earthquake", "Toxic", "Spikes", "Protect"] },
-    "National Dex Swords Dance": { "ability": "Poison Heal", "item": "Toxic Orb", "nature": "Careful", "evs": { "hp": 244, "df": 36, "sd": 228 }, "moves": ["Earthquake", "Swords Dance", "Roost", "Facade"] },
+    "Generic Bulky": { "ability": "Poison Heal", "item": "Toxic Orb", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earthquake", "Knock Off", "Facade", "Dual Wingbeat", "Poison Jab", "Brick Break"] },
+	"Generic Offensive": { "ability": "Poison Heal", "item": "Toxic Orb", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earthquake", "Knock Off", "Facade", "Dual Wingbeat", "Poison Jab", "Brick Break"] },
   },
   "Mamoswine": {
     "OU Choice Band": { "ability": "Thick Fat", "item": "Choice Band", "nature": "Adamant", "teraType": "Ice", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Icicle Crash", "Earthquake", "Ice Shard", "Knock Off"] },
@@ -1149,27 +1304,12 @@ var SETDEX_SV = {
     "PU Choice Scarf": { "ability": "Reckless", "item": "Choice Scarf", "nature": "Jolly", "teraType": "Dark", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Flare Blitz", "Close Combat", "Knock Off", "Earthquake"] },
   },
   "Samurott-Hisui": {
-    "OU Assault Vest": { "ability": "Sharpness", "item": "Assault Vest", "nature": "Adamant", "teraType": "Poison", "evs": { "hp": 248, "at": 84, "sd": 124, "sp": 52 }, "moves": ["Ceaseless Edge", "Razor Shell", "Sucker Punch", "Knock Off"] },
-    "OU Lead": { "ability": "Sharpness", "item": "Focus Sash", "nature": "Jolly", "teraType": "Ghost", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Ceaseless Edge", "Razor Shell", "Aqua Jet", "Knock Off"] },
-    "OU Boots Attacker": { "ability": "Sharpness", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Poison", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Ceaseless Edge", "Razor Shell", "Knock Off", "Encore"] },
-    "OU Choice Scarf": { "ability": "Sharpness", "item": "Choice Scarf", "nature": "Jolly", "teraType": "Water", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Ceaseless Edge", "Razor Shell", "Knock Off", "Flip Turn"] },
-    "OU Swords Dance": { "ability": "Sharpness", "item": "Black Glasses", "nature": "Adamant", "teraType": "Dark", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Swords Dance", "Ceaseless Edge", "Razor Shell", "Sucker Punch"] },
-    "National Dex Offensive": { "ability": "Sharpness", "item": "Black Glasses", "nature": "Jolly", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Ceaseless Edge", "Razor Shell", "Sucker Punch", "Sacred Sword"] },
-    "National Dex Choice Scarf": { "ability": "Sharpness", "item": "Choice Scarf", "nature": "Jolly", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Razor Shell", "Ceaseless Edge", "Sacred Sword", "Flip Turn"] },
-    "National Dex Assault Vest": { "ability": "Sharpness", "item": "Assault Vest", "nature": "Adamant", "evs": { "hp": 168, "at": 176, "sd": 80, "sp": 84 }, "moves": ["Razor Shell", "Ceaseless Edge", "Sucker Punch", "Knock Off"] },
+    "Generic Bulky": { "ability": "Sharpness", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Ceaseless Edge", "Razor Shell", "Sucker Punch", "Aqua Jet", "Sacred Sword", "Grass Knot"] },
+	"Generic Offensive": { "ability": "Sharpness", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Ceaseless Edge", "Razor Shell", "Sucker Punch", "Aqua Jet", "Sacred Sword", "Grass Knot"] },
   },
   "Excadrill": {
-    "OU Sand Sweeper": { "ability": "Sand Rush", "item": "Air Balloon", "nature": "Adamant", "teraType": "Ghost", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Earthquake", "Rapid Spin", "Rock Slide", "Swords Dance"] },
-    "UU Utility": { "ability": "Mold Breaker", "item": "Leftovers", "nature": "Adamant", "teraType": "Ghost", "evs": { "hp": 32, "at": 56, "sd": 252, "sp": 168 }, "moves": ["Stealth Rock", "Earthquake", "Iron Head", "Rapid Spin"] },
-    "UU Swords Dance": { "ability": "Mold Breaker", "item": "Leftovers", "nature": "Jolly", "teraType": "Dragon", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Earthquake", "Iron Head", "Rapid Spin"] },
-    "UU Sand Rush": { "ability": "Sand Rush", "item": "Air Balloon", "nature": "Adamant", "teraType": "Dragon", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Earthquake", "Iron Head", "Rapid Spin"] },
-    "UU Lead": { "ability": "Mold Breaker", "item": "Focus Sash", "nature": "Jolly", "teraType": "Ghost", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Stealth Rock", "Earthquake", "Rock Tomb", "Rapid Spin"] },
-    "National Dex Swords Dance": { "ability": "Sand Rush", "item": "Steelium Z", "nature": "Jolly", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Earthquake", "Iron Head", "Rock Slide"] },
-    "National Dex UU Sand Rush": { "ability": "Sand Rush", "item": "Steelium Z", "nature": "Jolly", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Earthquake", "Iron Head", "Rapid Spin"] },
-    "National Dex UU Utility": { "ability": "Mold Breaker", "item": "Leftovers", "nature": "Adamant", "evs": { "hp": 104, "at": 56, "df": 56, "sd": 176, "sp": 116 }, "moves": ["Earthquake", "Iron Head", "Toxic", "Rapid Spin"] },
-    "National Dex UU Suicide Lead": { "ability": "Mold Breaker", "item": "Focus Sash", "nature": "Jolly", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Stealth Rock", "Rapid Spin", "Earthquake", "Steel Beam"] },
-    "Ubers UU Sand Sweeper": { "ability": "Sand Rush", "item": "Air Balloon", "nature": "Adamant", "teraType": "Flying", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Swords Dance", "Rapid Spin", "Earthquake", "Iron Head"] },
-    "Ubers UU Lead": { "ability": "Mold Breaker", "item": "Focus Sash", "nature": "Jolly", "teraType": "Ghost", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Earthquake", "Rock Slide", "Rapid Spin", "Stealth Rock"] },
+    "Generic Bulky": { "ability": "Mold Breaker", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earthquake", "Iron Head", "Rapid Spin", "Rock Slide", "Poison Jab", "Brick Break"] },
+	"Generic Offensive": { "ability": "Mold Breaker", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earthquake", "Iron Head", "Rapid Spin", "Rock Slide", "Poison Jab", "Brick Break"] },
   },
 
   "Gurdurr": {
@@ -1315,12 +1455,8 @@ var SETDEX_SV = {
     "Ubers UU Defensive Pivot": { "ability": "Overcoat", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Poison", "evs": { "hp": 252, "df": 252, "sd": 4 }, "moves": ["Toxic", "Foul Play", "U-turn", "Roost"] },
   },
   "Hydreigon": {
-    "OU Nasty Plot": { "ability": "Levitate", "item": "Leftovers", "nature": "Timid", "teraType": "Steel", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Nasty Plot", "Draco Meteor", "Flash Cannon", "Substitute"] },
-    "UU Nasty Plot": { "ability": "Levitate", "item": "Leftovers", "nature": "Timid", "teraType": "Poison", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Nasty Plot", "Draco Meteor", "Flamethrower", "Thunder Wave"] },
-    "UU Choice Scarf": { "ability": "Levitate", "item": "Choice Scarf", "nature": "Timid", "teraType": "Dragon", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Draco Meteor", "Dark Pulse", "Fire Blast", "U-turn"] },
-    "National Dex UU Choice Scarf": { "ability": "Levitate", "item": "Choice Scarf", "nature": "Timid", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Draco Meteor", "Dark Pulse", "Earth Power", "U-turn"] },
-    "National Dex UU Nasty Plot": { "ability": "Levitate", "item": "Darkinium Z", "nature": "Timid", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Nasty Plot", "Dark Pulse", "Flash Cannon", "Roost"] },
-    "National Dex UU Choice Specs": { "ability": "Levitate", "item": "Choice Specs", "nature": "Timid", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Draco Meteor", "Dark Pulse", "Flash Cannon", "Fire Blast"] },
+    "Generic Bulky": { "ability": "Levitate", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Dark Pulse", "Draco Meteor", "Flash Cannon", "Earth Power", "Fire Blast", "Scale Shot"] },
+	"Generic Offensive": { "ability": "Levitate", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Dark Pulse", "Draco Meteor", "Flash Cannon", "Earth Power", "Fire Blast", "Scale Shot"] },
   },
   "Volcarona": {
     "Ubers Quiver Dance": { "ability": "Flame Body", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Water", "ivs": { "at": 0 }, "evs": { "hp": 80, "df": 252, "sp": 176 }, "moves": ["Quiver Dance", "Flamethrower", "Morning Sun", "Will-O-Wisp"] },
@@ -1353,7 +1489,7 @@ var SETDEX_SV = {
   },
   "Tornadus-Therian": {
     "Generic Bulky": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Bleakwind Storm", "Heat Wave", "Grass Knot", "Psychic", "Focus Blast", "Sludge Wave"] },
-    "Generic Offensive": { "ability": "Regenerator", "item": "Life Orb", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Bleakwind Storm", "Heat Wave", "Grass Knot", "Psychic", "Focus Blast", "Sludge Wave"] },
+    "Generic Offensive": { "ability": "Regenerator", "item": "Hwavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Bleakwind Storm", "Heat Wave", "Grass Knot", "Psychic", "Focus Blast", "Sludge Wave"] },
   },
   "Thundurus": {
     "National Dex UU Offensive Pivot": { "ability": "Defiant", "item": "Heavy-Duty Boots", "nature": "Timid", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Thunderbolt", "Knock Off", "Focus Blast", "U-turn"] },
@@ -1460,8 +1596,8 @@ var SETDEX_SV = {
     "PU Wish": { "ability": "Flower Veil", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Poison", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 200, "sp": 56 }, "moves": ["Wish", "Synthesis", "Moonblast", "Psychic Noise"] },
   },
   "Aegislash": {
-   "Generic Bulky": { "ability": "Stance Change", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Shadow Ball", "Close Combat", "Shadow Claw", "Shadow Sneak", "Flash Cannon", "Zen Headbutt"] },
-   "Generic Offensive": { "ability": "Stance Change", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": [Shadow Ball", "Close Combat", "Shadow Claw", "Shadow Sneak", "Flash Cannon", "Zen Headbutt"] },
+    "Generic Bulky": { "ability": "Stance Change", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Shadow Ball", "Close Combat", "Shadow Claw", "Shadow Sneak", "Flash Cannon", "Zen Headbutt"] },
+    "Generic Offensive": { "ability": "Stance Change", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Shadow Ball", "Close Combat", "Shadow Claw", "Shadow Sneak", "Flash Cannon", "Zen Headbutt"] },
   },
   "Aegislash-Blade": {
     "National Dex UU SubToxic": { "ability": "Stance Change", "item": "Leftovers", "nature": "Modest", "evs": { "hp": 252, "sa": 56, "sd": 156, "sp": 44 }, "moves": ["Substitute", "Toxic", "King's Shield", "Shadow Ball"] },
@@ -1741,17 +1877,15 @@ var SETDEX_SV = {
     "National Dex Dual Screens": { "ability": "Electric Surge", "item": "Light Clay", "nature": "Jolly", "evs": { "hp": 252, "df": 4, "sp": 252 }, "moves": ["Reflect", "Light Screen", "U-turn", "Taunt"] },
   },
   "Tapu Lele": {
-    "National Dex Choice Scarf": { "ability": "Psychic Surge", "item": "Choice Scarf", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Psychic", "Moonblast", "Focus Blast", "Hidden Power Fire"] },
-    "National Dex Choice Specs": { "ability": "Psychic Surge", "item": "Choice Specs", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Moonblast", "Psyshock", "Psychic", "Focus Blast"] },
-    "National Dex Offensive Z-Move": { "ability": "Psychic Surge", "item": "Psychium Z", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Moonblast", "Focus Blast", "Psychic", "Calm Mind"] },
-    "National Dex Assault Vest": { "ability": "Psychic Surge", "item": "Assault Vest", "nature": "Modest", "ivs": { "at": 0 }, "evs": { "hp": 80, "sa": 252, "sp": 176 }, "moves": ["Psychic", "Moonblast", "Focus Blast", "Hidden Power Fire"] },
-    "National Dex Ubers Psychic Terrain Setter": { "ability": "Psychic Surge", "item": "Terrain Extender", "nature": "Timid", "teraType": "Normal", "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Taunt", "Moonblast", "Psyshock", "Nature's Madness"] },
+    "Generic Bulky": { "ability": "Psychic Surge", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Moonblast", "Psychic", "Focus Blast", "Psyshock", "Future Sight", "Energy Ball"] },
+	"Generic Offensive": { "ability": "Psychic Surge", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Moonblast", "Psychic", "Focus Blast", "Psyshock", "Future Sight", "Energy Ball"] },
   },
   "Tapu Bulu": {
     "National Dex UU Swords Dance": { "ability": "Grassy Surge", "item": "Rockium Z", "nature": "Adamant", "evs": { "hp": 252, "at": 96, "sd": 16, "sp": 144 }, "moves": ["Swords Dance", "Horn Leech", "Stone Edge", "High Horsepower"] },
   },
   "Tapu Fini": {
-    "National Dex Calm Mind": { "ability": "Misty Surge", "item": "Leftovers", "nature": "Bold", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 64, "sp": 192 }, "moves": ["Calm Mind", "Scald", "Draining Kiss", "Taunt"] },
+    "Generic Bulky": { "ability": "Misty Surge", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Moonblast", "Surf", "Shadow Ball", "Ice Beam", "Grass Knot", "Draining Kiss"] },
+	"Generic Offensive": { "ability": "Misty Surge", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Moonblast", "Surf", "Shadow Ball", "Ice Beam", "Grass Knot", "Draining Kiss"] },
   },
   "Solgaleo": {
     "Ubers UU Specially Defensive": { "ability": "Full Metal Body", "item": "Leftovers", "nature": "Careful", "teraType": "Water", "evs": { "hp": 248, "df": 8, "sd": 252 }, "moves": ["Knock Off", "Roar", "Teleport", "Morning Sun"] },
@@ -1776,13 +1910,12 @@ var SETDEX_SV = {
     "National Dex Ubers Offensive Pivot": { "ability": "Beast Boost", "item": "Choice Band", "nature": "Jolly", "teraType": "Fighting", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Close Combat", "Triple Axel", "U-turn", "Rapid Spin"] },
   },
   "Celesteela": {
-    "National Dex Defensive": { "ability": "Beast Boost", "item": "Leftovers", "nature": "Relaxed", "evs": { "hp": 248, "df": 16, "sd": 244 }, "moves": ["Heavy Slam", "Flamethrower", "Leech Seed", "Protect"] },
-    "National Dex UU Defensive": { "ability": "Beast Boost", "item": "Leftovers", "nature": "Sassy", "evs": { "hp": 248, "df": 8, "sd": 252 }, "moves": ["Leech Seed", "Heavy Slam", "Protect", "Flamethrower"] },
-    "National Dex UU Autotomize Sweeper": { "ability": "Beast Boost", "item": "Power Herb", "nature": "Modest", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Autotomize", "Meteor Beam", "Air Slash", "Fire Blast"] },
+    "Generic Bulky": { "ability": "Beast Boost", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Flash Cannon", "Heavy Slam", "Flamethrower", "Meteor Beam", "Fire Blast", "Air Slash"] },
+	"Generic Offensive": { "ability": "Beast Boost", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Flash Cannon", "Heavy Slam", "Flamethrower", "Meteor Beam", "Fire Blast", "Air Slash"] },
   },
   "Kartana": {
-   "Generic Bulky": { "ability": "Beast Boost", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Leaf Blade", "Sacred Sword", "Night Slash", "Smart Strike", "Psycho Cut", "X-Scissor"] },
-   "Generic Offensive": { "ability": "Beast Boost", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Leaf Blade", "Sacred Sword", "Night Slash", "Smart Strike", "Psycho Cut", "X-Scissor"] },
+    "Generic Bulky": { "ability": "Beast Boost", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Leaf Blade", "Sacred Sword", "Night Slash", "Smart Strike", "Psycho Cut", "X-Scissor"] },
+    "Generic Offensive": { "ability": "Beast Boost", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Leaf Blade", "Sacred Sword", "Night Slash", "Smart Strike", "Psycho Cut", "X-Scissor"] },
   },
   "Necrozma": {
     "Generic Bulky": { "ability": "Prism Armor", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Photon Geyser", "Heat Wave", "Earth Power", "Earthquake", "Shadow Claw", "Dark Pulse"] },
@@ -1816,10 +1949,8 @@ var SETDEX_SV = {
 	"Generic Offensive": { "ability": "Volt Absorb", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Plasma Fists", "Close Combat", "Grass Knot", "Volt Switch", "Play Rough", "Blaze Kick"] },
   },
   "Melmetal": {
-    "National Dex Toxic + Protect": { "ability": "Iron Fist", "item": "Leftovers", "nature": "Adamant", "evs": { "hp": 220, "at": 96, "sd": 180, "sp": 12 }, "moves": ["Double Iron Bash", "Earthquake", "Toxic", "Protect"] },
-    "National Dex Assault Vest": { "ability": "Iron Fist", "item": "Assault Vest", "nature": "Adamant", "evs": { "hp": 72, "at": 172, "sd": 252, "sp": 12 }, "moves": ["Double Iron Bash", "Ice Punch", "Thunder Punch", "Earthquake"] },
-    "National Dex Thunder Wave": { "ability": "Iron Fist", "item": "Protective Pads", "nature": "Adamant", "evs": { "at": 252, "sd": 164, "sp": 92 }, "moves": ["Double Iron Bash", "Thunder Wave", "Thunder Punch", "Superpower"] },
-    "National Dex Ubers Choice Band": { "ability": "Iron Fist", "item": "Choice Band", "nature": "Brave", "teraType": "Steel", "evs": { "hp": 56, "at": 248, "df": 16, "sd": 188 }, "moves": ["Double Iron Bash", "Ice Punch", "Thunder Punch", "Superpower"] },
+    "Generic Bulky": { "ability": "Iron Fist", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Double Iron Bash", "Earthquake", "Ice Punch", "Thunder Punch", "Superpower", "Rock Slide"] },
+	"Generic Offensive": { "ability": "Iron Fist", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Double Iron Bash", "Earthquake", "Ice Punch", "Thunder Punch", "Superpower", "Rock Slide"] },
   },
   "Thwackey": {
     "UU Terrain Setter": { "ability": "Grassy Surge", "item": "Terrain Extender", "nature": "Careful", "teraType": "Steel", "evs": { "hp": 252, "sd": 240, "sp": 16 }, "moves": ["Grassy Glide", "Wood Hammer", "Knock Off", "U-turn"] },
@@ -1836,8 +1967,8 @@ var SETDEX_SV = {
     "Ubers UU Choice Band": { "ability": "Grassy Surge", "item": "Choice Band", "nature": "Adamant", "teraType": "Grass", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Grassy Glide", "U-turn", "Wood Hammer", "High Horsepower"] },
   },
   "Cinderace": {
-   "Generic Bulky": { "ability": "Libero", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Pyro Ball", "Sucker Punch", "High Jump Kick", "Gunk Shot", "U-turn", "Zen Headbutt"] },
-   "Generic Offensive": { "ability": "Libero", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Pyro Ball", "Sucker Punch", "High Jump Kick", "Gunk Shot", "U-turn", "Zen Headbutt"] },
+    "Generic Bulky": { "ability": "Libero", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Pyro Ball", "Sucker Punch", "High Jump Kick", "Gunk Shot", "U-turn", "Zen Headbutt"] },
+    "Generic Offensive": { "ability": "Libero", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Pyro Ball", "Sucker Punch", "High Jump Kick", "Gunk Shot", "U-turn", "Zen Headbutt"] },
   },
   "Inteleon": {
     "NU Choice Specs": { "ability": "Torrent", "item": "Choice Specs", "nature": "Timid", "teraType": "Water", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Hydro Pump", "Ice Beam", "Dark Pulse", "U-turn"] },
@@ -2070,8 +2201,8 @@ var SETDEX_SV = {
     "NU Spikes Setter": { "ability": "Intimidate", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Fairy", "evs": { "hp": 252, "df": 40, "sp": 216 }, "moves": ["Spikes", "Barb Barrage", "Throat Chop", "Pain Split"] },
   },
   "Enamorus": {
-   "Generic Bulky": { "ability": "Contrary", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Moonblast", "Earth Power", "Mystical Fire", "Grass Knot", "Psychic", "Superpower"] },
-   "Generic Offensive": { "ability": "Contrary", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Moonblast", "Earth Power", "Mystical Fire", "Grass Knot", "Psychic", "Superpower"] },
+    "Generic Bulky": { "ability": "Contrary", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Moonblast", "Earth Power", "Mystical Fire", "Grass Knot", "Psychic", "Superpower"] },
+    "Generic Offensive": { "ability": "Contrary", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Moonblast", "Earth Power", "Mystical Fire", "Grass Knot", "Psychic", "Superpower"] },
   },
   "Enamorus-Therian": {
     "OU Calm Mind": { "ability": "Overcoat", "item": "Leftovers", "nature": "Modest", "teraType": "Ground", "evs": { "hp": 248, "df": 8, "sa": 252 }, "moves": ["Calm Mind", "Moonblast", "Earth Power", "Mystical Fire"] },
@@ -2081,8 +2212,8 @@ var SETDEX_SV = {
     "UU Calm Mind": { "ability": "Overcoat", "item": "Heavy-Duty Boots", "nature": "Modest", "teraType": "Ground", "ivs": { "at": 0 }, "evs": { "hp": 252, "df": 36, "sa": 56, "sp": 164 }, "moves": ["Calm Mind", "Moonblast", "Earth Power", "Draining Kiss"] },
   },
   "Meowscarada": {
-   "Generic Bulky": { "ability": "Protean", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Flower Trick", "Knock Off", "Triple Axel", "U-turn", "Play Rough", "Thunder Punch"] },
-   "Generic Offensive": { "ability": "Protean", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Flower Trick", "Knock Off", "Triple Axel", "U-turn", "Play Rough", "Thunder Punch"] },
+    "Generic Bulky": { "ability": "Protean", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Flower Trick", "Knock Off", "Triple Axel", "U-turn", "Play Rough", "Thunder Punch"] },
+    "Generic Offensive": { "ability": "Protean", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Flower Trick", "Knock Off", "Triple Axel", "U-turn", "Play Rough", "Thunder Punch"] },
   },
   "Crocalor": {
     "ZU Specially Defensive": { "ability": "Unaware", "item": "Eviolite", "nature": "Calm", "teraType": "Water", "ivs": { "at": 0 }, "evs": { "hp": 252, "sa": 4, "sd": 252 }, "moves": ["Flamethrower", "Slack Off", "Will-O-Wisp", "Roar"] },
@@ -2265,8 +2396,8 @@ var SETDEX_SV = {
     "PU Nasty Plot": { "ability": "Storm Drain", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Fairy", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Nasty Plot", "Draco Meteor", "Surf", "Rapid Spin"] },
   },
   "Annihilape": {
-    "Ubers Bulk Up": { "ability": "Defiant", "item": "Leftovers", "nature": "Careful", "teraType": "Water", "evs": { "hp": 240, "sd": 252, "sp": 16 }, "moves": ["Bulk Up", "Taunt", "Drain Punch", "Rage Fist"] },
-    "Ubers UU Bulk Up": { "ability": "Defiant", "item": "Leftovers", "nature": "Careful", "teraType": "Water", "evs": { "hp": 248, "at": 8, "sd": 252 }, "moves": ["Rage Fist", "Drain Punch", "Bulk Up", "Taunt"] }
+    "Generic Bulky": { "ability": "Defiant", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Rage Fist", "Drain Punch", "Close Combat", "Earthquake", "Knock Off", "Thunder Punch"] },
+	"Generic Offensive": { "ability": "Defiant", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Rage Fist", "Drain Punch", "Close Combat", "Earthquake", "Knock Off", "Thunder Punch"] },
   },
   "Clodsire": {
     "OU Defensive": { "ability": "Unaware", "item": "Heavy-Duty Boots", "nature": "Careful", "teraType": "Steel", "evs": { "hp": 248, "df": 8, "sd": 252 }, "moves": ["Earthquake", "Recover", "Toxic", "Amnesia"] },
@@ -2336,16 +2467,16 @@ var SETDEX_SV = {
     "National Dex RU Suicide Lead": { "ability": "Protosynthesis", "item": "Booster Energy", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "hp": 48, "sa": 208, "sp": 252 }, "moves": ["Stealth Rock", "Spikes", "Earth Power", "Thunderbolt"] },
   },
   "Iron Treads": {
-   "Generic Bulky": { "ability": "Quark Drive", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earthquake", "Knock Off", "Ice Spinner", "Rapid Spin", "Steel Beam", "Volt Switch"] },
-   "Generic Offensive": { "ability": "Quark Drive", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earthquake", "Knock Off", "Ice Spinner", "Rapid Spin", "Steel Beam", "Volt Switch"] },
+    "Generic Bulky": { "ability": "Quark Drive", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earthquake", "Knock Off", "Ice Spinner", "Rapid Spin", "Steel Beam", "Volt Switch"] },
+    "Generic Offensive": { "ability": "Quark Drive", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earthquake", "Knock Off", "Ice Spinner", "Rapid Spin", "Steel Beam", "Volt Switch"] },
   },
   "Iron Bundle": {
     "Ubers Heavy-Duty Boots": { "ability": "Quark Drive", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Ghost", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Freeze-Dry", "Hydro Pump", "Ice Beam", "Taunt"] },
     "Ubers Choice Specs": { "ability": "Quark Drive", "item": "Choice Specs", "nature": "Timid", "teraType": "Ice", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Hydro Pump", "Freeze-Dry", "Flip Turn", "Ice Beam"] },
   },
   "Iron Hands": {
-    "OU Swords Dance": { "ability": "Quark Drive", "item": "Booster Energy", "nature": "Adamant", "teraType": "Flying", "evs": { "at": 252, "sd": 172, "sp": 84 }, "moves": ["Swords Dance", "Drain Punch", "Thunder Punch", "Ice Punch"] },
-    "National Dex Swords Dance": { "ability": "Quark Drive", "item": "Leftovers", "nature": "Adamant", "evs": { "at": 252, "sd": 116, "sp": 140 }, "moves": ["Swords Dance", "Supercell Slam", "Drain Punch", "Ice Punch"] },
+    "Generic Bulky": { "ability": "Quark Drive", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Drain Punch", "Close Combat", "Thunder Punch", "Ice Punch", "Fake Out", "Volt Swith"] },
+	"Generic Offensive": { "ability": "Quark Drive", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Drain Punch", "Close Combat", "Thunder Punch", "Ice Punch", "Fake Out", "Volt Swith"] },
   },
   "Iron Jugulis": {
     "OU Offensive": { "ability": "Quark Drive", "item": "Booster Energy", "nature": "Timid", "teraType": "Ground", "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Hurricane", "Dark Pulse", "Earth Power", "Taunt"] },
@@ -2354,24 +2485,20 @@ var SETDEX_SV = {
     "National Dex RU Choice Specs": { "ability": "Quark Drive", "item": "Choice Specs", "nature": "Timid", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Dark Pulse", "Hurricane", "U-turn", "Fire Blast"] }
   },
   "Iron Moth": {
-    "OU Offensive": { "ability": "Quark Drive", "item": "Booster Energy", "nature": "Timid", "teraType": "Fairy", "evs": { "df": 124, "sa": 132, "sp": 252 }, "moves": ["Fiery Dance", "Sludge Wave", "Dazzling Gleam", "Substitute"] },
-    "National Dex Booster Energy": { "ability": "Quark Drive", "item": "Booster Energy", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "hp": 124, "sa": 132, "sp": 252 }, "moves": ["Fiery Dance", "Sludge Wave", "Energy Ball", "Dazzling Gleam"] },
-    "National Dex Offensive Pivot": { "ability": "Quark Drive", "item": "Heavy-Duty Boots", "nature": "Timid", "ivs": { "at": 0 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Fiery Dance", "Sludge Wave", "U-turn", "Morning Sun"] },
-    "National Dex UU Offensive": { "ability": "Quark Drive", "item": "Heavy-Duty Boots", "nature": "Timid", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Fiery Dance", "Sludge Wave", "Morning Sun", "U-turn"] },
-    "National Dex UU Booster Energy Sweeper": { "ability": "Quark Drive", "item": "Booster Energy", "nature": "Timid", "evs": { "df": 124, "sa": 132, "sp": 252 }, "moves": ["Fiery Dance", "Sludge Wave", "Energy Ball", "Morning Sun"] },
-    "Ubers UU Booster Energy": { "ability": "Quark Drive", "item": "Booster Energy", "nature": "Timid", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "df": 124, "sa": 132, "sp": 252 }, "moves": ["Fiery Dance", "Sludge Wave", "Energy Ball", "Dazzling Gleam"] }
+    "Generic Bulky": { "ability": "Quark Drive", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Fiery Dance", "Sludge Wave", "Dazzling Gleam", "Energy Ball", "Psychic", "Flamethrower"] },
+	"Generic Offensive": { "ability": "Quark Drive", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Fiery Dance", "Sludge Wave", "Dazzling Gleam", "Energy Ball", "Psychic", "Flamethrower"] },
   },
   "Iron Thorns": {
     "National Dex RU Dragon Dance": { "ability": "Quark Drive", "item": "Booster Energy", "nature": "Adamant", "evs": { "at": 252, "sa": 4, "sp": 252 }, "moves": ["Dragon Dance", "Stone Edge", "Wild Charge", "Tera Blast"] },
     "National Dex RU Choice Band": { "ability": "Quark Drive", "item": "Choice Band", "nature": "Adamant", "evs": { "at": 252, "sa": 4, "sp": 252 }, "moves": ["Stone Edge", "Wild Charge", "Earthquake", "Volt Switch"] }
   },
   "Baxcalibur": {
-   "Generic Bulky": { "ability": "Thermal Exchange", "item": "Loaded Dice", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Icicle Spear", "Glaive Rush", "Earthquake", "Brick Break", "Crunch", "Psychic Fangs"] },
-   "Generic Offensive": { "ability": "Thermal Exchange", "item": "Loaded Dice", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Icicle Spear", "Glaive Rush", Earthquake", "Brick Break", "Crunch", "Psychic Fangs"] },
+    "Generic Bulky": { "ability": "Thermal Exchange", "item": "Loaded Dice", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Icicle Spear", "Glaive Rush", "Earthquake", "Brick Break", "Crunch", "Psychic Fangs"] },
+    "Generic Offensive": { "ability": "Thermal Exchange", "item": "Loaded Dice", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Icicle Spear", "Glaive Rush", "Earthquake", "Brick Break", "Crunch", "Psychic Fangs"] },
   },
   "Gholdengo": {
-   "Generic Bulky": { "ability": "Good as Gold", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Make It Rain", "Shadow Ball", "Thunderbolt", "Dazzling Gleam", "Focus Blast", "Psyshock"] },
-   "Generic Offensive": { "ability": "Good as Gold", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Make It Rain", "Shadow Ball", "Thunderbolt", "Dazzling Gleam", "Focus Blast", "Psyshock"] },
+    "Generic Bulky": { "ability": "Good as Gold", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Make It Rain", "Shadow Ball", "Thunderbolt", "Dazzling Gleam", "Focus Blast", "Psyshock"] },
+    "Generic Offensive": { "ability": "Good as Gold", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Make It Rain", "Shadow Ball", "Thunderbolt", "Dazzling Gleam", "Focus Blast", "Psyshock"] },
   },
   "Wo-Chien": {
     "RU Specially Defensive": { "ability": "Tablets of Ruin", "item": "Leftovers", "nature": "Careful", "teraType": "Poison", "evs": { "hp": 252, "df": 4, "sd": 252 }, "moves": ["Knock Off", "Foul Play", "Leech Seed", "Protect"] },
@@ -2383,10 +2510,8 @@ var SETDEX_SV = {
     "National Dex Ubers Choice Band": { "ability": "Sword of Ruin", "item": "Choice Band", "nature": "Jolly", "teraType": "Dark", "evs": { "hp": 24, "at": 252, "df": 16, "sp": 216 }, "moves": ["Crunch", "Ice Spinner", "Ice Shard", "Sucker Punch"] },
   },
   "Ting-Lu": {
-    "OU Defensive Utility": { "ability": "Vessel of Ruin", "item": "Leftovers", "nature": "Careful", "teraType": "Water", "evs": { "hp": 252, "df": 4, "sd": 252 }, "moves": ["Stealth Rock", "Earthquake", "Ruination", "Whirlwind"] },
-    "OU Resting-Lu": { "ability": "Vessel of Ruin", "item": "Leftovers", "nature": "Careful", "teraType": "Water", "evs": { "hp": 252, "df": 4, "sd": 252 }, "moves": ["Earthquake", "Rest", "Ruination", "Sleep Talk"] },
-    "Ubers Special Wall": { "ability": "Vessel of Ruin", "item": "Leftovers", "nature": "Careful", "teraType": "Steel", "evs": { "hp": 252, "at": 4, "sd": 252 }, "moves": ["Earthquake", "Ruination", "Spikes", "Whirlwind"] },
-    "National Dex Defensive Hazard Setter": { "ability": "Vessel of Ruin", "item": "Leftovers", "nature": "Careful", "evs": { "hp": 252, "df": 4, "sd": 252 }, "moves": ["Earthquake", "Ruination", "Stealth Rock", "Whirlwind"] },
+    "Generic Bulky": { "ability": "Vessel of Ruin", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earthquake", "Rock Slide", "Body Press", "Throat Chop", "Heavy Slam", "Zen Headbutt"] },
+	"Generic Offensive": { "ability": "Vessel of Ruin", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earthquake", "Rock Slide", "Body Press", "Throat Chop", "Heavy Slam", "Zen Headbutt"] },
   },
   "Chi-Yu": {
     "Ubers Feesh (Offensive Wallbreaker)": { "ability": "Beads of Ruin", "item": "Choice Specs", "nature": "Modest", "teraType": "Fire", "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Overheat", "Flamethrower", "Fire Blast", "Dark Pulse"] },
@@ -2466,11 +2591,8 @@ var SETDEX_SV = {
     "UU Choice Band": { "ability": "Defiant", "item": "Choice Band", "nature": "Jolly", "teraType": "Grass", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Ivy Cudgel", "Knock Off", "Superpower", "U-turn"] },
   },
   "Ogerpon-Wellspring": {
-    "OU Utility": { "ability": "Water Absorb", "item": "Wellspring Mask", "nature": "Jolly", "teraType": "Water", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Ivy Cudgel", "U-turn", "Knock Off", "Spikes"] },
-    "OU Swords Dance": { "ability": "Water Absorb", "item": "Wellspring Mask", "nature": "Jolly", "teraType": "Water", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Ivy Cudgel", "Power Whip", "Play Rough"] },
-    "OU All-Out Attacker": { "ability": "Water Absorb", "item": "Wellspring Mask", "nature": "Jolly", "teraType": "Water", "evs": { "at": 252, "df": 4, "sp": 252 }, "moves": ["Ivy Cudgel", "Power Whip", "Play Rough", "Knock Off"] },
-    "National Dex Swords Dance": { "ability": "Water Absorb", "item": "Wellspring Mask", "nature": "Jolly", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Ivy Cudgel", "Power Whip", "Superpower"] },
-    "National Dex Offensive Pivot": { "ability": "Water Absorb", "item": "Wellspring Mask", "nature": "Jolly", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Ivy Cudgel", "Power Whip", "U-turn", "Knock Off"] },
+    "Generic Bulky": { "ability": "Water Absorb", "item": "Wellspring Mask", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Ivy Cudgel", "U-turn", "Power Whip", "Play Rough", "Stomping Tantrum", "Horn Leech"] },
+	"Generic Offensive": { "ability": "Water Absorb", "item": "Wellspring Mask", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Ivy Cudgel", "U-turn", "Power Whip", "Play Rough", "Stomping Tantrum", "Horn Leech"] },
   },
   "Ogerpon-Hearthflame": {
     "Ubers Swords Dance": { "ability": "Mold Breaker", "item": "Hearthflame Mask", "nature": "Jolly", "teraType": "Fire", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Ivy Cudgel", "Power Whip", "Trailblaze"] },
@@ -2484,8 +2606,8 @@ var SETDEX_SV = {
     "National Dex Swords Dance": { "ability": "Sturdy", "item": "Cornerstone Mask", "nature": "Jolly", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Ivy Cudgel", "Power Whip", "Swords Dance", "Superpower"] },
   },
   "Archaludon": {
-    "National Dex Rain Wallbreaker": { "ability": "Stamina", "item": "Assault Vest", "nature": "Modest", "ivs": { "at": 0 }, "evs": { "hp": 80, "sa": 252, "sp": 176 }, "moves": ["Draco Meteor", "Flash Cannon", "Electro Shot", "Aura Sphere"] },
-    "Ubers UU Rain Sweeper": { "ability": "Stamina", "item": "Assault Vest", "nature": "Modest", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "hp": 248, "df": 52, "sa": 84, "sp": 124 }, "moves": ["Electro Shot", "Draco Meteor", "Body Press", "Flash Cannon"] },
+    "Generic Bulky": { "ability": "Stamina", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Draco Meteor", "Flash Cannon", "Electro Shot", "Thunderbolt", "Foul Play", "Aura Sphere"] },
+	"Generic Offensive": { "ability": "Stamina", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Draco Meteor", "Flash Cannon", "Electro Shot", "Thunderbolt", "Foul Play", "Aura Sphere"] },
   },
   "Hydrapple": {
     "OU Nasty Plot": { "ability": "Regenerator", "item": "Heavy-Duty Boots", "nature": "Bold", "teraType": "Fairy", "ivs": { "at": 0 }, "evs": { "hp": 248, "df": 248, "sp": 12 }, "moves": ["Nasty Plot", "Fickle Beam", "Giga Drain", "Earth Power"] },
@@ -2503,9 +2625,8 @@ var SETDEX_SV = {
     "National Dex Pivot": { "ability": "Protosynthesis", "item": "Heavy-Duty Boots", "nature": "Timid", "ivs": { "at": 20 }, "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Thunderclap", "Draco Meteor", "Volt Switch", "Thunderbolt"] },
   },
   "Iron Boulder": {
-    "OU Swords Dance": { "ability": "Quark Drive", "item": "Booster Energy", "nature": "Jolly", "teraType": "Fighting", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Mighty Cleave", "Earthquake", "Close Combat"] },
-    "National Dex UU Swords Dance": { "ability": "Quark Drive", "item": "Rockium Z", "nature": "Jolly", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Swords Dance", "Mighty Cleave", "Close Combat", "Zen Headbutt"] },
-    "National Dex UU Choice Band": { "ability": "Quark Drive", "item": "Choice Band", "nature": "Jolly", "evs": { "at": 252, "sd": 4, "sp": 252 }, "moves": ["Mighty Cleave", "Close Combat", "Earthquake", "Zen Headbutt"] },
+    "Generic Bulky": { "ability": "Quark Drive", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Mighty Cleave", "Earthquake", "Zen Headbutt", "Close Combat", "Megahorn", "Throat Chop"] },
+	"Generic Offensive": { "ability": "Quark Drive", "item": "Heavy-Duty Boots", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Mighty Cleave", "Earthquake", "Zen Headbutt", "Close Combat", "Megahorn", "Throat Chop"] },
   },
   "Iron Crown": {
     "OU Choice Specs": { "ability": "Quark Drive", "item": "Choice Specs", "nature": "Timid", "teraType": "Steel", "evs": { "sa": 252, "sd": 4, "sp": 252 }, "moves": ["Tachyon Cutter", "Psyshock", "Volt Switch", "Focus Blast"] },
@@ -2518,7 +2639,7 @@ var SETDEX_SV = {
     "Ubers Utility": { "ability": "Teraform Zero", "item": "Heavy-Duty Boots", "nature": "Impish", "teraType": "Stellar", "evs": { "hp": 252, "df": 252, "sp": 4 }, "moves": ["Rapid Spin", "Stealth Rock", "Toxic", "Roar"] },
   },
   "Terapagos-Terastal": {
-    "Generic Bulky": { "ability": "Tera Shell", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Tera Starstorm", Ice Beam", Earth Power", "Rapid Spin", "Flamethrower", "Aura Sphere"] },
+    "Generic Bulky": { "ability": "Tera Shell", "item": "Heavy-Duty Boots", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Tera Starstorm", "Ice Beam", "Earth Power", "Rapid Spin", "Flamethrower", "Aura Sphere"] },
 	"Generic Offensive": { "ability": "Tera Shell", "item": "Heavy-Duty Boots", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Tera Starstorm", "Ice Beam", "Earth Power", "Rapid Spin", "Flamethrower", "Aura Sphere"] },
   },
   "Pecharunt": {
@@ -2528,5 +2649,13 @@ var SETDEX_SV = {
     "National Dex Nasty Plot": { "ability": "Poison Puppeteer", "item": "Ghostium Z", "nature": "Modest", "ivs": { "at": 0 }, "evs": { "hp": 88, "sa": 252, "sp": 168 }, "moves": ["Malignant Chain", "Nasty Plot", "Recover", "Shadow Ball"] },
     "National Dex UU Nasty Plot": { "ability": "Poison Puppeteer", "item": "Ghostium Z", "nature": "Timid", "evs": { "df": 4, "sa": 252, "sp": 252 }, "moves": ["Nasty Plot", "Malignant Chain", "Shadow Ball", "Recover"] },
     "National Dex UU Defensive Utility": { "ability": "Poison Puppeteer", "item": "Heavy-Duty Boots", "nature": "Bold", "evs": { "hp": 248, "df": 100, "sd": 44, "sp": 116 }, "moves": ["Malignant Chain", "Hex", "Parting Shot", "Recover"] },
+  },
+  "Excadrill-Mega": {
+	"Generic Bulky": { "ability": "Hyper Cutter", "item": "Excadrite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Earthquake", "Iron Head", "High Horsepower", "Rock Slide", "Megahorn", "Poison Jab"] },  
+	"Generic Offensive": { "ability": "Hyper Cutter", "item": "Excadrite", "nature": "Jolly", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Earthquake", "Iron Head", "High Horsepower", "Rock Slide", "Megahorn", "Poison Jab"] },
+  },
+  "Meowstic-Mega": {
+	"Generic Bulky": { "ability": "Psychic Surge", "item": "Meowsticite", "nature": "Bashful", "teraType": "Steel", "evs": { "hp": 252, "df": 252, "sd": 252 }, "moves": ["Expanding Force", "Earth Power", "Energy Ball", "Thunderbolt", "Moonblast", "Psychic"] },  
+	"Generic Offensive": { "ability": "Psychic Surge", "item": "Meowsticite", "nature": "Timid", "teraType": "Steel", "evs": { "at": 252, "sa": 252, "sp": 252 }, "moves": ["Expanding Force", "Earth Power", "Energy Ball", "Thunderbolt", "Moonblast", "Psychic"] },
   },
 };
