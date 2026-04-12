@@ -334,6 +334,7 @@ export function calculateSMSSSV(
   let isGalvanize = false;
   let isLiquidVoice = false;
   let isNormalize = false;
+  let isDragonize = false;
   const noTypeChange = move.named(
     'Revelation Dance',
     'Judgment',
@@ -360,8 +361,10 @@ export function calculateSMSSSV(
       type = 'Ice';
     } else if ((isNormalize = attacker.hasAbility('Normalize'))) { // Boosts any type
       type = 'Normal';
+    } else if ((isDragonize = attacker.hasAbility('Dragonize')  && normal)) { // Boosts any type
+      type = 'Dragon';
     }
-    if (isGalvanize || isPixilate || isRefrigerate || isAerilate || isNormalize) {
+    if (isGalvanize || isPixilate || isRefrigerate || isAerilate || isNormalize || isDragonize) {
       desc.attackerAbility = attacker.ability;
       hasAteAbilityTypeChange = true;
     } else if (isLiquidVoice) {
@@ -697,7 +700,7 @@ export function calculateSMSSSV(
       // Check if lost -ate ability. Typing stays the same, only boost is lost
       // Cannot be regained during multihit move and no Normal moves with stat drawbacks
       hasAteAbilityTypeChange = hasAteAbilityTypeChange &&
-        attacker.hasAbility('Aerilate', 'Galvanize', 'Pixilate', 'Refrigerate', 'Normalize');
+        attacker.hasAbility('Aerilate', 'Galvanize', 'Pixilate', 'Refrigerate', 'Normalize', 'Dragonize');
 
       if (move.timesUsed! > 1) {
         // Adaptability does not change between hits of a multihit, only between turns

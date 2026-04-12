@@ -10334,7 +10334,7 @@ const ZA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     weightkg: 108.8,
     abilities: {
-      '0': 'Dragon\'s Maw',
+      '0': 'Dragonize',
     },
     baseSpecies: 'Feraligatr',
   },
